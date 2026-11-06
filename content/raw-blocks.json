@@ -1,0 +1,5239 @@
+[
+ {
+  "t": "fig",
+  "src": "img/image2.webp"
+ },
+ {
+  "t": "h1",
+  "x": "Créditos y Presentación"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Universidad**",
+    "**Universidad Mariano Gálvez de Guatemala**"
+   ],
+   [
+    "**Carrera**",
+    "Ingeniería en Sistemas de Información y Ciencias de la Computación"
+   ],
+   [
+    "**Campus**",
+    "Campus Villa Nueva"
+   ],
+   [
+    "**Curso**",
+    "Cálculo II"
+   ],
+   [
+    "**Autora**",
+    "Joseline Vanessa Payes Mejia"
+   ],
+   [
+    "**Carné**",
+    "5090-23-14071"
+   ],
+   [
+    "**Licenciado**",
+    "Manuel Estuardo Morales Gonzalez"
+   ],
+   [
+    "**Fecha**",
+    "Noviembre de 2026"
+   ]
+  ]
+ },
+ {
+  "t": "h4",
+  "x": "Presentación"
+ },
+ {
+  "t": "p",
+  "x": "Cálculo II — Atlas del Cálculo es un folleto educativo elaborado como material de estudio para el examen final del curso. Reúne los diez temas del temario oficial, desde las aplicaciones de la integral definida en una variable hasta la optimización de funciones de dos variables, con un enfoque que combina rigor matemático, representaciones gráficas y aplicaciones a la Ingeniería en Sistemas."
+ },
+ {
+  "t": "p",
+  "x": "Cada capítulo sigue una misma estructura (presentación, teoría, gráficas, ejemplos resueltos con el Método de Pólya, ejercicios por niveles PISA, aplicaciones, resumen y referencias) para que el lector sepa siempre dónde encontrar lo que busca."
+ },
+ {
+  "t": "h4",
+  "x": "Licencia y uso"
+ },
+ {
+  "t": "p",
+  "x": "© 2026 Joseline Vanessa Payes Mejia. Esta obra se distribuye con fines académicos bajo la licencia Creative Commons Atribución–NoComercial 4.0 Internacional (CC BY-NC 4.0): puede copiarse y adaptarse para fines educativos no comerciales, citando a la autora."
+ },
+ {
+  "t": "p",
+  "x": "**Forma sugerida de cita: **Payes Mejia, J. V. (2026). Cálculo II — Atlas del Cálculo: folleto educativo con el Método de Pólya y niveles de competencia PISA. Universidad Mariano Gálvez de Guatemala, Campus Villa Nueva."
+ },
+ {
+  "t": "h1",
+  "x": "Introducción General y Marco Metodológico"
+ },
+ {
+  "t": "h2",
+  "x": "Introducción"
+ },
+ {
+  "t": "p",
+  "x": "El desarrollo del pensamiento analítico y la capacidad para resolver problemas complejos constituyen competencias fundamentales en la Ingeniería en Sistemas y Ciencias de la Computación. La toma de decisiones fundamentada en proyectos tecnológicos y científicos requiere interpretar datos cuantitativos, formalizar modelos espaciales y aplicar estrategias razonadas de optimización."
+ },
+ {
+  "t": "p",
+  "x": "Este Atlas del Cálculo ofrece al estudiante universitario un marco metodológico estructurado para abordar situaciones problemáticas en una y en varias variables. Cada uno de sus diez temas se desarrolla con la misma estructura de seis secciones: portada de la sección, introducción y contextualización, desarrollo teórico con las fórmulas clave destacadas **en color rojo**, ejemplos resueltos con el Método de Pólya, un banco de ejercicios graduado por niveles de competencia PISA y referencias bibliográficas."
+ },
+ {
+  "t": "h2",
+  "x": "El Método de George Pólya"
+ },
+ {
+  "t": "p",
+  "x": "George Pólya (1945) propuso un enfoque de cuatro fases para la resolución sistemática de problemas, que se aplica estrictamente en todos los ejemplos resueltos de este folleto:"
+ },
+ {
+  "t": "li",
+  "x": "**Comprender el problema: **identificar la incógnita, los datos, las condiciones y las restricciones.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "**Concebir un plan: **relacionar los datos con la incógnita y seleccionar una estrategia (fórmula, cambio de coordenadas, simetría, sistema de ecuaciones).",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "**Ejecutar el plan: **realizar las operaciones algebraicas, de derivación o de integración con rigor, verificando cada paso.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "**Visión retrospectiva: **comprobar el resultado, interpretar su significado y valorar caminos alternativos.",
+  "ordered": true
+ },
+ {
+  "t": "h2",
+  "x": "Marco de Competencias PISA"
+ },
+ {
+  "t": "p",
+  "x": "El marco de evaluación PISA (OECD, 2019) clasifica el dominio de una competencia matemática en seis niveles de complejidad cognitiva. Los bancos de ejercicios de cada tema siguen esta escala:"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Nivel PISA**",
+    "**Descripción cognitiva**"
+   ],
+   [
+    "Nivel 1",
+    "Responde preguntas concretas sobre contextos conocidos con toda la información presente."
+   ],
+   [
+    "Nivel 2",
+    "Interpreta y reconoce situaciones que requieren inferencias directas."
+   ],
+   [
+    "Nivel 3",
+    "Ejecuta procedimientos claramente descritos, incluyendo decisiones secuenciales."
+   ],
+   [
+    "Nivel 4",
+    "Trabaja con modelos explícitos en situaciones complejas que contienen supuestos."
+   ],
+   [
+    "Nivel 5",
+    "Desarrolla y trabaja con modelos en situaciones complejas, identificando restricciones."
+   ],
+   [
+    "Nivel 6",
+    "Conceptualiza, generaliza y utiliza información basada en modelación y razonamiento avanzado."
+   ]
+  ]
+ },
+ {
+  "t": "h2",
+  "x": "Cómo usar este folleto"
+ },
+ {
+  "t": "li",
+  "x": "**Antes de leer la teoría, **revise los objetivos de aprendizaje del capítulo: indican qué debe saber hacer al terminar.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "**Estudie las fórmulas en rojo: **son las esenciales del tema y las que conviene memorizar o tener en un formulario.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "**Resuelva los ejemplos antes de leer la solución. **Cubra la Fase 3 e intente ejecutar usted el plan; luego compare.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "**Practique con el banco PISA en orden creciente. **Los niveles 1 a 3 aseguran el procedimiento; los niveles 4 a 6 preparan para los problemas de modelación del examen.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "**Repase con el resumen del tema **y verifique que no comete los errores frecuentes señalados.",
+  "ordered": true
+ },
+ {
+  "t": "h2",
+  "x": "Convenciones visuales"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Elemento**",
+    "**Significado**"
+   ],
+   [
+    "Recuadro con borde y texto rojo",
+    "Fórmula esencial del tema"
+   ],
+   [
+    "Recuadro lavanda con borde dorado",
+    "Definición, teorema o propiedad importante"
+   ],
+   [
+    "Recuadro lavanda con borde morado",
+    "Enunciado de un ejemplo resuelto"
+   ],
+   [
+    "Fase 1 · Fase 2 · Fase 3 · Fase 4",
+    "Etapas del Método de Pólya"
+   ],
+   [
+    "✓",
+    "Comprobación de un resultado"
+   ],
+   [
+    "Bloque con código Python",
+    "Aplicación computacional reproducible"
+   ]
+  ]
+ },
+ {
+  "t": "h2",
+  "x": "Notación"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Símbolo**",
+    "**Significado**"
+   ],
+   [
+    "${R}^{2}$, ${R}^{3}$",
+    "Plano y espacio euclidianos"
+   ],
+   [
+    "${f}_{x}$, $\\frac{\\partial f}{\\partial x}$",
+    "Derivada parcial de $f$ respecto a $x$"
+   ],
+   [
+    "$\\nabla f$",
+    "Gradiente de $f$"
+   ],
+   [
+    "$\\iint_{R} f\\,dA$, $\\iiint_{Q} f\\,dV$",
+    "Integrales doble y triple"
+   ],
+   [
+    "$\\rho (x,y)$",
+    "Densidad superficial"
+   ],
+   [
+    "$(\\hat{x},\\hat{y})$",
+    "Centro de masa o centroide"
+   ],
+   [
+    "${B}_{\\delta }(a,b)$",
+    "Entorno (disco abierto) de radio $\\delta$"
+   ],
+   [
+    "$D$ (en el capítulo 10)",
+    "Determinante Hessiano"
+   ]
+  ]
+ },
+ {
+  "t": "h2",
+  "x": "Mapa de contenidos"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Bloque**",
+    "**Capítulos**",
+    "**Idea central**"
+   ],
+   [
+    "Aplicaciones de la integral en una variable",
+    "01, 02, 03",
+    "Acumular cantidades geométricas y físicas con integrales definidas"
+   ],
+   [
+    "Funciones de varias variables",
+    "04, 05",
+    "Representar y analizar superficies en ${R}^{3}$"
+   ],
+   [
+    "Integración múltiple aplicada",
+    "06, 07",
+    "Extender promedios y centros de masa a regiones y sólidos"
+   ],
+   [
+    "Cálculo diferencial en varias variables",
+    "08, 09, 10",
+    "Límites, derivadas parciales, gradiente y optimización"
+   ]
+  ]
+ },
+ {
+  "t": "h1",
+  "x": "01 — Área de una Superficie de Revolución"
+ },
+ {
+  "t": "h2",
+  "x": "A. Presentación del tema"
+ },
+ {
+  "t": "p",
+  "x": "**Título: **Superficies de Revolución: Cuantificación Integral del Área Lateral"
+ },
+ {
+  "t": "p",
+  "x": "**Unidad de aprendizaje: **Aplicaciones de la Integral Definida"
+ },
+ {
+  "t": "p",
+  "x": "**Tema principal: **Cálculo de áreas de superficies de revolución"
+ },
+ {
+  "t": "h4",
+  "x": "Objetivos de aprendizaje"
+ },
+ {
+  "t": "p",
+  "x": "Al finalizar el capítulo, el estudiante será capaz de:"
+ },
+ {
+  "t": "li",
+  "x": "Explicar cómo se genera una superficie al girar una curva plana alrededor de un eje.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Deducir la fórmula del área superficial a partir del elemento de arco $ds$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Plantear y resolver integrales de área para giros alrededor de los ejes $x$ e $y$, en forma cartesiana y paramétrica.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Interpretar el resultado en contextos de diseño y manufactura.",
+  "ordered": false
+ },
+ {
+  "t": "h4",
+  "x": "Competencias que desarrollará"
+ },
+ {
+  "t": "li",
+  "x": "Modelación geométrica: traducir una forma física a una curva y un eje de giro.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Cálculo integral: sustitución y simplificación de radicales.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Pensamiento crítico: validar el resultado con cotas geométricas (conos, cilindros).",
+  "ordered": false
+ },
+ {
+  "t": "h4",
+  "x": "Contextualización"
+ },
+ {
+  "t": "p",
+  "x": "En el diseño industrial, la arquitectura y la manufactura asistida por computadora (CAD/CAM), determinar la cantidad exacta de material necesario para recubrir piezas cónicas, esféricas o de contorno variable es indispensable. Una superficie de revolución se genera al girar una curva plana continua alrededor de un eje de su plano. El cálculo integral permite determinar el área exacta de estas superficies tridimensionales, lo que resulta fundamental para estimar recubrimientos térmicos, disipación de calor y superficies aerodinámicas en fuselajes."
+ },
+ {
+  "t": "p",
+  "x": "Desde el punto de vista del pensamiento analítico, el tema entrena una idea central del cálculo: aproximar un objeto curvo mediante piezas simples (bandas cónicas), sumar sus contribuciones y pasar al límite para obtener un valor exacto."
+ },
+ {
+  "t": "h2",
+  "x": "B. Desarrollo teórico"
+ },
+ {
+  "t": "p",
+  "x": "**Definición. **Sea $y=f(x)$ una función con $f(x)\\ge 0$ y derivada $f'(x)$ continua en $[a,b]$. Al dividir la curva en pequeños arcos de longitud $ds=\\sqrt{1+{[f'(x)]}^{2}}\\,dx$, cada arco al girar genera una banda cónica de área aproximada $2\\pi r\\,ds$, donde $r$ es la distancia del arco al eje de giro (radio de giro). Sumando y pasando al límite se obtiene el área de la superficie."
+ },
+ {
+  "t": "p",
+  "x": "**Giro alrededor del eje **$x$ (radio de giro $r=f(x)$):"
+ },
+ {
+  "t": "formula",
+  "x": "$S=\\int_{a}^{b} 2\\pi f(x)\\sqrt{1+{[f'(x)]}^{2}}\\,dx$"
+ },
+ {
+  "t": "p",
+  "x": "**Giro alrededor del eje **$y$ de la curva $y=f(x)$, con $a\\ge 0$ (radio de giro $r=x$):"
+ },
+ {
+  "t": "formula",
+  "x": "$S=\\int_{a}^{b} 2\\pi x\\sqrt{1+{[f'(x)]}^{2}}\\,dx$"
+ },
+ {
+  "t": "p",
+  "x": "Si la curva se describe como $x=g(y)$, $c\\le y\\le d$, y gira alrededor del eje $y$:"
+ },
+ {
+  "t": "formula",
+  "x": "$S=\\int_{c}^{d} 2\\pi g(y)\\sqrt{1+{[g'(y)]}^{2}}\\,dy$"
+ },
+ {
+  "t": "p",
+  "x": "**Forma paramétrica. **Si la curva es $x=x(t)$, $y=y(t)$, $\\alpha \\le t\\le \\beta$, con $y(t)\\ge 0$, y gira alrededor del eje $x$:"
+ },
+ {
+  "t": "formula",
+  "x": "$S=\\int_{\\alpha}^{\\beta} 2\\pi \\,y(t)\\sqrt{{\\left( \\frac{dx}{dt} \\right)}^{2}+{\\left( \\frac{dy}{dt} \\right)}^{2}}\\,dt$"
+ },
+ {
+  "t": "h4",
+  "x": "Generación de superficies y significado de cada variable"
+ },
+ {
+  "t": "p",
+  "x": "Al girar la gráfica de $y=f(x)$, $a\\le x\\le b$, cada punto $(x,f(x))$ describe una circunferencia de radio igual a su distancia al eje. El conjunto de esas circunferencias es la **superficie de revolución**. Si en lugar de la curva se gira la región bajo ella, se obtiene un **sólido de revolución **(tema de volúmenes); aquí solo interesa la “piel” del sólido."
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Símbolo**",
+    "**Significado**",
+    "**Unidades**"
+   ],
+   [
+    "$r$",
+    "Radio de giro: distancia del punto de la curva al eje",
+    "longitud"
+   ],
+   [
+    "$ds$",
+    "Elemento de longitud de arco de la curva",
+    "longitud"
+   ],
+   [
+    "$2\\pi r$",
+    "Longitud de la circunferencia que describe el punto",
+    "longitud"
+   ],
+   [
+    "$2\\pi r\\,ds$",
+    "Área de la banda cónica elemental",
+    "longitud²"
+   ],
+   [
+    "$S$",
+    "Área total de la superficie",
+    "longitud²"
+   ]
+  ]
+ },
+ {
+  "t": "def",
+  "x": "**Fórmula general. **En todos los casos el área es $S=\\int 2\\pi \\,r\\,ds$; solo cambia la expresión del radio $r$ (según el eje) y la del arco $ds$ (según cómo esté descrita la curva). Recordar esta única idea evita memorizar cuatro fórmulas distintas."
+ },
+ {
+  "t": "h2",
+  "x": "C. Representaciones gráficas"
+ },
+ {
+  "t": "fig",
+  "src": "img/rId37.webp"
+ },
+ {
+  "t": "cap",
+  "x": "Figura 1.1. Izquierda: curva generatriz $y=\\sqrt{x}$, un arco elemental $ds$ y su radio de giro $r=f(x)$. Derecha: superficie obtenida al girar la curva en $[1,4]$ alrededor del eje $x$; el arco $ds$ genera la banda roja."
+ },
+ {
+  "t": "p",
+  "x": "**Interpretación. **El arco rojo de la izquierda, al girar, produce la banda delimitada por las dos circunferencias rojas de la derecha. Su área es aproximadamente (circunferencia media) × (ancho inclinado), es decir, $2\\pi r\\cdot ds$. Como el ancho de la banda es el arco $ds$ y no $dx$, usar $dx$ subestimaría el área en las zonas donde la curva es empinada."
+ },
+ {
+  "t": "h2",
+  "x": "D. Ejemplos resueltos (Método de Pólya)"
+ },
+ {
+  "t": "h3",
+  "x": "Ejemplo 1.1: Superficie de una esfera perfecta"
+ },
+ {
+  "t": "enun",
+  "x": "Demuestre analíticamente que el área de una esfera de radio $R$ es $4\\pi {R}^{2}$ rotando la semicircunferencia $y=\\sqrt{{R}^{2}-{x}^{2}}$, $x\\in [-R,R]$, alrededor del eje $x$."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 1 · Comprender el problema"
+ },
+ {
+  "t": "p",
+  "x": "Se requiere el área $S$ obtenida al rotar $f(x)=\\sqrt{{R}^{2}-{x}^{2}}$ alrededor del eje $x$ entre $x=-R$ y $x=R$. El resultado esperado es la fórmula clásica $4\\pi {R}^{2}$."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 2 · Concebir un plan"
+ },
+ {
+  "t": "li",
+  "x": "Obtener la derivada $f'(x)$.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Calcular el factor de arco $\\sqrt{1+{[f'(x)]}^{2}}$.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Sustituir en $S=\\int_{-R}^{R} 2\\pi f(x)\\sqrt{1+{[f'(x)]}^{2}}\\,dx$ y resolver.",
+  "ordered": true
+ },
+ {
+  "t": "h4",
+  "x": "Fase 3 · Ejecutar el plan"
+ },
+ {
+  "t": "p",
+  "x": "Derivando:"
+ },
+ {
+  "t": "math",
+  "x": "$f'(x)=\\frac{-x}{\\sqrt{{R}^{2}-{x}^{2}}}$"
+ },
+ {
+  "t": "p",
+  "x": "Elevando al cuadrado y sumando $1$:"
+ },
+ {
+  "t": "math",
+  "x": "$1+{[f'(x)]}^{2}=1+\\frac{{x}^{2}}{{R}^{2}-{x}^{2}}=\\frac{{R}^{2}}{{R}^{2}-{x}^{2}}$"
+ },
+ {
+  "t": "p",
+  "x": "Sustituyendo en la fórmula del área:"
+ },
+ {
+  "t": "math",
+  "x": "$S=\\int_{-R}^{R} 2\\pi \\sqrt{{R}^{2}-{x}^{2}}\\cdot \\frac{R}{\\sqrt{{R}^{2}-{x}^{2}}}\\,dx=\\int_{-R}^{R} 2\\pi R\\,dx=2\\pi R\\,(2R)=4\\pi {R}^{2}$"
+ },
+ {
+  "t": "h4",
+  "x": "Fase 4 · Visión retrospectiva"
+ },
+ {
+  "t": "p",
+  "x": "El resultado coincide con la fórmula de la geometría euclidiana para la superficie esférica. Es notable que el integrando se reduzca a la constante $2\\pi R$: cada franja de ancho $dx$ aporta la misma área, sin importar su posición (resultado conocido como teorema de Arquímedes de la esfera y el cilindro). Aunque $f'(x)$ no está definida en $x=\\pm R$, la integral resultante es propia, por lo que el cálculo es válido."
+ },
+ {
+  "t": "h3",
+  "x": "Ejemplo 1.2: Recubrimiento de una boquilla cúbica"
+ },
+ {
+  "t": "enun",
+  "x": "Una boquilla de inyección se modela al girar la curva $y={x}^{3}$, $0\\le x\\le 1$ (en decímetros), alrededor del eje $x$. Calcule el área exacta de la superficie que debe recubrirse con pintura cerámica."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 1 · Comprender el problema"
+ },
+ {
+  "t": "p",
+  "x": "Datos: $f(x)={x}^{3}$, intervalo $[0,1]$, eje de giro: eje $x$. Incógnita: el área $S$ en ${\\text{dm}}^{2}$."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 2 · Concebir un plan"
+ },
+ {
+  "t": "li",
+  "x": "Calcular $f'(x)=3{x}^{2}$ y $1+{[f'(x)]}^{2}=1+9{x}^{4}$.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Plantear $S=\\int_{0}^{1} 2\\pi {x}^{3}\\sqrt{1+9{x}^{4}}\\,dx$.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Observar que ${x}^{3}\\,dx$ es, salvo una constante, la diferencial de $1+9{x}^{4}$; usar la sustitución $u=1+9{x}^{4}$.",
+  "ordered": true
+ },
+ {
+  "t": "h4",
+  "x": "Fase 3 · Ejecutar el plan"
+ },
+ {
+  "t": "p",
+  "x": "Con $u=1+9{x}^{4}$, $du=36{x}^{3}\\,dx$, y los nuevos límites $x=0\\Rightarrow u=1$, $x=1\\Rightarrow u=10$:"
+ },
+ {
+  "t": "math",
+  "x": "$S=2\\pi \\int_{1}^{10} \\sqrt{u}\\,\\frac{du}{36}=\\frac{\\pi }{18}{\\left[ \\frac{2}{3}{u}^{3/2} \\right]}_{1}^{10}=\\frac{\\pi }{27}\\left( 10\\sqrt{10}-1 \\right)$"
+ },
+ {
+  "t": "math",
+  "x": "$S\\approx \\frac{\\pi }{27}(31.623-1)\\approx 3.563 {\\text{dm}}^{2}$"
+ },
+ {
+  "t": "h4",
+  "x": "Fase 4 · Visión retrospectiva"
+ },
+ {
+  "t": "p",
+  "x": "Comprobación de orden de magnitud: en $[0,1]$ se cumple ${x}^{3}\\le x$, así que la boquilla queda dentro del cono generado por $y=x$, cuya área lateral es $\\pi \\sqrt{2}\\approx 4.44$. Como la curva ${x}^{3}$ permanece pegada al eje la mayor parte del intervalo, es razonable que su superficie sea menor: $3.563<4.44$. La sustitución funcionó porque el radio de giro ${x}^{3}$ coincide, salvo una constante, con la derivada de $9{x}^{4}$."
+ },
+ {
+  "t": "h2",
+  "x": "E. Banco de ejercicios por niveles de competencia PISA"
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 1 (Lectura directa): **Identifique el radio de giro $r(x)$ en la fórmula de superficie cuando el eje de rotación es el eje $x$ y cuando es el eje $y$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 2 (Interpretación directa): **Escriba, sin resolver, la integral para el área de la superficie generada al girar $y={x}^{3}$ en $[0,2]$ alrededor del eje $x$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 3 (Procedimientos secuenciales): **Calcule el área de la superficie generada al rotar $y=\\sqrt{x}$ en el intervalo $[1,4]$ alrededor del eje $x$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 4 (Modelos en situaciones complejas): **Un plato reflector parabólico se construye girando la parábola $y=\\frac{{x}^{2}}{4}$, desde $x=0$ hasta $x=2$ (en metros), alrededor del eje $y$. Determine los metros cuadrados de aluminio reflectante requeridos.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 5 (Modelación con restricciones): **Analice el comportamiento del área de la superficie generada al girar $y=\\frac{1}{x}$ desde $x=1$ hasta $\\infty$ alrededor del eje $x$ (Trompeta de Torricelli) y compárela con el volumen encerrado. Interprete la paradoja resultante.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 6 (Razonamiento y conceptualización avanzada): **El perfil lateral de una cápsula de reentrada se modela por la curva paramétrica $x(t)={\\cos }^{3}t$, $y(t)={\\sin }^{3}t$, $0\\le t\\le \\frac{\\pi }{2}$. Formule la integral paramétrica y determine el área exacta de fricción térmica al girar la curva sobre el eje $x$.",
+  "ordered": false
+ },
+ {
+  "t": "h2",
+  "x": "F. Aplicaciones a Ingeniería en Sistemas"
+ },
+ {
+  "t": "p",
+  "x": "**Gráficos por computadora y CAD. **Los programas de modelado 3D generan objetos de revolución (“lathe” o torno) girando un perfil. El motor calcula el área de la malla para asignar texturas sin deformación y para estimar el material en impresión 3D. Esa área es una aproximación numérica de la integral $\\int 2\\pi r\\,ds$."
+ },
+ {
+  "t": "p",
+  "x": "**Integración numérica en software. **Cuando la integral no tiene primitiva elemental, se aproxima con la regla del trapecio o de Simpson. El siguiente código en Python reproduce el resultado del Ejemplo 1.2:"
+ },
+ {
+  "t": "code",
+  "x": "import numpy as np\nx = np.linspace(0, 1, 1001)                      # 1000 subintervalos\nf, df = x**3, 3*x**2\nS = np.trapezoid(2*np.pi*f*np.sqrt(1 + df**2), x)\nprint(S)          # 3.56313  (exacto: 3.56312)"
+ },
+ {
+  "t": "p",
+  "x": "**Disipación térmica. **En el diseño de disipadores para procesadores, el calor evacuado es proporcional al área expuesta; maximizar el área superficial de aletas de perfil curvo es un problema directo de este tema."
+ },
+ {
+  "t": "h2",
+  "x": "G. Resumen del tema"
+ },
+ {
+  "t": "h4",
+  "x": "Fórmulas esenciales"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Fórmula o resultado**",
+    "**Significado**"
+   ],
+   [
+    "$S=\\int_{a}^{b} 2\\pi f(x)\\sqrt{1+{[f'(x)]}^{2}}\\,dx$",
+    "Giro alrededor del eje $x$"
+   ],
+   [
+    "$S=\\int_{a}^{b} 2\\pi x\\sqrt{1+{[f'(x)]}^{2}}\\,dx$",
+    "Giro alrededor del eje $y$"
+   ],
+   [
+    "$S=\\int 2\\pi y(t)\\sqrt{x'{(t)}^{2}+y'{(t)}^{2}}\\,dt$",
+    "Curva paramétrica, eje $x$"
+   ],
+   [
+    "$4\\pi {R}^{2}$",
+    "Área de la esfera (Ejemplo 1.1)"
+   ]
+  ]
+ },
+ {
+  "t": "h4",
+  "x": "Conceptos clave y errores frecuentes"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Conceptos clave**",
+    "**Errores frecuentes**"
+   ],
+   [
+    "El área se acumula con el **arco **$ds$, no con $dx$.",
+    "Olvidar el factor $\\sqrt{1+{[f'(x)]}^{2}}$ y calcular $\\int 2\\pi f(x)\\,dx$."
+   ],
+   [
+    "El radio de giro depende del eje: $r=f(x)$ para el eje $x$, $r=x$ para el eje $y$.",
+    "Usar $f(x)$ como radio cuando el giro es alrededor del eje $y$."
+   ],
+   [
+    "Las sustituciones $u=1+{[f'(x)]}^{2}$ suelen simplificar la integral.",
+    "No cambiar los límites de integración al hacer una sustitución."
+   ]
+  ]
+ },
+ {
+  "t": "h2",
+  "x": "H. Referencias bibliográficas"
+ },
+ {
+  "t": "li",
+  "x": "Stewart, J. (2018). Cálculo de una variable: Trascendentes tempranas (8.ª ed.). Cengage Learning.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Thomas, G. B., Weir, M. D., & Hass, J. (2015). Cálculo: Una variable (13.ª ed.). Pearson Educación.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Larson, R., & Edwards, B. H. (2014). Cálculo 1 de una variable (10.ª ed.). Cengage Learning.",
+  "ordered": false
+ },
+ {
+  "t": "h1",
+  "x": "02 — Valor Promedio de una Función con Integración"
+ },
+ {
+  "t": "h2",
+  "x": "A. Presentación del tema"
+ },
+ {
+  "t": "p",
+  "x": "**Título: **El Promedio Continuo: Teorema del Valor Medio para Integrales"
+ },
+ {
+  "t": "p",
+  "x": "**Unidad de aprendizaje: **Teoremas Fundamentales del Cálculo Integral"
+ },
+ {
+  "t": "p",
+  "x": "**Tema principal: **Valor promedio de una función continuamente variable"
+ },
+ {
+  "t": "h4",
+  "x": "Objetivos de aprendizaje"
+ },
+ {
+  "t": "p",
+  "x": "Al finalizar el capítulo, el estudiante será capaz de:"
+ },
+ {
+  "t": "li",
+  "x": "Definir el valor promedio de una función continua en un intervalo.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Enunciar e interpretar geométricamente el Teorema del Valor Medio para integrales.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Calcular valores promedio y los puntos $c$ donde se alcanzan.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Aplicar el valor promedio y el valor eficaz (RMS) a señales y sistemas.",
+  "ordered": false
+ },
+ {
+  "t": "h4",
+  "x": "Competencias que desarrollará"
+ },
+ {
+  "t": "li",
+  "x": "Transición de lo discreto (promedio de datos) a lo continuo (integral).",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Lectura de gráficas: relacionar área bajo la curva con un rectángulo equivalente.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Resolución de ecuaciones trascendentes para hallar $c$.",
+  "ordered": false
+ },
+ {
+  "t": "h4",
+  "x": "Contextualización"
+ },
+ {
+  "t": "p",
+  "x": "En el procesamiento de señales digitales, la evaluación del rendimiento de sistemas computacionales y la termodinámica aplicada, la recolección discreta de datos resulta insuficiente para representar fenómenos en tiempo continuo. El promedio aritmético de $n$ mediciones, $\\frac{1}{n}\\sum f({x}_{i})$, se convierte en el límite en una integral dividida entre la longitud del intervalo. El Teorema del Valor Medio para Integrales garantiza, además, que ese nivel medio es realmente alcanzado por la función en algún instante."
+ },
+ {
+  "t": "p",
+  "x": "Este tema desarrolla la capacidad de pasar de lo discreto a lo continuo, una habilidad esencial del pensamiento analítico."
+ },
+ {
+  "t": "h2",
+  "x": "B. Desarrollo teórico"
+ },
+ {
+  "t": "p",
+  "x": "**Definición. **Si $f$ es integrable en $[a,b]$, su valor promedio es el área neta bajo la curva dividida entre la longitud del intervalo:"
+ },
+ {
+  "t": "formula",
+  "x": "${f}_{\\text{prom}}=\\frac{1}{b-a}\\int_{a}^{b} f(x)\\,dx$"
+ },
+ {
+  "t": "p",
+  "x": "**Teorema del Valor Medio para Integrales. **Si $f$ es continua en $[a,b]$, existe al menos un número $c\\in [a,b]$ tal que"
+ },
+ {
+  "t": "formula",
+  "x": "$f(c)={f}_{\\text{prom}}=\\frac{1}{b-a}\\int_{a}^{b} f(x)\\,dx \\Leftrightarrow \\int_{a}^{b} f(x)\\,dx=f(c)\\,(b-a)$"
+ },
+ {
+  "t": "p",
+  "x": "Interpretación geométrica: el rectángulo de base $b-a$ y altura $f(c)$ tiene exactamente la misma área que la región bajo la curva."
+ },
+ {
+  "t": "p",
+  "x": "Idea de la demostración: por el Teorema de los Valores Extremos, $m\\le f(x)\\le M$ en $[a,b]$; integrando, $m\\le {f}_{\\text{prom}}\\le M$; por el Teorema del Valor Intermedio, $f$ toma el valor ${f}_{\\text{prom}}$ en algún $c$."
+ },
+ {
+  "t": "p",
+  "x": "**Valor eficaz (RMS)**, utilizado en ingeniería eléctrica:"
+ },
+ {
+  "t": "formula",
+  "x": "${f}_{\\text{RMS}}=\\sqrt{\\frac{1}{b-a}\\int_{a}^{b} {[f(x)]}^{2}\\,dx}$"
+ },
+ {
+  "t": "h4",
+  "x": "Propiedades del valor promedio"
+ },
+ {
+  "t": "def",
+  "x": "Si $f$ y $g$ son continuas en $[a,b]$ y $k$ es una constante:"
+ },
+ {
+  "t": "li",
+  "x": "**Linealidad: **${(f+g)}_{\\text{prom}}={f}_{\\text{prom}}+{g}_{\\text{prom}}$ y ${(kf)}_{\\text{prom}}=k\\,{f}_{\\text{prom}}$.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "**Acotamiento: **si $m\\le f(x)\\le M$ en $[a,b]$, entonces $m\\le {f}_{\\text{prom}}\\le M$.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "**Constantes: **el promedio de una constante es la propia constante.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "**Promedio discreto como límite: **${f}_{\\text{prom}}=\\lim_{n\\to \\infty } \\frac{1}{n}\\sum_{i=1}^{n} f({x}_{i})$, con puntos ${x}_{i}$ uniformemente distribuidos.",
+  "ordered": true
+ },
+ {
+  "t": "p",
+  "x": "La propiedad 4 explica la definición: es el promedio aritmético de infinitas muestras equiespaciadas, y $\\frac{1}{n}=\\frac{\\Delta x}{b-a}$ convierte la suma en una suma de Riemann."
+ },
+ {
+  "t": "h2",
+  "x": "C. Representaciones gráficas"
+ },
+ {
+  "t": "fig",
+  "src": "img/rId65.webp"
+ },
+ {
+  "t": "cap",
+  "x": "Figura 2.1. Izquierda: temperatura $T(t)$ del Ejemplo 2.1, su promedio y los dos instantes ${c}_{1}$, ${c}_{2}$ que garantiza el teorema. Derecha: el rectángulo rojo de altura ${P}_{prom}$ tiene la misma área que la región bajo $P(x)=60/x$."
+ },
+ {
+  "t": "p",
+  "x": "**Interpretación. **En ambas gráficas la recta del promedio corta la curva: eso es exactamente lo que afirma el Teorema del Valor Medio. El área sombreada por encima de la recta (izquierda) compensa el área que falta por debajo; por eso el rectángulo de altura ${f}_{\\text{prom}}$ tiene la misma área total."
+ },
+ {
+  "t": "h2",
+  "x": "D. Ejemplos resueltos (Método de Pólya)"
+ },
+ {
+  "t": "h3",
+  "x": "Ejemplo 2.1: Temperatura promedio en servidores de datos"
+ },
+ {
+  "t": "enun",
+  "x": "La temperatura (en °C) de un procesador durante un ciclo de trabajo de 12 horas se modela con $T(t)=20+4\\sin \\left( \\frac{\\pi t}{12} \\right)$, $t\\in [0,12]$. Encuentre la temperatura promedio y los instantes en que se registra dicha temperatura."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 1 · Comprender el problema"
+ },
+ {
+  "t": "p",
+  "x": "Buscamos ${T}_{\\text{prom}}$ en $[0,12]$ y los valores $c\\in [0,12]$ tales que $T(c)={T}_{\\text{prom}}$."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 2 · Concebir un plan"
+ },
+ {
+  "t": "li",
+  "x": "Aplicar la definición de valor promedio integrando de $0$ a $12$ y dividiendo entre $12$.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Igualar $T(c)$ al promedio y despejar $c$ usando la función arcoseno, considerando todas las soluciones del intervalo.",
+  "ordered": true
+ },
+ {
+  "t": "h4",
+  "x": "Fase 3 · Ejecutar el plan"
+ },
+ {
+  "t": "math",
+  "x": "${T}_{\\text{prom}}=\\frac{1}{12}\\int_{0}^{12} \\left[ 20+4\\sin \\left( \\frac{\\pi t}{12} \\right) \\right]dt$"
+ },
+ {
+  "t": "p",
+  "x": "Integrando término a término:"
+ },
+ {
+  "t": "math",
+  "x": "$\\int_{0}^{12} 20\\,dt=240, \\int_{0}^{12} 4\\sin \\left( \\frac{\\pi t}{12} \\right)dt={\\left[ -\\frac{48}{\\pi }\\cos \\left( \\frac{\\pi t}{12} \\right) \\right]}_{0}^{12}=-\\frac{48}{\\pi }(-1-1)=\\frac{96}{\\pi }$"
+ },
+ {
+  "t": "math",
+  "x": "${T}_{\\text{prom}}=\\frac{1}{12}\\left( 240+\\frac{96}{\\pi } \\right)=20+\\frac{8}{\\pi }\\approx 22.55{ }^{\\circ }\\text{C}$"
+ },
+ {
+  "t": "p",
+  "x": "Igualando $T(c)={T}_{\\text{prom}}$:"
+ },
+ {
+  "t": "math",
+  "x": "$4\\sin \\left( \\frac{\\pi c}{12} \\right)=\\frac{8}{\\pi } \\Rightarrow \\sin \\left( \\frac{\\pi c}{12} \\right)=\\frac{2}{\\pi }\\approx 0.6366$"
+ },
+ {
+  "t": "p",
+  "x": "Como $\\frac{\\pi c}{12}\\in [0,\\pi ]$, hay dos soluciones:"
+ },
+ {
+  "t": "math",
+  "x": "${c}_{1}=\\frac{12}{\\pi }\\arcsin \\left( \\frac{2}{\\pi } \\right)\\approx 2.64 \\text{h}, {c}_{2}=12-{c}_{1}\\approx 9.36 \\text{h}$"
+ },
+ {
+  "t": "h4",
+  "x": "Fase 4 · Visión retrospectiva"
+ },
+ {
+  "t": "p",
+  "x": "La temperatura oscila entre $20{\\,}^{\\circ }$C y $24{\\,}^{\\circ }$C, de modo que un promedio de $22.55{\\,}^{\\circ }$C es coherente. El teorema garantiza al menos un instante; aquí hay dos (≈ 2 h 38 min y ≈ 9 h 22 min), simétricos respecto al pico de $t=6$ h, como se espera de la simetría de la onda senoidal."
+ },
+ {
+  "t": "h3",
+  "x": "Ejemplo 2.2: Potencia promedio de una señal inalámbrica"
+ },
+ {
+  "t": "enun",
+  "x": "La potencia recibida de una antena lineal decae con la distancia según $P(x)=\\frac{60}{x}$ mW, donde $x$ se mide en decenas de metros. Calcule la potencia promedio en la zona de cobertura $1\\le x\\le 4$ y la distancia a la que la potencia es exactamente igual a ese promedio."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 1 · Comprender el problema"
+ },
+ {
+  "t": "p",
+  "x": "Datos: $P(x)=60/x$, intervalo $[1,4]$, de longitud $3$. Incógnitas: ${P}_{\\text{prom}}$ y $c\\in [1,4]$ con $P(c)={P}_{\\text{prom}}$."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 2 · Concebir un plan"
+ },
+ {
+  "t": "p",
+  "x": "Integrar usando $\\int \\frac{dx}{x}=\\ln \\left| x \\right|$, dividir entre $3$ y resolver $60/c={P}_{\\text{prom}}$."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 3 · Ejecutar el plan"
+ },
+ {
+  "t": "math",
+  "x": "${P}_{\\text{prom}}=\\frac{1}{4-1}\\int_{1}^{4} \\frac{60}{x}\\,dx=20{[\\ln x]}_{1}^{4}=20\\ln 4\\approx 27.73 \\text{mW}$"
+ },
+ {
+  "t": "math",
+  "x": "$\\frac{60}{c}=20\\ln 4 \\Rightarrow c=\\frac{3}{\\ln 4}\\approx 2.164 (\\approx 21.6 \\text{m})$"
+ },
+ {
+  "t": "h4",
+  "x": "Fase 4 · Visión retrospectiva"
+ },
+ {
+  "t": "p",
+  "x": "La potencia varía de $60$ mW ($x=1$) a $15$ mW ($x=4$), y el promedio $27.73$ mW está entre ambos valores. Es menor que el promedio aritmético de los extremos ($37.5$ mW) porque la curva $1/x$ es convexa: desciende rápido al inicio y luego se mantiene baja la mayor parte del intervalo. El punto $c\\approx 2.164$ pertenece a $[1,4]$, como exige el teorema."
+ },
+ {
+  "t": "h2",
+  "x": "E. Banco de ejercicios por niveles de competencia PISA"
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 1: **Calcule el valor promedio de la función constante $f(x)=8$ en el intervalo $[1,9]$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 2: **Exprese la integral para obtener la velocidad promedio de un vehículo con $v(t)={t}^{2}+3t$ durante $t\\in [0,4]$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 3: **Determine el valor promedio de $f(x)=\\sqrt{x}$ en $[0,9]$ y el valor de $c$ donde se alcanza.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 4: **Encuentre todos los valores de $c$ garantizados por el Teorema del Valor Medio para integrales para $f(x)={x}^{2}$ en $[-2,2]$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 5: **La corriente en un conductor varía como $I(t)={I}_{0}\\sin (\\omega t)$. Calcule el valor eficaz ${I}_{\\text{RMS}}=\\sqrt{{({I}^{2})}_{\\text{prom}}}$ sobre medio ciclo $t\\in [0,\\pi /\\omega ]$ y compárelo con el valor promedio ${I}_{\\text{prom}}$ en el mismo intervalo.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 6: **Demuestre que para toda función impar continua ($f(-x)=-f(x)$) el valor promedio en cualquier intervalo simétrico $[-a,a]$ es cero. Evalúe por qué, en corriente alterna, se usa el valor RMS y no el promedio para medir la energía entregada.",
+  "ordered": false
+ },
+ {
+  "t": "h2",
+  "x": "F. Aplicaciones a Ingeniería en Sistemas"
+ },
+ {
+  "t": "p",
+  "x": "**Monitoreo de servidores. **Herramientas de observabilidad calculan la utilización promedio de CPU en una ventana de tiempo. Si la carga se modela como $u(t)=40+30\\sin \\left( \\frac{\\pi t}{30} \\right)$ % durante $t\\in [0,60]$ minutos, el promedio es $40\\,\\%$: el término senoidal completa un periodo y promedia cero. Un pico de $70\\,\\%$ no implica sobrecarga sostenida."
+ },
+ {
+  "t": "code",
+  "x": "import numpy as np\nt = np.linspace(0, 60, 601)\nu = 40 + 30*np.sin(np.pi*t/30)\nprint(np.trapezoid(u, t)/60)      # 40.0  -> promedio continuo aproximado"
+ },
+ {
+  "t": "p",
+  "x": "**Procesamiento de audio y señales. **La sonoridad de una señal no se mide con su promedio (que para una onda senoidal es cero en un ciclo completo) sino con su valor RMS. Los ecualizadores y medidores de volumen digitales calculan $\\sqrt{{({x}^{2})}_{\\text{prom}}}$ sobre ventanas de muestras."
+ },
+ {
+  "t": "p",
+  "x": "**Calidad de servicio en redes. **La latencia promedio de un enlace durante una hora se obtiene integrando la latencia instantánea; los acuerdos de nivel de servicio (SLA) se redactan sobre estos promedios."
+ },
+ {
+  "t": "h2",
+  "x": "G. Resumen del tema"
+ },
+ {
+  "t": "h4",
+  "x": "Fórmulas esenciales"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Fórmula o resultado**",
+    "**Significado**"
+   ],
+   [
+    "${f}_{prom}=\\frac{1}{b-a}\\int_{a}^{b} f(x)\\,dx$",
+    "Valor promedio continuo"
+   ],
+   [
+    "$\\int_{a}^{b} f(x)\\,dx=f(c)(b-a)$",
+    "Teorema del Valor Medio para integrales"
+   ],
+   [
+    "${f}_{RMS}=\\sqrt{\\frac{1}{b-a}\\int_{a}^{b} {f}^{2}\\,dx}$",
+    "Valor eficaz (cuadrático medio)"
+   ]
+  ]
+ },
+ {
+  "t": "h4",
+  "x": "Conceptos clave y errores frecuentes"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Conceptos clave**",
+    "**Errores frecuentes**"
+   ],
+   [
+    "El promedio es la altura del rectángulo con la misma área que la región bajo la curva.",
+    "Olvidar dividir entre la longitud $b-a$."
+   ],
+   [
+    "El TVM garantiza **al menos **un $c$; puede haber varios.",
+    "Promediar solo los valores extremos: $\\frac{f(a)+f(b)}{2}$ no es el promedio continuo."
+   ],
+   [
+    "El promedio de una función impar en $[-a,a]$ es cero.",
+    "Reportar un solo valor de $c$ cuando la ecuación tiene varias soluciones en el intervalo."
+   ]
+  ]
+ },
+ {
+  "t": "h2",
+  "x": "H. Referencias bibliográficas"
+ },
+ {
+  "t": "li",
+  "x": "Larson, R., & Edwards, B. H. (2014). Cálculo 1 de una variable (10.ª ed.). Cengage Learning.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Purcell, E. J., Varberg, D., & Rigdon, S. E. (2007). Cálculo (9.ª ed.). Pearson Educación.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Stewart, J. (2018). Cálculo de una variable: Trascendentes tempranas (8.ª ed.). Cengage Learning.",
+  "ordered": false
+ },
+ {
+  "t": "h1",
+  "x": "03 — Centros de Masa y Centroides"
+ },
+ {
+  "t": "h2",
+  "x": "A. Presentación del tema"
+ },
+ {
+  "t": "p",
+  "x": "**Título: **El Punto de Equilibrio: Momentos, Centros de Masa y Centroides"
+ },
+ {
+  "t": "p",
+  "x": "**Unidad de aprendizaje: **Aplicaciones Físicas de la Integral Definida"
+ },
+ {
+  "t": "p",
+  "x": "**Tema principal: **Momentos estáticos, centros de masa y centroides geométricos"
+ },
+ {
+  "t": "h4",
+  "x": "Objetivos de aprendizaje"
+ },
+ {
+  "t": "p",
+  "x": "Al finalizar el capítulo, el estudiante será capaz de:"
+ },
+ {
+  "t": "li",
+  "x": "Distinguir entre centro de masa, centro de gravedad y centroide.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Calcular momentos y centros de masa de sistemas discretos en una y dos dimensiones.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Calcular centroides de regiones planas limitadas por curvas mediante integrales definidas.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Usar la simetría y el Teorema de Pappus para anticipar y comprobar resultados.",
+  "ordered": false
+ },
+ {
+  "t": "h4",
+  "x": "Competencias que desarrollará"
+ },
+ {
+  "t": "li",
+  "x": "Razonamiento físico: equilibrio y momentos.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Uso estratégico de la simetría para reducir cálculos.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Planteamiento de integrales entre curvas.",
+  "ordered": false
+ },
+ {
+  "t": "h4",
+  "x": "Contextualización"
+ },
+ {
+  "t": "p",
+  "x": "En la ingeniería estructural, la física computacional y los motores de simulación de videojuegos (physics engines), la dinámica de los cuerpos rígidos se simplifica representando una masa distribuida mediante un único punto equivalente: el centro de masa. Cuando la densidad es homogénea, ese punto coincide con el centroide geométrico de la región."
+ },
+ {
+  "t": "p",
+  "x": "El tema enseña a razonar con equilibrio y simetría: muchas coordenadas del centroide pueden deducirse sin integrar, y el cálculo solo confirma lo que el análisis geométrico anticipa."
+ },
+ {
+  "t": "h2",
+  "x": "B. Desarrollo teórico"
+ },
+ {
+  "t": "p",
+  "x": "**Sistemas discretos. **Para masas ${m}_{1},\\ldots ,{m}_{n}$ ubicadas en ${x}_{1},\\ldots ,{x}_{n}$ sobre una recta, el centro de masa es:"
+ },
+ {
+  "t": "formula",
+  "x": "$\\hat{x}=\\frac{\\sum_{i=1}^{n} {m}_{i}{x}_{i}}{\\sum_{i=1}^{n} {m}_{i}}=\\frac{{M}_{0}}{m}$"
+ },
+ {
+  "t": "p",
+  "x": "**Regiones planas homogéneas. **Para una región $R$ limitada por $y=f(x)$ y $y=g(x)$, con $f(x)\\ge g(x)$ en $[a,b]$, el área, los momentos respecto a los ejes y el centroide son:"
+ },
+ {
+  "t": "formula",
+  "x": "$A=\\int_{a}^{b} [f(x)-g(x)]\\,dx$"
+ },
+ {
+  "t": "formula",
+  "x": "${M}_{y}=\\int_{a}^{b} x\\,[f(x)-g(x)]\\,dx, {M}_{x}=\\frac{1}{2}\\int_{a}^{b} ({[f(x)]}^{2}-{[g(x)]}^{2})dx$"
+ },
+ {
+  "t": "formula",
+  "x": "$\\hat{x}=\\frac{{M}_{y}}{A}, \\hat{y}=\\frac{{M}_{x}}{A}$"
+ },
+ {
+  "t": "p",
+  "x": "**Principio de simetría. **Si $R$ es simétrica respecto a una recta, su centroide está sobre esa recta."
+ },
+ {
+  "t": "p",
+  "x": "**Teorema de Pappus. **Si una región de área $A$ gira alrededor de una recta que no la corta, el volumen generado es $V=2\\pi \\hat{r}A$, donde $\\hat{r}$ es la distancia del centroide al eje."
+ },
+ {
+  "t": "h4",
+  "x": "Definiciones y diferencias"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Concepto**",
+    "**Depende de**",
+    "**Definición**"
+   ],
+   [
+    "Centro de masa",
+    "Distribución de masa (densidad)",
+    "Punto donde se puede concentrar toda la masa sin alterar los momentos"
+   ],
+   [
+    "Centro de gravedad",
+    "Masa y campo gravitatorio",
+    "Punto de aplicación del peso; coincide con el centro de masa si $g$ es uniforme"
+   ],
+   [
+    "Centroide",
+    "Solo la geometría",
+    "Centro de masa de la región si la densidad es constante"
+   ]
+  ]
+ },
+ {
+  "t": "h4",
+  "x": "Sistemas discretos en el plano"
+ },
+ {
+  "t": "p",
+  "x": "Para masas ${m}_{i}$ ubicadas en los puntos $({x}_{i},{y}_{i})$, los momentos respecto a los ejes y el centro de masa son:"
+ },
+ {
+  "t": "formula",
+  "x": "${M}_{y}=\\sum_{i=1}^{n} {m}_{i}{x}_{i}, {M}_{x}=\\sum_{i=1}^{n} {m}_{i}{y}_{i}, (\\hat{x},\\hat{y})=\\left( \\frac{{M}_{y}}{m},\\frac{{M}_{x}}{m} \\right)$"
+ },
+ {
+  "t": "p",
+  "x": "Ilustración (Figura 3.1, izquierda): masas de $3$, $1$, $2$ y $4$ kg en $x=0.5$, $1.6$, $2.8$ y $3.6$ m dan $\\hat{x}=\\frac{1.5+1.6+5.6+14.4}{10}=2.31$ m; el punto de equilibrio se desplaza hacia la masa mayor."
+ },
+ {
+  "t": "h2",
+  "x": "C. Representaciones gráficas"
+ },
+ {
+  "t": "fig",
+  "src": "img/rId94.webp"
+ },
+ {
+  "t": "cap",
+  "x": "Figura 3.1. Izquierda: sistema discreto de masas y su punto de equilibrio. Centro: región parabólica del Ejemplo 3.1 y su centroide. Derecha: región del Ejemplo 3.2, simétrica respecto a $y=x$."
+ },
+ {
+  "t": "p",
+  "x": "**Interpretación. **En las tres gráficas el centroide se ubica sobre el eje de simetría (líneas punteadas doradas) y se desplaza hacia donde hay más masa o más área. En la parábola, la región es más ancha cerca de la base; por eso $\\hat{y}=1.6$ está por debajo de la mitad de la altura."
+ },
+ {
+  "t": "h2",
+  "x": "D. Ejemplos resueltos (Método de Pólya)"
+ },
+ {
+  "t": "h3",
+  "x": "Ejemplo 3.1: Centroide de una región parabólica"
+ },
+ {
+  "t": "enun",
+  "x": "Halle el centroide $(\\hat{x},\\hat{y})$ de la región acotada superiormente por $y=4-{x}^{2}$ e inferiormente por el eje $x$."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 1 · Comprender el problema"
+ },
+ {
+  "t": "p",
+  "x": "La región está entre las raíces $x=-2$ y $x=2$. Como es simétrica respecto al eje $y$, $\\hat{x}=0$; solo falta $\\hat{y}$."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 2 · Concebir un plan"
+ },
+ {
+  "t": "li",
+  "x": "Calcular el área $A$.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Calcular ${M}_{x}$ con $f(x)=4-{x}^{2}$ y $g(x)=0$.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Obtener $\\hat{y}={M}_{x}/A$.",
+  "ordered": true
+ },
+ {
+  "t": "h4",
+  "x": "Fase 3 · Ejecutar el plan"
+ },
+ {
+  "t": "math",
+  "x": "$A=\\int_{-2}^{2} (4-{x}^{2})\\,dx={\\left[ 4x-\\frac{{x}^{3}}{3} \\right]}_{-2}^{2}=\\frac{32}{3}$"
+ },
+ {
+  "t": "math",
+  "x": "${M}_{x}=\\frac{1}{2}\\int_{-2}^{2} {(4-{x}^{2})}^{2}\\,dx=\\int_{0}^{2} (16-8{x}^{2}+{x}^{4})\\,dx=32-\\frac{64}{3}+\\frac{32}{5}=\\frac{256}{15}$"
+ },
+ {
+  "t": "p",
+  "x": "(se usó que el integrando es par). Entonces:"
+ },
+ {
+  "t": "math",
+  "x": "$\\hat{y}=\\frac{256/15}{32/3}=\\frac{8}{5}=1.6$"
+ },
+ {
+  "t": "h4",
+  "x": "Fase 4 · Visión retrospectiva"
+ },
+ {
+  "t": "p",
+  "x": "El centroide es $(0,1.6)$. La altura máxima es $4$ y la región es más ancha en la base, de modo que es coherente que $\\hat{y}$ quede por debajo de la mitad ($1.6<2$). Para una parábola, el centroide se ubica a $\\frac{2}{5}$ de la altura, lo que coincide: $\\frac{2}{5}\\cdot 4=1.6$."
+ },
+ {
+  "t": "h3",
+  "x": "Ejemplo 3.2: Centroide de la región entre dos curvas"
+ },
+ {
+  "t": "enun",
+  "x": "Una pieza de un soporte metálico ocupa la región limitada por $y=\\sqrt{x}$ y $y={x}^{2}$. Determine su centroide."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 1 · Comprender el problema"
+ },
+ {
+  "t": "p",
+  "x": "Las curvas se cortan donde $\\sqrt{x}={x}^{2}$, es decir, en $x=0$ y $x=1$. En $[0,1]$ se cumple $\\sqrt{x}\\ge {x}^{2}$, así que $f(x)=\\sqrt{x}$ es la frontera superior y $g(x)={x}^{2}$ la inferior."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 2 · Concebir un plan"
+ },
+ {
+  "t": "p",
+  "x": "Calcular $A$, ${M}_{y}$ y ${M}_{x}$ con las fórmulas de región entre curvas. Además, observar que ambas curvas son inversas una de la otra (simétricas respecto a $y=x$), lo que permitirá verificar el resultado."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 3 · Ejecutar el plan"
+ },
+ {
+  "t": "math",
+  "x": "$A=\\int_{0}^{1} \\left( \\sqrt{x}-{x}^{2} \\right)\\,dx={\\left[ \\frac{2}{3}{x}^{3/2}-\\frac{{x}^{3}}{3} \\right]}_{0}^{1}=\\frac{1}{3}$"
+ },
+ {
+  "t": "math",
+  "x": "${M}_{y}=\\int_{0}^{1} x\\left( \\sqrt{x}-{x}^{2} \\right)\\,dx={\\left[ \\frac{2}{5}{x}^{5/2}-\\frac{{x}^{4}}{4} \\right]}_{0}^{1}=\\frac{3}{20}$"
+ },
+ {
+  "t": "math",
+  "x": "${M}_{x}=\\frac{1}{2}\\int_{0}^{1} (x-{x}^{4})\\,dx=\\frac{1}{2}\\left( \\frac{1}{2}-\\frac{1}{5} \\right)=\\frac{3}{20}$"
+ },
+ {
+  "t": "math",
+  "x": "$\\hat{x}=\\frac{3/20}{1/3}=\\frac{9}{20}, \\hat{y}=\\frac{3/20}{1/3}=\\frac{9}{20}$"
+ },
+ {
+  "t": "h4",
+  "x": "Fase 4 · Visión retrospectiva"
+ },
+ {
+  "t": "p",
+  "x": "El centroide $(0.45,0.45)$ está sobre la recta $y=x$, eje de simetría de la región: la predicción geométrica se cumple. Además, está dentro de la región, pues ${(0.45)}^{2}\\approx 0.2<0.45<\\sqrt{0.45}\\approx 0.67$."
+ },
+ {
+  "t": "h3",
+  "x": "Ejemplo 3.3: Centro de masa de un rack de servidores"
+ },
+ {
+  "t": "enun",
+  "x": "En la vista frontal de un gabinete se instalan cuatro equipos considerados como masas puntuales: $20$ kg en $(0,0)$, $30$ kg en $(2,0)$, $10$ kg en $(2,1)$ y $40$ kg en $(0,2)$ (coordenadas en decímetros). Determine el centro de masa del conjunto y decida si queda dentro del rectángulo de apoyo $0\\le x\\le 2$, $0\\le y\\le 2$."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 1 · Comprender el problema"
+ },
+ {
+  "t": "p",
+  "x": "Es un sistema discreto en el plano con masa total $m=100$ kg. Se buscan $\\hat{x}={M}_{y}/m$ y $\\hat{y}={M}_{x}/m$."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 2 · Concebir un plan"
+ },
+ {
+  "t": "p",
+  "x": "Calcular los momentos sumando ${m}_{i}{x}_{i}$ y ${m}_{i}{y}_{i}$, dividir entre la masa total y comparar con los límites del gabinete."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 3 · Ejecutar el plan"
+ },
+ {
+  "t": "math",
+  "x": "${M}_{y}=20(0)+30(2)+10(2)+40(0)=80, {M}_{x}=20(0)+30(0)+10(1)+40(2)=90$"
+ },
+ {
+  "t": "math",
+  "x": "$\\hat{x}=\\frac{80}{100}=0.8 \\text{dm}, \\hat{y}=\\frac{90}{100}=0.9 \\text{dm}$"
+ },
+ {
+  "t": "h4",
+  "x": "Fase 4 · Visión retrospectiva"
+ },
+ {
+  "t": "p",
+  "x": "El punto $(0.8,0.9)$ está dentro del gabinete, por lo que el conjunto es estable. Está más cerca de $x=0$ porque ahí se ubican $60$ kg de los $100$ kg, y más arriba de lo esperado por el equipo de $40$ kg colocado en $y=2$. Si se reubicara ese equipo en la parte inferior, $\\hat{y}$ bajaría a $0.1$ dm y mejoraría la estabilidad: la regla práctica de colocar los equipos pesados abajo tiene justificación matemática."
+ },
+ {
+  "t": "h2",
+  "x": "E. Banco de ejercicios por niveles de competencia PISA"
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 1: **Indique la posición del centroide de un rectángulo de ancho $w$ y altura $h$ con un vértice en el origen y lados sobre los ejes positivos.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 2: **Plantee la integral para calcular el área de la región encerrada entre $y={x}^{2}$ y $y=x$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 3: **Determine el centroide del triángulo limitado por los ejes coordenados y la recta $y=-x+3$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 4: **Calcule el centroide de la región acotada por $y=\\sin x$ y el eje $x$ en $[0,\\pi ]$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 5: **Una lámina triangular tiene vértices $(0,0)$, $(a,0)$ y $(0,b)$ y densidad $\\rho (x,y)=x+y$. Formule el sistema de integrales para hallar su centro de masa e identifique qué restricciones geométricas definen los límites.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 6: **Enuncie y demuestre el Teorema de Pappus para volúmenes y aplíquelo para determinar el centroide de un semicírculo de radio $R$, usando el volumen conocido de la esfera.",
+  "ordered": false
+ },
+ {
+  "t": "h2",
+  "x": "F. Aplicaciones a Ingeniería en Sistemas"
+ },
+ {
+  "t": "p",
+  "x": "**Motores de física. **Las bibliotecas de simulación de cuerpos rígidos calculan el centroide de cada polígono de colisión para aplicar fuerzas y rotaciones. Para un polígono, el centroide se obtiene descomponiéndolo en triángulos y ponderando sus centroides por el área: es la versión discreta de las integrales de este tema."
+ },
+ {
+  "t": "p",
+  "x": "**Agrupamiento k-means. **En aprendizaje automático, cada grupo se representa por su **centroide**, $\\hat{x}=\\frac{1}{n}\\sum {x}_{i}$. Es exactamente el centro de masa de un sistema discreto con masas iguales; con pesos distintos se obtiene el k-means ponderado."
+ },
+ {
+  "t": "p",
+  "x": "**Balanceo físico de infraestructura. **En centros de datos se calcula el centro de masa de los gabinetes (como en el Ejemplo 3.3) para evitar volcamientos y distribuir la carga sobre el piso técnico."
+ },
+ {
+  "t": "h2",
+  "x": "G. Resumen del tema"
+ },
+ {
+  "t": "h4",
+  "x": "Fórmulas esenciales"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Fórmula o resultado**",
+    "**Significado**"
+   ],
+   [
+    "$\\hat{x}=\\frac{\\sum {m}_{i}{x}_{i}}{\\sum {m}_{i}}$",
+    "Centro de masa discreto"
+   ],
+   [
+    "$A=\\int_{a}^{b} [f-g]\\,dx$",
+    "Área de la región entre curvas"
+   ],
+   [
+    "${M}_{y}=\\int_{a}^{b} x[f-g]\\,dx$",
+    "Momento respecto al eje $y$"
+   ],
+   [
+    "${M}_{x}=\\frac{1}{2}\\int_{a}^{b} [{f}^{2}-{g}^{2}]\\,dx$",
+    "Momento respecto al eje $x$"
+   ],
+   [
+    "$V=2\\pi \\hat{r}A$",
+    "Teorema de Pappus"
+   ]
+  ]
+ },
+ {
+  "t": "h4",
+  "x": "Conceptos clave y errores frecuentes"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Conceptos clave**",
+    "**Errores frecuentes**"
+   ],
+   [
+    "El centroide es un concepto geométrico; el centro de masa depende de la densidad.",
+    "Intercambiar ${M}_{x}$ y ${M}_{y}$."
+   ],
+   [
+    "La simetría fija coordenadas del centroide sin integrar.",
+    "Olvidar el factor $\\frac{1}{2}$ en ${M}_{x}$."
+   ],
+   [
+    "${M}_{y}$ usa el brazo $x$ y ${M}_{x}$ usa el brazo $y$.",
+    "Usar ${(f-g)}^{2}$ en lugar de ${f}^{2}-{g}^{2}$."
+   ]
+  ]
+ },
+ {
+  "t": "h2",
+  "x": "H. Referencias bibliográficas"
+ },
+ {
+  "t": "li",
+  "x": "Stewart, J. (2018). Cálculo de una variable: Trascendentes tempranas (8.ª ed.). Cengage Learning.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Hibbeler, R. C. (2016). Ingeniería mecánica: Estática (14.ª ed.). Pearson Educación.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Thomas, G. B., Weir, M. D., & Hass, J. (2015). Cálculo: Una variable (13.ª ed.). Pearson Educación.",
+  "ordered": false
+ },
+ {
+  "t": "h1",
+  "x": "04 — Funciones de Varias Variables: Fundamentos y Espacio 3D"
+ },
+ {
+  "t": "h2",
+  "x": "A. Presentación del tema"
+ },
+ {
+  "t": "p",
+  "x": "**Título: **Del Plano al Espacio: Geometría de ${R}^{3}$ y Funciones de Dos Variables"
+ },
+ {
+  "t": "p",
+  "x": "**Unidad de aprendizaje: **Geometría Analítica del Espacio Tridimensional"
+ },
+ {
+  "t": "p",
+  "x": "**Tema principal: **Representación espacial, dominio y mapas de contorno"
+ },
+ {
+  "t": "h4",
+  "x": "Objetivos de aprendizaje"
+ },
+ {
+  "t": "p",
+  "x": "Al finalizar el capítulo, el estudiante será capaz de:"
+ },
+ {
+  "t": "li",
+  "x": "Ubicar puntos y calcular distancias en el espacio ${R}^{3}$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Definir funciones de dos y tres variables y determinar su dominio y rango.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Representar superficies y construir mapas de curvas de nivel.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Interpretar curvas y superficies de nivel en contextos reales.",
+  "ordered": false
+ },
+ {
+  "t": "h4",
+  "x": "Competencias que desarrollará"
+ },
+ {
+  "t": "li",
+  "x": "Visualización espacial.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Análisis de restricciones algebraicas (raíces, logaritmos, cocientes).",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Traducción entre representaciones: ecuación, gráfica 3D y mapa de contorno.",
+  "ordered": false
+ },
+ {
+  "t": "h4",
+  "x": "Contextualización"
+ },
+ {
+  "t": "p",
+  "x": "Los modelos informáticos del mundo físico operan en el espacio tridimensional ${R}^{3}$. La computación gráfica, la geolocalización satelital y el aprendizaje automático requieren extender el concepto de función de una variable a funciones que dependen de varias entradas independientes. Los mapas topográficos y los mapas de calor son ejemplos cotidianos de curvas de nivel."
+ },
+ {
+  "t": "p",
+  "x": "Este tema desarrolla la visualización espacial: pasar de una ecuación a una forma y de una forma a una ecuación."
+ },
+ {
+  "t": "h2",
+  "x": "B. Desarrollo teórico"
+ },
+ {
+  "t": "p",
+  "x": "**Espacio euclidiano. **${R}^{3}$ es el conjunto de ternas ordenadas $(x,y,z)$. La distancia entre ${P}_{1}({x}_{1},{y}_{1},{z}_{1})$ y ${P}_{2}({x}_{2},{y}_{2},{z}_{2})$ se obtiene aplicando dos veces el teorema de Pitágoras:"
+ },
+ {
+  "t": "formula",
+  "x": "$d({P}_{1},{P}_{2})=\\sqrt{{({x}_{2}-{x}_{1})}^{2}+{({y}_{2}-{y}_{1})}^{2}+{({z}_{2}-{z}_{1})}^{2}}$"
+ },
+ {
+  "t": "p",
+  "x": "**Ecuación de la esfera **de centro $(h,k,l)$ y radio $r$:"
+ },
+ {
+  "t": "formula",
+  "x": "${(x-h)}^{2}+{(y-k)}^{2}+{(z-l)}^{2}={r}^{2}$"
+ },
+ {
+  "t": "p",
+  "x": "**Función de dos variables. **Una función $f$ asigna a cada par $(x,y)$ de un dominio $D\\subseteq {R}^{2}$ un único número real $z=f(x,y)$. El dominio es el mayor conjunto donde la expresión tiene sentido (radicandos $\\ge 0$, denominadores $\\ne 0$, argumentos de logaritmos estrictamente positivos). La gráfica de $f$ es la superficie $\\{(x,y,z):z=f(x,y), (x,y)\\in D\\}$."
+ },
+ {
+  "t": "p",
+  "x": "**Curvas de nivel. **Son las proyecciones en el plano $xy$ de los cortes horizontales de la superficie a una altura constante $z=c$:"
+ },
+ {
+  "t": "formula",
+  "x": "$f(x,y)=c$"
+ },
+ {
+  "t": "p",
+  "x": "Para funciones de tres variables, $f(x,y,z)=c$ define **superficies de nivel**."
+ },
+ {
+  "t": "h4",
+  "x": "Funciones de tres variables, dominio y rango"
+ },
+ {
+  "t": "def",
+  "x": "**Función de tres variables. **Una función $w=f(x,y,z)$ asigna a cada punto de un dominio $E\\subseteq {R}^{3}$ un único número real. Su **rango **es el conjunto $\\{f(x,y,z):(x,y,z)\\in E\\}$. Su gráfica vive en ${R}^{4}$ y no puede dibujarse; por eso se estudia mediante **superficies de nivel **$f(x,y,z)=k$."
+ },
+ {
+  "t": "p",
+  "x": "Ilustración: para $g(x,y,z)=\\ln (z-{x}^{2}-{y}^{2})$, el dominio es $E=\\{(x,y,z):z>{x}^{2}+{y}^{2}\\}$, el interior del paraboloide $z={x}^{2}+{y}^{2}$; sus superficies de nivel $z={x}^{2}+{y}^{2}+{e}^{k}$ son paraboloides trasladados verticalmente."
+ },
+ {
+  "t": "p",
+  "x": "**Gráficas de superficies. **Para dibujar $z=f(x,y)$ se combinan tres herramientas: las **trazas **(cortes con planos $x=k$, $y=k$), las **curvas de nivel **(cortes $z=k$) y el **dominio**, que indica sobre qué parte del plano $xy$ existe la superficie."
+ },
+ {
+  "t": "h2",
+  "x": "C. Representaciones gráficas"
+ },
+ {
+  "t": "fig",
+  "src": "img/rId127.webp"
+ },
+ {
+  "t": "fig",
+  "src": "img/rId130.webp"
+ },
+ {
+  "t": "p",
+  "x": "**Interpretación. **En la Figura 4.1 las elipses están más juntas en la dirección $y$: la función crece cuatro veces más rápido en esa dirección, porque el coeficiente de ${y}^{2}$ es $4$. En un mapa de contorno, **curvas juntas significan pendiente fuerte**. En la Figura 4.2 se aprecia que la recta $x=1$ separa las ramas con $c>0$ (a la derecha) de las ramas con $c<0$ (a la izquierda)."
+ },
+ {
+  "t": "h2",
+  "x": "D. Ejemplos resueltos (Método de Pólya)"
+ },
+ {
+  "t": "h3",
+  "x": "Ejemplo 4.1: Análisis de dominio y curvas de nivel"
+ },
+ {
+  "t": "enun",
+  "x": "Determine el dominio de $f(x,y)=\\frac{\\sqrt{x+y+1}}{x-1}$ y describa analíticamente su familia de curvas de nivel."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 1 · Comprender el problema"
+ },
+ {
+  "t": "p",
+  "x": "Hay dos restricciones algebraicas: la raíz cuadrada (radicando no negativo) y el denominador (no nulo). Para las curvas de nivel se resuelve $f(x,y)=c$."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 2 · Concebir un plan"
+ },
+ {
+  "t": "li",
+  "x": "Plantear el sistema de condiciones del dominio.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Igualar $f(x,y)=c$, despejar $y$ y registrar las condiciones que impone elevar al cuadrado.",
+  "ordered": true
+ },
+ {
+  "t": "h4",
+  "x": "Fase 3 · Ejecutar el plan"
+ },
+ {
+  "t": "p",
+  "x": "Dominio:"
+ },
+ {
+  "t": "math",
+  "x": "$x+y+1\\ge 0 \\Rightarrow y\\ge -x-1, x-1\\ne 0 \\Rightarrow x\\ne 1$"
+ },
+ {
+  "t": "math",
+  "x": "$D=\\{(x,y)\\in {R}^{2}∣y\\ge -x-1, x\\ne 1\\}$"
+ },
+ {
+  "t": "p",
+  "x": "Curvas de nivel:"
+ },
+ {
+  "t": "math",
+  "x": "$\\sqrt{x+y+1}=c\\,(x-1)$"
+ },
+ {
+  "t": "p",
+  "x": "Como el lado izquierdo es $\\ge 0$, se requiere $c\\,(x-1)\\ge 0$. Elevando al cuadrado:"
+ },
+ {
+  "t": "math",
+  "x": "$y={c}^{2}{(x-1)}^{2}-x-1$"
+ },
+ {
+  "t": "p",
+  "x": "- Si $c>0$: rama de parábola con $x>1$. - Si $c<0$: rama de parábola con $x<1$. - Si $c=0$: la recta $y=-x-1$ (sin el punto $x=1$)."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 4 · Visión retrospectiva"
+ },
+ {
+  "t": "p",
+  "x": "El dominio es el semiplano cerrado por encima de la recta $y=-x-1$, sin la recta vertical $x=1$. Cada curva de nivel es solo **media **parábola: sin la condición $c(x-1)\\ge 0$ se habrían incluido puntos falsos introducidos al elevar al cuadrado. Comprobación: para $c=1$ y $x=2$, $y=1-3=-2$, y $f(2,-2)=\\sqrt{1}/1=1$. ✓"
+ },
+ {
+  "t": "h3",
+  "x": "Ejemplo 4.2: Identificación de una esfera y su traza"
+ },
+ {
+  "t": "enun",
+  "x": "Un sensor de proximidad detecta objetos dentro de la región cuya frontera es ${x}^{2}+{y}^{2}+{z}^{2}-4x+6y-2z-2=0$. Demuestre que es una esfera, halle su centro y radio, determine la curva en que corta el plano del suelo $z=0$ y decida si el origen está dentro del alcance del sensor."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 1 · Comprender el problema"
+ },
+ {
+  "t": "p",
+  "x": "La ecuación es de segundo grado con coeficientes iguales en ${x}^{2}$, ${y}^{2}$, ${z}^{2}$ y sin términos cruzados, lo que sugiere una esfera. Se deben obtener centro, radio, la traza en $z=0$ y la posición del origen."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 2 · Concebir un plan"
+ },
+ {
+  "t": "li",
+  "x": "Completar cuadrados en cada variable para llevar la ecuación a la forma canónica.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Sustituir $z=0$ para obtener la traza.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Comparar la distancia del origen al centro con el radio.",
+  "ordered": true
+ },
+ {
+  "t": "h4",
+  "x": "Fase 3 · Ejecutar el plan"
+ },
+ {
+  "t": "math",
+  "x": "$({x}^{2}-4x+4)+({y}^{2}+6y+9)+({z}^{2}-2z+1)=2+4+9+1$"
+ },
+ {
+  "t": "math",
+  "x": "${(x-2)}^{2}+{(y+3)}^{2}+{(z-1)}^{2}=16$"
+ },
+ {
+  "t": "p",
+  "x": "Centro $C(2,-3,1)$ y radio $r=4$. Con $z=0$:"
+ },
+ {
+  "t": "math",
+  "x": "${(x-2)}^{2}+{(y+3)}^{2}=15$"
+ },
+ {
+  "t": "p",
+  "x": "que es una circunferencia de centro $(2,-3)$ y radio $\\sqrt{15}\\approx 3.87$. Distancia del origen al centro:"
+ },
+ {
+  "t": "math",
+  "x": "$d(O,C)=\\sqrt{4+9+1}=\\sqrt{14}\\approx 3.74<4$"
+ },
+ {
+  "t": "h4",
+  "x": "Fase 4 · Visión retrospectiva"
+ },
+ {
+  "t": "p",
+  "x": "El origen está dentro del alcance del sensor. La traza tiene radio $\\sqrt{15}<4$, coherente con que el plano $z=0$ está a distancia $1$ del centro: por Pitágoras, $\\sqrt{{4}^{2}-{1}^{2}}=\\sqrt{15}$. Dos razonamientos independientes llegan al mismo resultado."
+ },
+ {
+  "t": "h3",
+  "x": "Ejemplo 4.3: Dominio, rango y gráfica de una cúpula"
+ },
+ {
+  "t": "enun",
+  "x": "Un sensor de cobertura se modela con la función $f(x,y)=\\sqrt{9-{x}^{2}-{y}^{2}}$ (en metros). Determine su dominio, su rango, describa su gráfica y sus curvas de nivel."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 1 · Comprender el problema"
+ },
+ {
+  "t": "p",
+  "x": "La única restricción es la raíz cuadrada: el radicando debe ser no negativo. El rango se obtiene analizando qué valores puede tomar el radicando."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 2 · Concebir un plan"
+ },
+ {
+  "t": "li",
+  "x": "Resolver $9-{x}^{2}-{y}^{2}\\ge 0$.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Acotar el radicando para obtener el rango.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Elevar al cuadrado $z=f(x,y)$ para reconocer la superficie.",
+  "ordered": true
+ },
+ {
+  "t": "h4",
+  "x": "Fase 3 · Ejecutar el plan"
+ },
+ {
+  "t": "math",
+  "x": "$9-{x}^{2}-{y}^{2}\\ge 0 \\Leftrightarrow {x}^{2}+{y}^{2}\\le 9$"
+ },
+ {
+  "t": "p",
+  "x": "El dominio es el disco cerrado de centro en el origen y radio $3$. En él, $0\\le 9-{x}^{2}-{y}^{2}\\le 9$, de modo que el rango es $[0,3]$. Con $z=\\sqrt{9-{x}^{2}-{y}^{2}}$, $z\\ge 0$:"
+ },
+ {
+  "t": "math",
+  "x": "${x}^{2}+{y}^{2}+{z}^{2}=9$"
+ },
+ {
+  "t": "p",
+  "x": "La gráfica es la **semiesfera superior **de radio $3$. Las curvas de nivel $f=c$, con $0\\le c\\le 3$, son las circunferencias ${x}^{2}+{y}^{2}=9-{c}^{2}$, de radio $\\sqrt{9-{c}^{2}}$."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 4 · Visión retrospectiva"
+ },
+ {
+  "t": "p",
+  "x": "Para $c=3$ la curva de nivel se reduce al punto $(0,0)$, la cima de la cúpula; para $c=0$ es la circunferencia de radio $3$, el borde. Las circunferencias se juntan cerca del borde, donde la semiesfera es casi vertical, lo cual concuerda con la regla de las curvas juntas."
+ },
+ {
+  "t": "h2",
+  "x": "E. Banco de ejercicios por niveles de competencia PISA"
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 1: **Calcule la distancia entre el origen $(0,0,0)$ y el punto $(2,3,6)$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 2: **Identifique la figura definida por ${x}^{2}+{y}^{2}+{z}^{2}=16$ e indique su centro y radio.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 3: **Halle y grafique el dominio de $f(x,y)=\\ln (y-{x}^{2})$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 4: **Dibuje las curvas de nivel del campo de temperaturas $T(x,y)={x}^{2}+4{y}^{2}$ para $c=1,4,16$ e interprete cómo cambia la temperatura al alejarse del origen en las direcciones $x$ y $y$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 5: **Modele el área superficial de un contenedor rectangular cerrado de volumen constante ${V}_{0}=100 {\\text{m}}^{3}$ como función del ancho $x$ y el largo $y$, e indique el dominio físico de la función.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 6: **En un sistema GPS, la posición se obtiene como la intersección de esferas centradas en los satélites. Plantee las ecuaciones para tres satélites, muestre que al restarlas se obtienen planos y analice geométricamente por qué la precisión se degrada cuando los centros tienden a ser colineales.",
+  "ordered": false
+ },
+ {
+  "t": "h2",
+  "x": "F. Aplicaciones a Ingeniería en Sistemas"
+ },
+ {
+  "t": "p",
+  "x": "**Ciencia de datos y aprendizaje automático. **Un modelo con dos parámetros $({w}_{1},{w}_{2})$ tiene una función de pérdida $L({w}_{1},{w}_{2})$, que es una superficie. Las bibliotecas de visualización dibujan sus curvas de nivel para analizar el entrenamiento: el algoritmo avanza perpendicular a esas curvas."
+ },
+ {
+  "t": "p",
+  "x": "**Mapas de calor y cobertura inalámbrica. **La intensidad de señal WiFi en un edificio es una función $I(x,y)$; las curvas de nivel $I=c$ delimitan zonas de buena, regular y mala cobertura, y guían la ubicación de los puntos de acceso."
+ },
+ {
+  "t": "p",
+  "x": "**Procesamiento de imágenes. **Una imagen en escala de grises es una función $f(x,y)$ de intensidad. Los algoritmos de segmentación por umbral extraen la región $\\{f(x,y)\\ge c\\}$, que está limitada por una curva de nivel."
+ },
+ {
+  "t": "h2",
+  "x": "G. Resumen del tema"
+ },
+ {
+  "t": "h4",
+  "x": "Fórmulas esenciales"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Fórmula o resultado**",
+    "**Significado**"
+   ],
+   [
+    "$d=\\sqrt{\\Delta {x}^{2}+\\Delta {y}^{2}+\\Delta {z}^{2}}$",
+    "Distancia en ${R}^{3}$"
+   ],
+   [
+    "${(x-h)}^{2}+{(y-k)}^{2}+{(z-l)}^{2}={r}^{2}$",
+    "Esfera de centro $(h,k,l)$ y radio $r$"
+   ],
+   [
+    "$f(x,y)=c$",
+    "Curva de nivel"
+   ],
+   [
+    "$f(x,y,z)=k$",
+    "Superficie de nivel"
+   ]
+  ]
+ },
+ {
+  "t": "h4",
+  "x": "Conceptos clave y errores frecuentes"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Conceptos clave**",
+    "**Errores frecuentes**"
+   ],
+   [
+    "El dominio es el mayor conjunto donde la fórmula tiene sentido.",
+    "Olvidar condiciones al elevar al cuadrado (Ejemplo 4.1)."
+   ],
+   [
+    "Las curvas de nivel juntas indican crecimiento rápido.",
+    "Confundir el dominio (en el plano $xy$) con la gráfica (en el espacio)."
+   ],
+   [
+    "Para reconocer una superficie conviene completar cuadrados.",
+    "Usar $\\ge 0$ en lugar de la desigualdad estricta en argumentos de logaritmos."
+   ]
+  ]
+ },
+ {
+  "t": "h2",
+  "x": "H. Referencias bibliográficas"
+ },
+ {
+  "t": "li",
+  "x": "Zill, D. G., & Wright, W. S. (2011). Cálculo: Trascendentes tempranas (4.ª ed.). McGraw-Hill.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Stewart, J. (2018). Cálculo de varias variables: Trascendentes tempranas (8.ª ed.). Cengage Learning.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Larson, R., & Edwards, B. H. (2014). Cálculo 2 de varias variables (10.ª ed.). Cengage Learning.",
+  "ordered": false
+ },
+ {
+  "t": "h1",
+  "x": "05 — Funciones de Varias Variables: Operaciones y Superficies"
+ },
+ {
+  "t": "h2",
+  "x": "A. Presentación del tema"
+ },
+ {
+  "t": "p",
+  "x": "**Título: **Superficies en el Espacio: Funciones de $n$ Variables y Cuádricas"
+ },
+ {
+  "t": "p",
+  "x": "**Unidad de aprendizaje: **Funciones Escalares de Varias Variables"
+ },
+ {
+  "t": "p",
+  "x": "**Tema principal: **Evaluación, dominio, rango y análisis de superficies cuádricas"
+ },
+ {
+  "t": "h4",
+  "x": "Objetivos de aprendizaje"
+ },
+ {
+  "t": "p",
+  "x": "Al finalizar el capítulo, el estudiante será capaz de:"
+ },
+ {
+  "t": "li",
+  "x": "Evaluar funciones de varias variables y operar con ellas (suma, producto, cociente, composición).",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Determinar el dominio de funciones obtenidas mediante operaciones.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Identificar las superficies cuádricas por su forma canónica y sus trazas.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Modelar situaciones reales con funciones de varias variables, con su dominio de validez.",
+  "ordered": false
+ },
+ {
+  "t": "h4",
+  "x": "Competencias que desarrollará"
+ },
+ {
+  "t": "li",
+  "x": "Manipulación algebraica de expresiones en varias variables.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Clasificación de superficies a partir de su ecuación.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Modelación con restricciones físicas y económicas.",
+  "ordered": false
+ },
+ {
+  "t": "h4",
+  "x": "Contextualización"
+ },
+ {
+  "t": "p",
+  "x": "En las simulaciones climáticas, las finanzas cuantitativas y los modelos econométricos, los resultados dependen de la interacción de muchos parámetros simultáneos. Es indispensable extender la notación de funciones de dos a $n$ variables y reconocer la forma de sus gráficas. Las superficies cuádricas son el “alfabeto” geométrico del espacio: elipsoides en el diseño de lentes, paraboloides en antenas y torres de enfriamiento hiperboloides."
+ },
+ {
+  "t": "h2",
+  "x": "B. Desarrollo teórico"
+ },
+ {
+  "t": "p",
+  "x": "**Función de **$n$ **variables. **Asigna a cada vector $x=({x}_{1},\\ldots ,{x}_{n})\\in D\\subseteq {R}^{n}$ un único número real $u=f(x)$. Su **rango **es el conjunto de valores $f(x)$ obtenidos. Las funciones se suman, multiplican y componen igual que en una variable, sobre la intersección de sus dominios."
+ },
+ {
+  "t": "p",
+  "x": "**Superficies cuádricas. **Son las gráficas de ecuaciones de segundo grado en tres variables:"
+ },
+ {
+  "t": "formula",
+  "x": "$A{x}^{2}+B{y}^{2}+C{z}^{2}+Dxy+Exz+Fyz+Gx+Hy+Iz+J=0$"
+ },
+ {
+  "t": "p",
+  "x": "Formas canónicas principales:"
+ },
+ {
+  "t": "formula",
+  "x": "$\\text{Elipsoide: }\\frac{{x}^{2}}{{a}^{2}}+\\frac{{y}^{2}}{{b}^{2}}+\\frac{{z}^{2}}{{c}^{2}}=1 \\text{Paraboloide elíptico: }\\frac{z}{c}=\\frac{{x}^{2}}{{a}^{2}}+\\frac{{y}^{2}}{{b}^{2}}$"
+ },
+ {
+  "t": "formula",
+  "x": "$\\text{Hiperboloide de una hoja: }\\frac{{x}^{2}}{{a}^{2}}+\\frac{{y}^{2}}{{b}^{2}}-\\frac{{z}^{2}}{{c}^{2}}=1 \\text{de dos hojas: }-\\frac{{x}^{2}}{{a}^{2}}-\\frac{{y}^{2}}{{b}^{2}}+\\frac{{z}^{2}}{{c}^{2}}=1$"
+ },
+ {
+  "t": "formula",
+  "x": "$\\text{Cono elíptico: }\\frac{{z}^{2}}{{c}^{2}}=\\frac{{x}^{2}}{{a}^{2}}+\\frac{{y}^{2}}{{b}^{2}} \\text{Paraboloide hiperbólico: }\\frac{z}{c}=\\frac{{y}^{2}}{{b}^{2}}-\\frac{{x}^{2}}{{a}^{2}}$"
+ },
+ {
+  "t": "p",
+  "x": "**Método de trazas. **Para identificar una cuádrica se estudian sus cortes con planos paralelos a los planos coordenados ($x=k$, $y=k$, $z=k$): cada traza es una cónica (elipse, parábola o hipérbola)."
+ },
+ {
+  "t": "h4",
+  "x": "Operaciones entre funciones"
+ },
+ {
+  "t": "def",
+  "x": "Si $f$ y $g$ están definidas en ${D}_{f}$ y ${D}_{g}$:"
+ },
+ {
+  "t": "li",
+  "x": "$(f\\pm g)(x,y)=f(x,y)\\pm g(x,y)$ y $(fg)(x,y)=f(x,y)\\,g(x,y)$, con dominio ${D}_{f}\\cap {D}_{g}$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "$\\left( \\frac{f}{g} \\right)(x,y)=\\frac{f(x,y)}{g(x,y)}$, con dominio $\\{(x,y)\\in {D}_{f}\\cap {D}_{g}:g(x,y)\\ne 0\\}$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Composición: **si $z=f(x,y)$ y $h$ es una función de una variable, $(h\\circ f)(x,y)=h(f(x,y))$ está definida donde $(x,y)\\in {D}_{f}$ y $f(x,y)\\in {D}_{h}$.",
+  "ordered": false
+ },
+ {
+  "t": "p",
+  "x": "Ilustración: con $f(x,y)={x}^{2}+{y}^{2}$ y $h(t)=\\ln (4-t)$, la composición $(h\\circ f)(x,y)=\\ln (4-{x}^{2}-{y}^{2})$ exige ${x}^{2}+{y}^{2}<4$ (disco abierto). Como $0<4-{x}^{2}-{y}^{2}\\le 4$, su rango es el conjunto de valores $h$ con $-\\infty <h\\le \\ln 4$."
+ },
+ {
+  "t": "p",
+  "x": "**Interpretación algebraica y geométrica. **Sumar una constante, $f(x,y)+k$, traslada la superficie verticalmente; multiplicar por $k>0$ la estira; reemplazar $(x,y)$ por $(x-h,y-k)$ la traslada horizontalmente. Estas transformaciones permiten reconocer rápidamente cuádricas desplazadas."
+ },
+ {
+  "t": "h2",
+  "x": "C. Representaciones gráficas"
+ },
+ {
+  "t": "fig",
+  "src": "img/rId163.webp"
+ },
+ {
+  "t": "fig",
+  "src": "img/rId166.webp"
+ },
+ {
+  "t": "p",
+  "x": "**Interpretación. **En la Figura 5.1, las cuádricas con un solo término lineal (paraboloides) tienen forma de “cuenco” o de “silla”; las que tienen tres términos cuadráticos se distinguen por el número de signos negativos: ninguno (elipsoide), uno (una hoja) o dos (dos hojas). En la Figura 5.2, cualquier punto bajo la curva es una configuración admisible; el punto rojo del ejemplo está dentro, con margen."
+ },
+ {
+  "t": "h2",
+  "x": "D. Ejemplos resueltos (Método de Pólya)"
+ },
+ {
+  "t": "h3",
+  "x": "Ejemplo 5.1: Evaluación multivariable y región de operación"
+ },
+ {
+  "t": "enun",
+  "x": "Un modelo de costos de almacenamiento en la nube es $C(x,y)=300+10x+15y-0.01xy$ (en dólares), donde $x$ es el número de instancias de procesamiento y $y$ el volumen en terabytes (TB). Determine el costo de operar 100 instancias y 200 TB, establezca el dominio físico en el que el modelo es válido y describa la región de operación si el costo no debe superar $5,000."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 1 · Comprender el problema"
+ },
+ {
+  "t": "p",
+  "x": "Datos: la función $C(x,y)$ y el techo presupuestario de $5,000. Incógnitas: el valor $C(100,200)$ y el conjunto de pares $(x,y)$ admisibles."
+ },
+ {
+  "t": "p",
+  "x": "**Dominio físico. **El número de instancias es un entero no negativo, $x\\in \\{0,1,2,\\ldots \\}$, y el volumen cumple $y\\ge 0$. Además, un modelo de costos solo tiene sentido si agregar recursos **aumenta **el costo, es decir, si los costos marginales son positivos:"
+ },
+ {
+  "t": "math",
+  "x": "$\\frac{\\partial C}{\\partial x}=10-0.01y>0 \\Leftrightarrow y<1000, \\frac{\\partial C}{\\partial y}=15-0.01x>0 \\Leftrightarrow x<1500$"
+ },
+ {
+  "t": "p",
+  "x": "Por lo tanto, el modelo es válido en la región $V=\\{(x,y):0\\le x<1500, 0\\le y<1000\\}$. Fuera de ella el término $-0.01xy$ haría que el costo disminuyera al contratar más recursos, lo cual es absurdo."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 2 · Concebir un plan"
+ },
+ {
+  "t": "li",
+  "x": "Comprobar que $(100,200)\\in V$ y sustituir.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Plantear la desigualdad $C(x,y)\\le 5000$, agrupar los términos en $y$ y despejar, verificando el **signo **del coeficiente de $y$ antes de dividir.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Determinar el intervalo de valores de $x$ para los que existe algún $y\\ge 0$ admisible.",
+  "ordered": true
+ },
+ {
+  "t": "h4",
+  "x": "Fase 3 · Ejecutar el plan"
+ },
+ {
+  "t": "p",
+  "x": "Como $100<1500$ y $200<1000$, el punto está en $V$:"
+ },
+ {
+  "t": "math",
+  "x": "$C(100,200)=300+10(100)+15(200)-0.01(100)(200)=300+1000+3000-200=\\$4,100$"
+ },
+ {
+  "t": "p",
+  "x": "Restricción de costo:"
+ },
+ {
+  "t": "math",
+  "x": "$300+10x+15y-0.01xy\\le 5000 \\Rightarrow y\\,(15-0.01x)\\le 4700-10x$"
+ },
+ {
+  "t": "p",
+  "x": "En $V$ se cumple $15-0.01x>0$, así que al dividir la desigualdad **conserva su sentido**:"
+ },
+ {
+  "t": "math",
+  "x": "$y\\le g(x)=\\frac{4700-10x}{15-0.01x}$"
+ },
+ {
+  "t": "p",
+  "x": "Para que exista algún $y\\ge 0$ se necesita $g(x)\\ge 0$; como el denominador es positivo, esto equivale a $4700-10x\\ge 0$, es decir, $x\\le 470$. En efecto, si $x>470$, incluso con $y=0$ el costo es $300+10x>5000$. La función $g$ es decreciente, pues"
+ },
+ {
+  "t": "math",
+  "x": "$g'(x)=\\frac{-10(15-0.01x)+0.01(4700-10x)}{{(15-0.01x)}^{2}}=\\frac{-103}{{(15-0.01x)}^{2}}<0$"
+ },
+ {
+  "t": "p",
+  "x": "y su valor máximo es $g(0)\\approx 313.3<1000$, de modo que la región queda dentro de $V$. La región de operación es:"
+ },
+ {
+  "t": "math",
+  "x": "$R=\\{(x,y):x\\in \\{0,1,\\ldots ,470\\}, 0\\le y\\le g(x)\\}$"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Instancias **$x$",
+    "**0**",
+    "**100**",
+    "**300**",
+    "**470**"
+   ],
+   [
+    "Volumen máximo $g(x)$ (TB)",
+    "313.3",
+    "264.3",
+    "141.7",
+    "0"
+   ]
+  ]
+ },
+ {
+  "t": "h4",
+  "x": "Fase 4 · Visión retrospectiva"
+ },
+ {
+  "t": "p",
+  "x": "El punto $(100,200)$ es admisible: $200\\le g(100)=\\frac{3700}{14}\\approx 264.3$. ✓ En la frontera, $C(100, 264.29)=300+1000+3964.3-264.3=5000$. ✓ Cuantas más instancias se contratan, menos almacenamiento cabe en el presupuesto, lo que coincide con $g'<0$. Errores frecuentes que se evitaron: dividir una desigualdad entre una expresión con variables sin verificar su signo, ignorar que $x$ es entero y usar el modelo fuera de su región de validez $V$."
+ },
+ {
+  "t": "h3",
+  "x": "Ejemplo 5.2: Identificación de una cuádrica por trazas"
+ },
+ {
+  "t": "enun",
+  "x": "Identifique y describa la superficie $4{x}^{2}-{y}^{2}+2{z}^{2}+4=0$ mediante su forma canónica y sus trazas."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 1 · Comprender el problema"
+ },
+ {
+  "t": "p",
+  "x": "Es una ecuación de segundo grado sin términos cruzados ni lineales, por lo que está centrada en el origen. Hay dos signos positivos y uno negativo, lo que indica algún tipo de hiperboloide."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 2 · Concebir un plan"
+ },
+ {
+  "t": "li",
+  "x": "Dividir entre $-4$ para obtener la forma canónica con $1$ en el lado derecho.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Comparar con las formas de la sección teórica.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Analizar las trazas en planos $y=k$, $x=0$ y $z=0$.",
+  "ordered": true
+ },
+ {
+  "t": "h4",
+  "x": "Fase 3 · Ejecutar el plan"
+ },
+ {
+  "t": "math",
+  "x": "$4{x}^{2}-{y}^{2}+2{z}^{2}=-4 \\Rightarrow \\frac{{y}^{2}}{4}-{x}^{2}-\\frac{{z}^{2}}{2}=1$"
+ },
+ {
+  "t": "p",
+  "x": "Es un **hiperboloide de dos hojas **con eje en el eje $y$ (la variable con signo positivo). Trazas:"
+ },
+ {
+  "t": "li",
+  "x": "Plano $y=k$: ${x}^{2}+\\frac{{z}^{2}}{2}=\\frac{{k}^{2}}{4}-1$. Si $\\left| k \\right|>2$ es una elipse; si $\\left| k \\right|=2$, un punto; si $\\left| k \\right|<2$, no hay traza.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Plano $x=0$: $\\frac{{y}^{2}}{4}-\\frac{{z}^{2}}{2}=1$, una hipérbola.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Plano $z=0$: $\\frac{{y}^{2}}{4}-{x}^{2}=1$, una hipérbola.",
+  "ordered": false
+ },
+ {
+  "t": "h4",
+  "x": "Fase 4 · Visión retrospectiva"
+ },
+ {
+  "t": "p",
+  "x": "La ausencia de trazas para $-2<y<2$ confirma la existencia de dos hojas separadas, con vértices en $(0,\\pm 2,0)$. Comprobación: $(0,2,0)$ satisface $0-4+0+4=0$. ✓"
+ },
+ {
+  "t": "h3",
+  "x": "Ejemplo 5.3: Dominio de una función compuesta y producto"
+ },
+ {
+  "t": "enun",
+  "x": "Sea $u(x,y)=\\sqrt{x}\\,\\ln (y-x)$. Determine su dominio, evalúe $u(4,5)$ y $u(1,1+e)$, y describa geométricamente el dominio."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 1 · Comprender el problema"
+ },
+ {
+  "t": "p",
+  "x": "$u$ es el producto de $f(x,y)=\\sqrt{x}$ y de la composición $g(x,y)=\\ln (y-x)$. El dominio del producto es la intersección de los dominios."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 2 · Concebir un plan"
+ },
+ {
+  "t": "p",
+  "x": "Escribir la condición de cada factor, intersecarlas y evaluar en los puntos dados verificando que pertenezcan al dominio."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 3 · Ejecutar el plan"
+ },
+ {
+  "t": "math",
+  "x": "${D}_{f}=\\{x\\ge 0\\}, {D}_{g}=\\{y-x>0\\}=\\{y>x\\}$"
+ },
+ {
+  "t": "math",
+  "x": "${D}_{u}=\\{(x,y):x\\ge 0, y>x\\}$"
+ },
+ {
+  "t": "math",
+  "x": "$u(4,5)=\\sqrt{4}\\,\\ln (1)=0, u(1,1+e)=\\sqrt{1}\\,\\ln (e)=1$"
+ },
+ {
+  "t": "h4",
+  "x": "Fase 4 · Visión retrospectiva"
+ },
+ {
+  "t": "p",
+  "x": "El dominio es la porción del semiplano derecho situada estrictamente por encima de la recta $y=x$: incluye el semieje $y$ positivo ($x=0$, $y>0$) pero no la recta $y=x$. Ambos puntos evaluados cumplen $y>x\\ge 0$. ✓ El valor $u(4,5)=0$ muestra que el producto se anula cuando cualquiera de los factores se anula."
+ },
+ {
+  "t": "h2",
+  "x": "E. Banco de ejercicios por niveles de competencia PISA"
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 1: **Dado $f(x,y)=2x+3y$, evalúe $f(1,2)$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 2: **Indique el dominio de $f(x,y)=\\sqrt{x+y}$ y descríbalo geométricamente.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 3: **Evalúe $g(x,y,z)={x}^{2}\\sin y+z$ en el punto $(2,\\pi /2,5)$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 4: **El Índice de Masa Corporal se define como función del peso $W$ (kg) y la altura $H$ (m). Escriba la función, evalúela para $W=70$, $H=1.75$ y describa sus curvas de nivel.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 5: **Halle el dominio y el rango de $f(x,y)=\\ln (9-{x}^{2}-9{y}^{2})$ e indique si la región del dominio es abierta o cerrada.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 6: **Demuestre mediante cortes horizontales que las curvas de nivel del paraboloide elíptico $z=\\frac{{x}^{2}}{{a}^{2}}+\\frac{{y}^{2}}{{b}^{2}}$ son elipses concéntricas. Analice qué ocurre con la superficie cuando $a=b$ (paraboloide de revolución) y por qué esta forma se usa en antenas.",
+  "ordered": false
+ },
+ {
+  "t": "h2",
+  "x": "F. Aplicaciones a Ingeniería en Sistemas"
+ },
+ {
+  "t": "p",
+  "x": "**Modelos de costo en la nube. **El Ejemplo 5.1 muestra el patrón general: el costo depende de varios recursos, puede incluir términos de interacción (descuentos por volumen) y solo es válido en una región. Antes de optimizar, un ingeniero debe establecer el dominio físico del modelo."
+ },
+ {
+  "t": "p",
+  "x": "**Trazado de rayos (ray tracing). **Los motores de renderizado representan esferas, cilindros y conos como cuádricas $F(x,y,z)=0$. Para saber si un rayo $p(t)=o+td$ choca con la superficie, sustituyen y resuelven una ecuación cuadrática en $t$: el discriminante decide si hay intersección."
+ },
+ {
+  "t": "p",
+  "x": "**Regresión con interacción. **En análisis de datos, un modelo $\\hat{y}={\\beta }_{0}+{\\beta }_{1}{x}_{1}+{\\beta }_{2}{x}_{2}+{\\beta }_{3}{x}_{1}{x}_{2}$ es una función de dos variables. El término ${x}_{1}{x}_{2}$ produce una superficie en forma de silla (paraboloide hiperbólico rotado)."
+ },
+ {
+  "t": "h2",
+  "x": "G. Resumen del tema"
+ },
+ {
+  "t": "h4",
+  "x": "Fórmulas esenciales"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Fórmula o resultado**",
+    "**Significado**"
+   ],
+   [
+    "${D}_{f\\pm g}={D}_{f}\\cap {D}_{g}$",
+    "Dominio de suma, resta y producto"
+   ],
+   [
+    "$\\frac{{x}^{2}}{{a}^{2}}+\\frac{{y}^{2}}{{b}^{2}}+\\frac{{z}^{2}}{{c}^{2}}=1$",
+    "Elipsoide"
+   ],
+   [
+    "$\\frac{{x}^{2}}{{a}^{2}}+\\frac{{y}^{2}}{{b}^{2}}-\\frac{{z}^{2}}{{c}^{2}}=\\pm 1$",
+    "Hiperboloide de una hoja (lado derecho $+1$) o de dos hojas ($-1$)"
+   ],
+   [
+    "$\\frac{z}{c}=\\frac{{y}^{2}}{{b}^{2}}-\\frac{{x}^{2}}{{a}^{2}}$",
+    "Paraboloide hiperbólico (silla)"
+   ]
+  ]
+ },
+ {
+  "t": "h4",
+  "x": "Conceptos clave y errores frecuentes"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Conceptos clave**",
+    "**Errores frecuentes**"
+   ],
+   [
+    "Las trazas son cónicas y permiten identificar la cuádrica.",
+    "Dividir una desigualdad entre una expresión con variables sin revisar su signo."
+   ],
+   [
+    "El eje de un hiperboloide es la variable con signo distinto.",
+    "Confundir el hiperboloide de una hoja con el de dos hojas."
+   ],
+   [
+    "Todo modelo tiene un dominio de validez, además del algebraico.",
+    "Ignorar que algunas variables (instancias, usuarios) son enteras."
+   ]
+  ]
+ },
+ {
+  "t": "h2",
+  "x": "H. Referencias bibliográficas"
+ },
+ {
+  "t": "li",
+  "x": "Stewart, J. (2018). Cálculo de varias variables: Trascendentes tempranas (8.ª ed.). Cengage Learning.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Apostol, T. M. (2001). Calculus, Vol. 2 (2.ª ed.). Reverté.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Zill, D. G., & Wright, W. S. (2011). Cálculo: Trascendentes tempranas (4.ª ed.). McGraw-Hill.",
+  "ordered": false
+ },
+ {
+  "t": "h1",
+  "x": "06 — Valor Promedio de una Función Multivariable"
+ },
+ {
+  "t": "h2",
+  "x": "A. Presentación del tema"
+ },
+ {
+  "t": "p",
+  "x": "**Título: **Promedios sobre Regiones y Sólidos: Integración Múltiple Aplicada"
+ },
+ {
+  "t": "p",
+  "x": "**Unidad de aprendizaje: **Integración Múltiple y Campos Escalares"
+ },
+ {
+  "t": "p",
+  "x": "**Tema principal: **Valor promedio sobre regiones bidimensionales y sólidos"
+ },
+ {
+  "t": "h4",
+  "x": "Objetivos de aprendizaje"
+ },
+ {
+  "t": "p",
+  "x": "Al finalizar el capítulo, el estudiante será capaz de:"
+ },
+ {
+  "t": "li",
+  "x": "Generalizar el valor promedio a regiones planas y a sólidos.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Describir regiones de integración de tipo I, tipo II, polares y esféricas.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Evaluar integrales dobles y triples iteradas y dividirlas entre el área o el volumen.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Aplicar el valor promedio multivariable a problemas de ingeniería.",
+  "ordered": false
+ },
+ {
+  "t": "h4",
+  "x": "Competencias que desarrollará"
+ },
+ {
+  "t": "li",
+  "x": "Descripción de regiones mediante desigualdades.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Elección del sistema de coordenadas más conveniente.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Interpretación física de los promedios (temperatura, densidad, distancia).",
+  "ordered": false
+ },
+ {
+  "t": "h4",
+  "x": "Contextualización"
+ },
+ {
+  "t": "p",
+  "x": "Calcular la temperatura promedio de una placa metálica, la densidad media de carga en un microchip o la elevación media de un terreno levantado con drones requiere extender el valor promedio a regiones del plano y del espacio. La idea es la misma que en una variable: integrar la función y dividir entre el “tamaño” de la región, que ahora es un área o un volumen."
+ },
+ {
+  "t": "h2",
+  "x": "B. Desarrollo teórico"
+ },
+ {
+  "t": "p",
+  "x": "**Promedio sobre una región plana. **Si $f(x,y)$ es continua en una región cerrada y acotada $R\\subset {R}^{2}$:"
+ },
+ {
+  "t": "formula",
+  "x": "${f}_{\\text{prom}}=\\frac{1}{A(R)}\\iint_{R} f(x,y)\\,dA, A(R)=\\iint_{R} dA$"
+ },
+ {
+  "t": "p",
+  "x": "**Promedio sobre un sólido **$Q\\subset {R}^{3}$:"
+ },
+ {
+  "t": "formula",
+  "x": "${f}_{\\text{prom}}=\\frac{1}{V(Q)}\\iiint_{Q} f(x,y,z)\\,dV$"
+ },
+ {
+  "t": "p",
+  "x": "**Teorema de Fubini (regiones generales). **Si $R=\\{(x,y):a\\le x\\le b, {g}_{1}(x)\\le y\\le {g}_{2}(x)\\}$ (región tipo I):"
+ },
+ {
+  "t": "formula",
+  "x": "$\\iint_{R} f(x,y)\\,dA=\\int_{a}^{b} \\int_{{g}_{1}(x)}^{{g}_{2}(x)} f(x,y)\\,dy\\,dx$"
+ },
+ {
+  "t": "p",
+  "x": "**Coordenadas polares**, útiles en regiones circulares: $x=r\\cos \\theta$, $y=r\\sin \\theta$:"
+ },
+ {
+  "t": "formula",
+  "x": "$dA=r\\,dr\\,d\\theta$"
+ },
+ {
+  "t": "p",
+  "x": "**Interpretación geométrica: **si $f\\ge 0$, ${f}_{\\text{prom}}$ es la altura del prisma con base $R$ que tiene el mismo volumen que el sólido bajo la superficie $z=f(x,y)$."
+ },
+ {
+  "t": "h4",
+  "x": "Revisión: del promedio en una variable al promedio en varias"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "",
+    "**Una variable**",
+    "**Dos variables**",
+    "**Tres variables**"
+   ],
+   [
+    "Dominio",
+    "Intervalo $[a,b]$",
+    "Región $R$",
+    "Sólido $Q$"
+   ],
+   [
+    "“Tamaño”",
+    "Longitud $b-a$",
+    "Área $A(R)$",
+    "Volumen $V(Q)$"
+   ],
+   [
+    "Promedio",
+    "$\\frac{1}{b-a}\\int_{a}^{b} f\\,dx$",
+    "$\\frac{1}{A}\\iint_{R} f\\,dA$",
+    "$\\frac{1}{V}\\iiint_{Q} f\\,dV$"
+   ]
+  ]
+ },
+ {
+  "t": "h4",
+  "x": "Regiones de integración"
+ },
+ {
+  "t": "li",
+  "x": "**Tipo I: **$R=\\{a\\le x\\le b, {g}_{1}(x)\\le y\\le {g}_{2}(x)\\}$; se integra primero respecto a $y$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Tipo II: **$R=\\{c\\le y\\le d, {h}_{1}(y)\\le x\\le {h}_{2}(y)\\}$; se integra primero respecto a $x$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Polar: **$R=\\{\\alpha \\le \\theta \\le \\beta , {r}_{1}(\\theta )\\le r\\le {r}_{2}(\\theta )\\}$, con $dA=r\\,dr\\,d\\theta$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Sólido simple: **$Q=\\{(x,y)\\in R, {u}_{1}(x,y)\\le z\\le {u}_{2}(x,y)\\}$, con $\\iiint_{Q} f\\,dV=\\iint_{R} \\left[ \\int_{{u}_{1}}^{{u}_{2}} f\\,dz \\right]dA$.",
+  "ordered": false
+ },
+ {
+  "t": "p",
+  "x": "**Coordenadas esféricas**, para esferas y conos: $x=\\rho \\sin \\phi \\cos \\theta$, $y=\\rho \\sin \\phi \\sin \\theta$, $z=\\rho \\cos \\phi$:"
+ },
+ {
+  "t": "formula",
+  "x": "$dV={\\rho }^{2}\\sin \\phi \\,d\\rho \\,d\\phi \\,d\\theta$"
+ },
+ {
+  "t": "h2",
+  "x": "C. Representaciones gráficas"
+ },
+ {
+  "t": "fig",
+  "src": "img/rId200.webp"
+ },
+ {
+  "t": "cap",
+  "x": "Figura 6.1. Izquierda: $f={x}^{2}y$ sobre el rectángulo del Ejemplo 6.1; la curva roja marca los puntos donde $f$ iguala su promedio. Derecha: región tipo I del Ejemplo 6.2, coloreada según $f=xy$."
+ },
+ {
+  "t": "p",
+  "x": "**Interpretación. **La curva roja de la izquierda (${x}^{2}y=2$) divide el rectángulo en una zona donde $f$ supera su promedio (esquina superior derecha, pequeña pero con valores muy altos) y otra donde queda por debajo (zona amplia con valores bajos). En la derecha, la flecha muestra el orden de integración: para cada $x$, $y$ recorre desde la parábola hasta la recta."
+ },
+ {
+  "t": "h2",
+  "x": "D. Ejemplos resueltos (Método de Pólya)"
+ },
+ {
+  "t": "h3",
+  "x": "Ejemplo 6.1: Valor promedio sobre una región rectangular"
+ },
+ {
+  "t": "enun",
+  "x": "Encuentre el valor promedio de $f(x,y)={x}^{2}y$ sobre el rectángulo $R=[0,2]\\times [0,3]$."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 1 · Comprender el problema"
+ },
+ {
+  "t": "p",
+  "x": "Buscamos la altura media de la superficie $z={x}^{2}y$ sobre una base rectangular de $2\\times 3$."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 2 · Concebir un plan"
+ },
+ {
+  "t": "li",
+  "x": "Área de la base: $A(R)=2\\cdot 3=6$.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Resolver la integral iterada.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Dividir entre $6$.",
+  "ordered": true
+ },
+ {
+  "t": "h4",
+  "x": "Fase 3 · Ejecutar el plan"
+ },
+ {
+  "t": "math",
+  "x": "$\\iint_{R} {x}^{2}y\\,dA=\\int_{0}^{3} \\int_{0}^{2} {x}^{2}y\\,dx\\,dy=\\int_{0}^{3} \\frac{8}{3}y\\,dy=\\frac{8}{3}\\cdot \\frac{9}{2}=12$"
+ },
+ {
+  "t": "math",
+  "x": "${f}_{\\text{prom}}=\\frac{12}{6}=2$"
+ },
+ {
+  "t": "h4",
+  "x": "Fase 4 · Visión retrospectiva"
+ },
+ {
+  "t": "p",
+  "x": "Como $f$ es un producto $g(x)h(y)$ sobre un rectángulo, su promedio es el producto de los promedios: $\\left( \\frac{1}{2}\\int_{0}^{2} {x}^{2}\\,dx \\right)\\left( \\frac{1}{3}\\int_{0}^{3} y\\,dy \\right)=\\frac{4}{3}\\cdot \\frac{3}{2}=2$. ✓ El valor está entre el mínimo $0$ y el máximo $f(2,3)=12$, cerca del mínimo porque los valores grandes se concentran en una esquina."
+ },
+ {
+  "t": "h3",
+  "x": "Ejemplo 6.2: Valor promedio sobre una región no rectangular"
+ },
+ {
+  "t": "enun",
+  "x": "La densidad de carga en una zona de un circuito impreso es $f(x,y)=xy$ (en $\\mu {\\text{C/cm}}^{2}$). La zona es la región $R$ limitada por $y=x$ y $y={x}^{2}$. Calcule la densidad promedio."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 1 · Comprender el problema"
+ },
+ {
+  "t": "p",
+  "x": "Las curvas se cortan en $x=0$ y $x=1$; en ese intervalo $x\\ge {x}^{2}$, de modo que $R=\\{0\\le x\\le 1, {x}^{2}\\le y\\le x\\}$ es una región tipo I."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 2 · Concebir un plan"
+ },
+ {
+  "t": "li",
+  "x": "Calcular $A(R)=\\int_{0}^{1} (x-{x}^{2})\\,dx$.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Resolver $\\int_{0}^{1} \\int_{{x}^{2}}^{x} xy\\,dy\\,dx$ integrando primero respecto a $y$.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Dividir.",
+  "ordered": true
+ },
+ {
+  "t": "h4",
+  "x": "Fase 3 · Ejecutar el plan"
+ },
+ {
+  "t": "math",
+  "x": "$A(R)=\\frac{1}{2}-\\frac{1}{3}=\\frac{1}{6}$"
+ },
+ {
+  "t": "math",
+  "x": "$\\int_{{x}^{2}}^{x} xy\\,dy=x{\\left[ \\frac{{y}^{2}}{2} \\right]}_{{x}^{2}}^{x}=\\frac{{x}^{3}-{x}^{5}}{2}$"
+ },
+ {
+  "t": "math",
+  "x": "$\\iint_{R} xy\\,dA=\\frac{1}{2}\\int_{0}^{1} ({x}^{3}-{x}^{5})\\,dx=\\frac{1}{2}\\left( \\frac{1}{4}-\\frac{1}{6} \\right)=\\frac{1}{24}$"
+ },
+ {
+  "t": "math",
+  "x": "${f}_{\\text{prom}}=\\frac{1/24}{1/6}=\\frac{1}{4}=0.25 \\mu {\\text{C/cm}}^{2}$"
+ },
+ {
+  "t": "h4",
+  "x": "Fase 4 · Visión retrospectiva"
+ },
+ {
+  "t": "p",
+  "x": "En $R$, $f$ varía entre $0$ (cerca del origen) y $1$ (en $(1,1)$); el promedio $0.25$ es coherente porque la región es muy angosta cerca de $(1,1)$ y ancha en la zona media, donde $xy$ es pequeño. Error típico que se evitó: dividir entre el área de un rectángulo envolvente en lugar del área real de $R$."
+ },
+ {
+  "t": "h3",
+  "x": "Ejemplo 6.3: Distancia cuadrática promedio en una esfera"
+ },
+ {
+  "t": "enun",
+  "x": "Un sensor esférico de radio $a$ mide partículas distribuidas uniformemente en su interior. Calcule el valor promedio de $f(x,y,z)={x}^{2}+{y}^{2}+{z}^{2}$ (cuadrado de la distancia al centro) sobre la bola ${x}^{2}+{y}^{2}+{z}^{2}\\le {a}^{2}$, y la distancia cuadrática media correspondiente."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 1 · Comprender el problema"
+ },
+ {
+  "t": "p",
+  "x": "Se requiere ${f}_{\\text{prom}}=\\frac{1}{V}\\iiint_{Q} f\\,dV$ con $V=\\frac{4}{3}\\pi {a}^{3}$. La región y la función tienen simetría esférica."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 2 · Concebir un plan"
+ },
+ {
+  "t": "p",
+  "x": "Usar coordenadas esféricas: $f={\\rho }^{2}$, $0\\le \\rho \\le a$, $0\\le \\phi \\le \\pi$, $0\\le \\theta \\le 2\\pi$, $dV={\\rho }^{2}\\sin \\phi \\,d\\rho \\,d\\phi \\,d\\theta$. La integral se separa en tres integrales simples."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 3 · Ejecutar el plan"
+ },
+ {
+  "t": "math",
+  "x": "$\\iiint_{Q} {\\rho }^{2}\\,dV=\\int_{0}^{2\\pi} d\\theta \\int_{0}^{\\pi} \\sin \\phi \\,d\\phi \\int_{0}^{a} {\\rho }^{4}\\,d\\rho =2\\pi \\cdot 2\\cdot \\frac{{a}^{5}}{5}=\\frac{4\\pi {a}^{5}}{5}$"
+ },
+ {
+  "t": "math",
+  "x": "${f}_{\\text{prom}}=\\frac{4\\pi {a}^{5}/5}{4\\pi {a}^{3}/3}=\\frac{3{a}^{2}}{5}, \\sqrt{{f}_{\\text{prom}}}=a\\sqrt{\\frac{3}{5}}\\approx 0.775\\,a$"
+ },
+ {
+  "t": "h4",
+  "x": "Fase 4 · Visión retrospectiva"
+ },
+ {
+  "t": "p",
+  "x": "El resultado está entre $0$ (centro) y ${a}^{2}$ (superficie). Es mayor que ${a}^{2}/2$ porque la mayor parte del volumen de una esfera está cerca de su superficie: la capa exterior entre $0.8a$ y $a$ contiene casi la mitad del volumen ($1-{0.8}^{3}=0.488$). Las unidades son de longitud al cuadrado, como corresponde."
+ },
+ {
+  "t": "h2",
+  "x": "E. Banco de ejercicios por niveles de competencia PISA"
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 1: **Calcule el área del rectángulo $R$ definido por $0\\le x\\le 4$ y $1\\le y\\le 5$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 2: **Formule la integral iterada para el valor promedio de $f(x,y)=x+y$ sobre el cuadrado unidad $[0,1]\\times [0,1]$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 3: **Calcule el valor promedio de $f(x,y)=xy$ sobre el triángulo de vértices $(0,0)$, $(1,0)$ y $(1,1)$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 4: **La temperatura de una placa es $T(x,y)=20+{x}^{2}+{y}^{2}$ sobre el disco ${x}^{2}+{y}^{2}\\le 4$. Use coordenadas polares para determinar la temperatura promedio.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 5: **Halle la altura promedio del hemisferio $z=\\sqrt{{a}^{2}-{x}^{2}-{y}^{2}}$ sobre su base circular de radio $a$ y compárela con la altura máxima.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 6: **Demuestre que el valor promedio de cualquier función lineal $f(x,y)=ax+by+c$ sobre un disco centrado en el origen es exactamente $c$. Generalice: ¿qué propiedad de la región garantiza este resultado?",
+  "ordered": false
+ },
+ {
+  "t": "h2",
+  "x": "F. Aplicaciones a Ingeniería en Sistemas"
+ },
+ {
+  "t": "p",
+  "x": "**Procesamiento de imágenes. **El brillo medio de una región de una imagen es la versión discreta de $\\frac{1}{A}\\iint_{R} f\\,dA$: se suman los valores de los píxeles y se divide entre el número de píxeles. Los filtros de desenfoque reemplazan cada píxel por el promedio de su vecindario."
+ },
+ {
+  "t": "p",
+  "x": "**Simulación computacional. **En simulaciones térmicas o de fluidos, el dominio se divide en celdas (vóxeles) y la temperatura media de un componente se calcula como $\\frac{1}{V}\\sum {T}_{i}\\,\\Delta {V}_{i}$, una suma de Riemann triple."
+ },
+ {
+  "t": "p",
+  "x": "**Planificación de redes. **La intensidad promedio de señal en una oficina se obtiene integrando el mapa de cobertura $I(x,y)$ sobre el área útil y dividiendo entre esa área; sirve para comparar ubicaciones de antenas."
+ },
+ {
+  "t": "h2",
+  "x": "G. Resumen del tema"
+ },
+ {
+  "t": "h4",
+  "x": "Fórmulas esenciales"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Fórmula o resultado**",
+    "**Significado**"
+   ],
+   [
+    "${f}_{prom}=\\frac{1}{A(R)}\\iint_{R} f\\,dA$",
+    "Promedio sobre una región plana"
+   ],
+   [
+    "${f}_{prom}=\\frac{1}{V(Q)}\\iiint_{Q} f\\,dV$",
+    "Promedio sobre un sólido"
+   ],
+   [
+    "$dA=r\\,dr\\,d\\theta$",
+    "Elemento de área en polares"
+   ],
+   [
+    "$dV={\\rho }^{2}\\sin \\phi \\,d\\rho \\,d\\phi \\,d\\theta$",
+    "Elemento de volumen en esféricas"
+   ]
+  ]
+ },
+ {
+  "t": "h4",
+  "x": "Conceptos clave y errores frecuentes"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Conceptos clave**",
+    "**Errores frecuentes**"
+   ],
+   [
+    "Primero se describe la región; después se plantea la integral.",
+    "Dividir entre el área de un rectángulo envolvente y no entre el área real."
+   ],
+   [
+    "La simetría sugiere el sistema de coordenadas.",
+    "Olvidar el jacobiano $r$ o ${\\rho }^{2}\\sin \\phi$."
+   ],
+   [
+    "El promedio siempre está entre el mínimo y el máximo de la función.",
+    "Poner variables en los límites de la integral exterior."
+   ]
+  ]
+ },
+ {
+  "t": "h2",
+  "x": "H. Referencias bibliográficas"
+ },
+ {
+  "t": "li",
+  "x": "Larson, R., & Edwards, B. H. (2014). Cálculo 2 de varias variables (10.ª ed.). Cengage Learning.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Thomas, G. B., Weir, M. D., & Hass, J. (2015). Cálculo: Varias variables (13.ª ed.). Pearson Educación.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Stewart, J. (2018). Cálculo de varias variables: Trascendentes tempranas (8.ª ed.). Cengage Learning.",
+  "ordered": false
+ },
+ {
+  "t": "h1",
+  "x": "07 — Centros de Masa y Centroides con Integrales Dobles"
+ },
+ {
+  "t": "h2",
+  "x": "A. Presentación del tema"
+ },
+ {
+  "t": "p",
+  "x": "**Título: **Láminas de Densidad Variable: Masa y Equilibrio mediante Integrales Dobles"
+ },
+ {
+  "t": "p",
+  "x": "**Unidad de aprendizaje: **Integrales Dobles y Aplicaciones Físicas"
+ },
+ {
+  "t": "p",
+  "x": "**Tema principal: **Masa, momentos estáticos y centroides en láminas de densidad variable"
+ },
+ {
+  "t": "h4",
+  "x": "Objetivos de aprendizaje"
+ },
+ {
+  "t": "p",
+  "x": "Al finalizar el capítulo, el estudiante será capaz de:"
+ },
+ {
+  "t": "li",
+  "x": "Calcular la masa de láminas con densidad variable mediante integrales dobles.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Calcular los momentos ${M}_{x}$, ${M}_{y}$ y los momentos de inercia.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Determinar el centro de masa de láminas y compararlo con el centroide geométrico.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Elegir coordenadas cartesianas o polares según la forma de la región.",
+  "ordered": false
+ },
+ {
+  "t": "h4",
+  "x": "Competencias que desarrollará"
+ },
+ {
+  "t": "li",
+  "x": "Integración doble sobre regiones generales.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Interpretación física de la densidad y los momentos.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Verificación con simetría y con el Teorema de Pappus.",
+  "ordered": false
+ },
+ {
+  "t": "h4",
+  "x": "Contextualización"
+ },
+ {
+  "t": "p",
+  "x": "En el diseño de componentes mecánicos, piezas aeronáuticas y hardware, la densidad de los materiales rara vez es uniforme: hay refuerzos, aleaciones y capas. Las integrales dobles permiten calcular la masa y el centro de masa exacto de láminas delgadas cuya densidad cambia punto a punto. El tema integra tres competencias: describir una región, plantear una integral doble y razonar físicamente sobre el resultado."
+ },
+ {
+  "t": "h2",
+  "x": "B. Desarrollo teórico"
+ },
+ {
+  "t": "p",
+  "x": "Si una lámina ocupa la región $D$ y tiene densidad superficial continua $\\rho (x,y)$:"
+ },
+ {
+  "t": "formula",
+  "x": "$m=\\iint_{D} \\rho (x,y)\\,dA$"
+ },
+ {
+  "t": "formula",
+  "x": "${M}_{y}=\\iint_{D} x\\,\\rho (x,y)\\,dA, {M}_{x}=\\iint_{D} y\\,\\rho (x,y)\\,dA$"
+ },
+ {
+  "t": "formula",
+  "x": "$\\hat{x}=\\frac{{M}_{y}}{m}, \\hat{y}=\\frac{{M}_{x}}{m}$"
+ },
+ {
+  "t": "p",
+  "x": "Si $\\rho$ es constante, $(\\hat{x},\\hat{y})$ es el **centroide **de $D$ y no depende del valor de $\\rho$. Observe la notación: ${M}_{y}$ (momento respecto al eje $y$) usa el brazo $x$, y ${M}_{x}$ usa el brazo $y$."
+ },
+ {
+  "t": "p",
+  "x": "**Momentos de inercia **(resistencia a la rotación):"
+ },
+ {
+  "t": "formula",
+  "x": "${I}_{x}=\\iint_{D} {y}^{2}\\rho \\,dA, {I}_{y}=\\iint_{D} {x}^{2}\\rho \\,dA, {I}_{0}={I}_{x}+{I}_{y}$"
+ },
+ {
+  "t": "h4",
+  "x": "Masa y densidad variable"
+ },
+ {
+  "t": "p",
+  "x": "La densidad superficial $\\rho (x,y)$ se mide en masa por unidad de área (kg/m², g/cm²). Si la lámina se divide en rectángulos pequeños de área $\\Delta A$, cada uno tiene masa aproximada $\\rho ({x}_{i},{y}_{j})\\,\\Delta A$; al sumar y pasar al límite se obtiene $m=\\iint_{D} \\rho \\,dA$. Del mismo modo, cada trozo aporta un momento igual a su masa por su distancia al eje."
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Cantidad**",
+    "**Integral**",
+    "**Interpretación**"
+   ],
+   [
+    "Masa $m$",
+    "$\\iint_{D} \\rho \\,dA$",
+    "Cantidad total de material"
+   ],
+   [
+    "${M}_{y}$",
+    "$\\iint_{D} x\\rho \\,dA$",
+    "Tendencia a girar alrededor del eje $y$"
+   ],
+   [
+    "${M}_{x}$",
+    "$\\iint_{D} y\\rho \\,dA$",
+    "Tendencia a girar alrededor del eje $x$"
+   ],
+   [
+    "${I}_{0}$",
+    "$\\iint_{D} ({x}^{2}+{y}^{2})\\rho \\,dA$",
+    "Resistencia a girar alrededor del origen"
+   ]
+  ]
+ },
+ {
+  "t": "p",
+  "x": "**Centroides de regiones no uniformes. **Cuando la densidad no es constante, el centro de masa se desplaza respecto del centroide geométrico **hacia la zona más densa**. Comparar ambos puntos es una verificación rápida de cualquier cálculo."
+ },
+ {
+  "t": "h2",
+  "x": "C. Representaciones gráficas"
+ },
+ {
+  "t": "fig",
+  "src": "img/rId233.webp"
+ },
+ {
+  "t": "cap",
+  "x": "Figura 7.1. Izquierda: lámina del Ejemplo 7.2 coloreada según su densidad; el centro de masa (estrella) se desplaza hacia la zona más densa respecto al centroide (círculo). Derecha: semicírculo del Ejemplo 7.1 con un elemento de área polar."
+ },
+ {
+  "t": "p",
+  "x": "**Interpretación. **En la izquierda, el color más oscuro (mayor densidad) aparece hacia la derecha y hacia arriba, por lo que la estrella roja queda en esa dirección respecto al círculo dorado. En la derecha, el elemento $dA=r\\,dr\\,d\\theta$ crece con $r$: los anillos exteriores tienen más área, lo que justifica el factor $r$ en coordenadas polares."
+ },
+ {
+  "t": "h2",
+  "x": "D. Ejemplos resueltos (Método de Pólya)"
+ },
+ {
+  "t": "h3",
+  "x": "Ejemplo 7.1: Centroide de una lámina semicircular"
+ },
+ {
+  "t": "enun",
+  "x": "Encuentre el centroide de la región semicircular $D$ acotada por el eje $x$ y la curva $y=\\sqrt{{a}^{2}-{x}^{2}}$, con densidad constante $\\rho =1$."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 1 · Comprender el problema"
+ },
+ {
+  "t": "p",
+  "x": "Buscamos $(\\hat{x},\\hat{y})$ de un semicírculo de radio $a$. Por simetría respecto al eje $y$, $\\hat{x}=0$."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 2 · Concebir un plan"
+ },
+ {
+  "t": "li",
+  "x": "Usar coordenadas polares: $y=r\\sin \\theta$, $dA=r\\,dr\\,d\\theta$, con $0\\le r\\le a$, $0\\le \\theta \\le \\pi$.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Área conocida: $A=\\frac{1}{2}\\pi {a}^{2}$.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Calcular ${M}_{x}=\\iint_{D} y\\,dA$ y dividir entre $A$.",
+  "ordered": true
+ },
+ {
+  "t": "h4",
+  "x": "Fase 3 · Ejecutar el plan"
+ },
+ {
+  "t": "math",
+  "x": "${M}_{x}=\\int_{0}^{\\pi} \\int_{0}^{a} (r\\sin \\theta )\\,r\\,dr\\,d\\theta =\\left( \\int_{0}^{\\pi} \\sin \\theta \\,d\\theta \\right)\\left( \\int_{0}^{a} {r}^{2}\\,dr \\right)=2\\cdot \\frac{{a}^{3}}{3}=\\frac{2{a}^{3}}{3}$"
+ },
+ {
+  "t": "math",
+  "x": "$\\hat{y}=\\frac{2{a}^{3}/3}{\\pi {a}^{2}/2}=\\frac{4a}{3\\pi }$"
+ },
+ {
+  "t": "h4",
+  "x": "Fase 4 · Visión retrospectiva"
+ },
+ {
+  "t": "p",
+  "x": "El centroide es $\\left( 0,\\frac{4a}{3\\pi } \\right)$, a un $42.4\\,\\%$ del radio desde la base, por debajo de la mitad, porque el semicírculo es más ancho abajo. Verificación con el Teorema de Pappus: al girar el semicírculo sobre el eje $x$ se obtiene una esfera, y $V=2\\pi \\hat{y}A=2\\pi \\cdot \\frac{4a}{3\\pi }\\cdot \\frac{\\pi {a}^{2}}{2}=\\frac{4}{3}\\pi {a}^{3}$. ✓"
+ },
+ {
+  "t": "h3",
+  "x": "Ejemplo 7.2: Centro de masa de una lámina triangular de densidad variable"
+ },
+ {
+  "t": "enun",
+  "x": "Una placa de circuito triangular con vértices $(0,0)$, $(1,0)$ y $(0,2)$ tiene densidad $\\rho (x,y)=1+3x+y$ (en g/cm²). Halle su masa y su centro de masa."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 1 · Comprender el problema"
+ },
+ {
+  "t": "p",
+  "x": "La hipotenusa une $(1,0)$ y $(0,2)$: $y=2-2x$. Entonces $D=\\{0\\le x\\le 1, 0\\le y\\le 2-2x\\}$. La densidad crece hacia la derecha y hacia arriba, por lo que el centro de masa debe desplazarse en esa dirección respecto al centroide geométrico $\\left( \\frac{1}{3},\\frac{2}{3} \\right)$."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 2 · Concebir un plan"
+ },
+ {
+  "t": "p",
+  "x": "Calcular tres integrales dobles iteradas ($m$, ${M}_{y}$, ${M}_{x}$) integrando primero respecto a $y$, y dividir."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 3 · Ejecutar el plan"
+ },
+ {
+  "t": "p",
+  "x": "Masa. La integral interior es $(1+3x)(2-2x)+\\frac{{(2-2x)}^{2}}{2}=(2-2x)(2+2x)=4(1-{x}^{2})$:"
+ },
+ {
+  "t": "math",
+  "x": "$m=\\int_{0}^{1} 4(1-{x}^{2})\\,dx=\\frac{8}{3} \\text{g}$"
+ },
+ {
+  "t": "p",
+  "x": "Momento respecto al eje $y$:"
+ },
+ {
+  "t": "math",
+  "x": "${M}_{y}=\\int_{0}^{1} x\\cdot 4(1-{x}^{2})\\,dx=4\\left( \\frac{1}{2}-\\frac{1}{4} \\right)=1$"
+ },
+ {
+  "t": "p",
+  "x": "Momento respecto al eje $x$. La integral interior es $\\int_{0}^{2-2x} (y+3xy+{y}^{2})\\,dy=2(1+3x){(1-x)}^{2}+\\frac{8}{3}{(1-x)}^{3}$. Con $s=1-x$:"
+ },
+ {
+  "t": "math",
+  "x": "${M}_{x}=\\int_{0}^{1} \\left[ 2(4-3s){s}^{2}+\\frac{8}{3}{s}^{3} \\right]ds=\\frac{8}{3}-\\frac{6}{4}+\\frac{2}{3}=\\frac{11}{6}$"
+ },
+ {
+  "t": "p",
+  "x": "Centro de masa:"
+ },
+ {
+  "t": "math",
+  "x": "$\\hat{x}=\\frac{1}{8/3}=\\frac{3}{8}, \\hat{y}=\\frac{11/6}{8/3}=\\frac{11}{16}$"
+ },
+ {
+  "t": "h4",
+  "x": "Fase 4 · Visión retrospectiva"
+ },
+ {
+  "t": "p",
+  "x": "El centro de masa $(0.375, 0.6875)$ está a la derecha y por encima del centroide geométrico $(0.333, 0.667)$, como se anticipó en la Fase 1. Además, está dentro del triángulo: $0.6875<2-2(0.375)=1.25$. ✓"
+ },
+ {
+  "t": "h2",
+  "x": "E. Banco de ejercicios por niveles de competencia PISA"
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 1: **Calcule la masa de una lámina rectangular de $2 \\text{m}\\times 3 \\text{m}$ con densidad uniforme $\\rho =5 {\\text{kg/m}}^{2}$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 2: **Justifique, usando simetría, por qué el centroide de un disco se ubica en su centro geométrico.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 3: **Halle la masa de la lámina triangular con vértices $(0,0)$, $(2,0)$ y $(0,2)$ con densidad $\\rho (x,y)=x+y$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 4: **Calcule el centroide de la región acotada por la parábola $y={x}^{2}$ y la recta $y=4$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 5: **Una lámina ocupa el primer cuadrante del disco ${x}^{2}+{y}^{2}\\le {a}^{2}$ y su densidad es proporcional a la distancia al origen, $\\rho =k\\sqrt{{x}^{2}+{y}^{2}}$. Calcule su centro de masa usando coordenadas polares.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 6: **Demuestre que el centroide de cualquier triángulo rectángulo con catetos $a$ y $b$ sobre los ejes se ubica en $\\left( \\frac{a}{3},\\frac{b}{3} \\right)$, y generalice a un triángulo arbitrario mostrando que el centroide es el promedio de sus vértices.",
+  "ordered": false
+ },
+ {
+  "t": "h2",
+  "x": "F. Aplicaciones a Ingeniería en Sistemas"
+ },
+ {
+  "t": "p",
+  "x": "**Visión por computadora. **Las bibliotecas de procesamiento de imágenes calculan los **momentos de imagen **${M}_{pq}=\\sum_{x} \\sum_{y} {x}^{p}{y}^{q}I(x,y)$, donde la intensidad $I$ hace el papel de densidad. El centro del objeto detectado es $\\left( \\frac{{M}_{10}}{{M}_{0}},\\frac{{M}_{1}}{{M}_{0}} \\right)$, la versión discreta de $(\\hat{x},\\hat{y})$. Así se rastrea la posición de objetos en video:"
+ },
+ {
+  "t": "code",
+  "x": "import numpy as np\nimg = np.zeros((5, 5)); img[1:4, 2:5] = 1; img[3, 1] = 1   # objeto binario\nys, xs = np.nonzero(img)\nprint(img.sum(), xs.mean(), ys.mean())   # M00 = 10, cx = 2.8, cy = 2.1"
+ },
+ {
+  "t": "p",
+  "x": "**Robótica y drones. **El controlador de vuelo necesita conocer el centro de masa del dron con su carga; si está desplazado, los motores deben compensar con empujes distintos."
+ },
+ {
+  "t": "p",
+  "x": "**Diseño de hardware. **En placas de circuito con componentes de distinta densidad se calcula el centro de masa para ubicar los puntos de anclaje y reducir vibraciones."
+ },
+ {
+  "t": "h2",
+  "x": "G. Resumen del tema"
+ },
+ {
+  "t": "h4",
+  "x": "Fórmulas esenciales"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Fórmula o resultado**",
+    "**Significado**"
+   ],
+   [
+    "$m=\\iint_{D} \\rho \\,dA$",
+    "Masa de la lámina"
+   ],
+   [
+    "$\\hat{x}=\\frac{1}{m}\\iint_{D} x\\rho \\,dA$",
+    "Coordenada $x$ del centro de masa"
+   ],
+   [
+    "$\\hat{y}=\\frac{1}{m}\\iint_{D} y\\rho \\,dA$",
+    "Coordenada $y$ del centro de masa"
+   ],
+   [
+    "$\\hat{y}=\\frac{4a}{3\\pi }$",
+    "Centroide del semicírculo (Ejemplo 7.1)"
+   ]
+  ]
+ },
+ {
+  "t": "h4",
+  "x": "Conceptos clave y errores frecuentes"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Conceptos clave**",
+    "**Errores frecuentes**"
+   ],
+   [
+    "Con densidad constante, el centro de masa es el centroide.",
+    "Olvidar el factor $r$ en polares."
+   ],
+   [
+    "El centro de masa se desplaza hacia la zona más densa.",
+    "Dividir los momentos entre el área en lugar de entre la masa cuando $\\rho$ no es constante."
+   ],
+   [
+    "En regiones circulares conviene usar polares.",
+    "Describir mal la hipotenusa o el borde curvo de la región."
+   ]
+  ]
+ },
+ {
+  "t": "h2",
+  "x": "H. Referencias bibliográficas"
+ },
+ {
+  "t": "li",
+  "x": "Zill, D. G., & Wright, W. S. (2011). Cálculo: Trascendentes tempranas (4.ª ed.). McGraw-Hill.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Stewart, J. (2018). Cálculo de varias variables: Trascendentes tempranas (8.ª ed.). Cengage Learning.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Hibbeler, R. C. (2016). Ingeniería mecánica: Estática (14.ª ed.). Pearson Educación.",
+  "ordered": false
+ },
+ {
+  "t": "h1",
+  "x": "08 — Introducción, Conceptos Básicos, Límites y Continuidad de Funciones de Varias Variables"
+ },
+ {
+  "t": "h2",
+  "x": "A. Presentación del tema"
+ },
+ {
+  "t": "p",
+  "x": "**Título: **Aproximaciones en el Plano: Límites Multivariables y Continuidad"
+ },
+ {
+  "t": "p",
+  "x": "**Unidad de aprendizaje: **Topología en ${R}^{n}$ y Análisis de Funciones Multivariables"
+ },
+ {
+  "t": "p",
+  "x": "**Tema principal: **Límites, criterio de trayectorias, teorema del emparedado y continuidad"
+ },
+ {
+  "t": "h4",
+  "x": "Objetivos de aprendizaje"
+ },
+ {
+  "t": "p",
+  "x": "Al finalizar el capítulo, el estudiante será capaz de:"
+ },
+ {
+  "t": "li",
+  "x": "Definir entornos, puntos interiores, de frontera y de acumulación en ${R}^{2}$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Demostrar la inexistencia de un límite mediante trayectorias distintas.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Demostrar la existencia de un límite mediante coordenadas polares y el teorema del emparedado.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Analizar la continuidad y clasificar discontinuidades (removibles y no removibles).",
+  "ordered": false
+ },
+ {
+  "t": "h4",
+  "x": "Competencias que desarrollará"
+ },
+ {
+  "t": "li",
+  "x": "Razonamiento lógico: diferencia entre ejemplo, contraejemplo y demostración.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Uso de desigualdades para acotar funciones.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Interpretación geométrica de la continuidad.",
+  "ordered": false
+ },
+ {
+  "t": "h4",
+  "x": "Contextualización"
+ },
+ {
+  "t": "p",
+  "x": "Para que una simulación por computadora o un controlador industrial sea estable, su comportamiento debe ser continuo: pequeñas variaciones en la entrada no deben provocar saltos en la salida. A diferencia del cálculo de una variable, donde solo hay dos direcciones para aproximarse a un punto, en ${R}^{2}$ existen infinitas trayectorias (rectas, parábolas, espirales). Esto exige un razonamiento más riguroso: para negar la existencia de un límite basta un contraejemplo, pero para afirmarla hace falta una demostración general."
+ },
+ {
+  "t": "h2",
+  "x": "B. Desarrollo teórico"
+ },
+ {
+  "t": "p",
+  "x": "**Definición (**$\\varepsilon$**–**$\\delta$**). **$\\lim_{(x,y)\\to (a,b)} f(x,y)=L$ si para todo $\\varepsilon >0$ existe $\\delta >0$ tal que:"
+ },
+ {
+  "t": "formula",
+  "x": "$0<\\sqrt{{(x-a)}^{2}+{(y-b)}^{2}}<\\delta \\Rightarrow \\left| f(x,y)-L \\right|<\\varepsilon$"
+ },
+ {
+  "t": "p",
+  "x": "**Criterio de las dos trayectorias (inexistencia). **Si $f(x,y)\\to {L}_{1}$ a lo largo de una trayectoria ${C}_{1}$ y $f(x,y)\\to {L}_{2}$ a lo largo de ${C}_{2}$, con ${L}_{1}\\ne {L}_{2}$, entonces el límite no existe."
+ },
+ {
+  "t": "p",
+  "x": "**Teorema del emparedado y coordenadas polares (existencia). **Si $\\left| f(x,y)-L \\right|\\le g(r)$ con $r=\\sqrt{{(x-a)}^{2}+{(y-b)}^{2}}$ y $g(r)\\to 0$ cuando $r\\to 0$ (con $r>0$), entonces:"
+ },
+ {
+  "t": "formula",
+  "x": "$\\lim_{(x,y)\\to (a,b)} f(x,y)=L$"
+ },
+ {
+  "t": "p",
+  "x": "**Continuidad. **$f$ es continua en $(a,b)$ si se cumplen las tres condiciones:"
+ },
+ {
+  "t": "formula",
+  "x": "$f(a,b)\\text{ está definida}, \\lim_{(x,y)\\to (a,b)} f(x,y)\\text{ existe}, \\lim_{(x,y)\\to (a,b)} f(x,y)=f(a,b)$"
+ },
+ {
+  "t": "p",
+  "x": "Los polinomios son continuos en todo ${R}^{2}$; las funciones racionales lo son en su dominio; y las sumas, productos y composiciones de funciones continuas son continuas."
+ },
+ {
+  "t": "h4",
+  "x": "Conceptos fundamentales: entornos y puntos de acumulación"
+ },
+ {
+  "t": "li",
+  "x": "**Entorno (disco abierto) **de centro $(a,b)$ y radio $\\delta >0$: ${B}_{\\delta }(a,b)=\\{(x,y):\\sqrt{{(x-a)}^{2}+{(y-b)}^{2}}<\\delta \\}$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Entorno reducido: **el mismo disco sin su centro, $0<\\sqrt{{(x-a)}^{2}+{(y-b)}^{2}}<\\delta$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Punto interior **de $D$: existe un entorno contenido completamente en $D$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Punto frontera **de $D$: todo entorno contiene puntos de $D$ y puntos fuera de $D$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Punto de acumulación **de $D$: todo entorno reducido contiene puntos de $D$. El punto puede no pertenecer a $D$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "$D$ es **abierto **si todos sus puntos son interiores, y **cerrado **si contiene a todos sus puntos frontera.",
+  "ordered": false
+ },
+ {
+  "t": "p",
+  "x": "El límite $\\lim_{(x,y)\\to (a,b)} f(x,y)$ solo tiene sentido si $(a,b)$ es un **punto de acumulación **del dominio de $f$: debe ser posible acercarse a él con puntos donde $f$ está definida. Por ejemplo, $(0,0)$ no pertenece al dominio de $\\frac{xy}{{x}^{2}+{y}^{2}}$, pero sí es punto de acumulación, por eso se estudia su límite."
+ },
+ {
+  "t": "p",
+  "x": "**Tipos de discontinuidad. **Una discontinuidad en $(a,b)$ es **removible **si el límite existe pero $f(a,b)$ no está definida o es distinta del límite; basta redefinir $f(a,b)$. Es **no removible **si el límite no existe."
+ },
+ {
+  "t": "h2",
+  "x": "C. Representaciones gráficas"
+ },
+ {
+  "t": "fig",
+  "src": "img/rId261.webp"
+ },
+ {
+  "t": "cap",
+  "x": "Figura 8.1. Izquierda: entorno de radio $\\delta$ y una sucesión de puntos que se acumulan en $(a,b)$. Centro: superficie $f=xy/({x}^{2}+{y}^{2})$, cuya altura depende solo del ángulo. Derecha: rectas $y=mx$ que llegan al origen con límites $m/(1+{m}^{2})$ distintos."
+ },
+ {
+  "t": "p",
+  "x": "**Interpretación. **La superficie central tiene forma de “hélice”: sobre cada recta que pasa por el origen es constante, pero cambia de una recta a otra. Por eso al acercarse al origen por caminos distintos se obtienen alturas distintas (derecha) y el límite no existe. La continuidad exigiría que la superficie no tuviera rasgaduras en el punto."
+ },
+ {
+  "t": "h2",
+  "x": "D. Ejemplos resueltos (Método de Pólya)"
+ },
+ {
+  "t": "h3",
+  "x": "Ejemplo 8.1: Prueba de inexistencia por trayectorias"
+ },
+ {
+  "t": "enun",
+  "x": "Demuestre que el límite $\\lim_{(x,y)\\to (0,0)} \\frac{xy}{{x}^{2}+{y}^{2}}$ no existe."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 1 · Comprender el problema"
+ },
+ {
+  "t": "p",
+  "x": "La sustitución directa produce $0/0$. Debemos comprobar si el valor depende de la dirección de aproximación."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 2 · Concebir un plan"
+ },
+ {
+  "t": "p",
+  "x": "Aproximarse al origen por la familia de rectas $y=mx$ y verificar si el resultado depende de $m$."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 3 · Ejecutar el plan"
+ },
+ {
+  "t": "math",
+  "x": "$\\lim_{x\\to 0} \\frac{x(mx)}{{x}^{2}+{m}^{2}{x}^{2}}=\\lim_{x\\to 0} \\frac{m{x}^{2}}{{x}^{2}(1+{m}^{2})}=\\frac{m}{1+{m}^{2}}$"
+ },
+ {
+  "t": "h4",
+  "x": "Fase 4 · Visión retrospectiva"
+ },
+ {
+  "t": "p",
+  "x": "El valor depende de $m$: por el eje $x$ ($m=0$) se obtiene $0$; por $y=x$ ($m=1$) se obtiene $\\frac{1}{2}$. Como hay dos trayectorias con límites distintos, el límite **no existe**. En polares, $f=\\cos \\theta \\sin \\theta =\\frac{1}{2}\\sin 2\\theta$, que depende solo del ángulo: la función es constante sobre cada recta que pasa por el origen."
+ },
+ {
+  "t": "h3",
+  "x": "Ejemplo 8.2: Prueba de existencia y extensión continua"
+ },
+ {
+  "t": "enun",
+  "x": "Sea $f(x,y)=\\frac{{x}^{2}y}{{x}^{2}+{y}^{2}}$ para $(x,y)\\ne (0,0)$. Demuestre que $\\lim_{(x,y)\\to (0,0)} f(x,y)=0$ y determine el valor que debe asignarse a $f(0,0)$ para que $f$ sea continua en todo ${R}^{2}$."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 1 · Comprender el problema"
+ },
+ {
+  "t": "p",
+  "x": "Por rectas $y=mx$ se obtiene $\\frac{m{x}^{3}}{{x}^{2}(1+{m}^{2})}\\to 0$, y por parábolas $y={x}^{2}$ también $0$. Esto sugiere que el límite es $0$, pero probar algunas trayectorias **no demuestra **la existencia: hace falta una cota válida para todas las direcciones."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 2 · Concebir un plan"
+ },
+ {
+  "t": "li",
+  "x": "Pasar a coordenadas polares y acotar $\\left| f \\right|$ por una expresión que dependa solo de $r$.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Aplicar el teorema del emparedado y obtener explícitamente $\\delta$ en función de $\\varepsilon$.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Verificar las tres condiciones de continuidad.",
+  "ordered": true
+ },
+ {
+  "t": "h4",
+  "x": "Fase 3 · Ejecutar el plan"
+ },
+ {
+  "t": "p",
+  "x": "Con $x=r\\cos \\theta$, $y=r\\sin \\theta$, $r>0$:"
+ },
+ {
+  "t": "math",
+  "x": "$f=\\frac{{r}^{2}{\\cos }^{2}\\theta \\cdot r\\sin \\theta }{{r}^{2}}=r{\\cos }^{2}\\theta \\sin \\theta \\Rightarrow \\left| f(x,y)-0 \\right|\\le r$"
+ },
+ {
+  "t": "p",
+  "x": "porque $\\left| {\\cos }^{2}\\theta \\sin \\theta \\right|\\le 1$. Dado $\\varepsilon >0$, al elegir $\\delta =\\varepsilon$:"
+ },
+ {
+  "t": "math",
+  "x": "$0<r<\\delta \\Rightarrow \\left| f(x,y) \\right|\\le r<\\varepsilon$"
+ },
+ {
+  "t": "p",
+  "x": "Por lo tanto el límite es $0$. Definiendo $f(0,0)=0$, se cumplen las tres condiciones de continuidad en el origen. Fuera del origen, $f$ es racional con denominador no nulo, por lo que es continua."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 4 · Visión retrospectiva"
+ },
+ {
+  "t": "p",
+  "x": "La diferencia con el Ejemplo 8.1 es el grado: aquí el numerador es de grado $3$ y el denominador de grado $2$, lo que deja un factor $r$ que tiende a cero. En 8.1 los grados eran iguales y sobrevivía una dependencia del ángulo. Esta comparación de grados es una heurística útil para anticipar el resultado. La discontinuidad original era **removible**."
+ },
+ {
+  "t": "h2",
+  "x": "E. Banco de ejercicios por niveles de competencia PISA"
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 1: **Evalúe por sustitución directa $\\lim_{(x,y)\\to (1,2)} (3{x}^{2}y-5y)$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 2: **Identifique los puntos donde $f(x,y)=\\frac{1}{{x}^{2}+{y}^{2}-4}$ es discontinua e interprete geométricamente ese conjunto.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 3: **Use simplificación algebraica para resolver $\\lim_{(x,y)\\to (2,2)} \\frac{{x}^{2}-{y}^{2}}{x-y}$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 4: **Evalúe el límite de $f(x,y)=\\frac{x{y}^{2}}{{x}^{2}+{y}^{4}}$ cuando $(x,y)\\to (0,0)$ por las rectas $y=mx$ y por la parábola $x={y}^{2}$. ¿Qué concluye?",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 5: **Demuestre mediante la definición $\\varepsilon$–$\\delta$ y coordenadas polares que $\\lim_{(x,y)\\to (0,0)} \\frac{3{x}^{3}-{y}^{3}}{{x}^{2}+{y}^{2}}=0$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 6: **En un simulador de dinámica de fluidos, el potencial es $T(x,y)=\\frac{{x}^{3}+{y}^{3}}{{x}^{2}+{y}^{2}}$. Demuestre si la singularidad en $(0,0)$ es removible y proponga una extensión continua formal.",
+  "ordered": false
+ },
+ {
+  "t": "h2",
+  "x": "F. Aplicaciones a Ingeniería en Sistemas"
+ },
+ {
+  "t": "p",
+  "x": "**Redes neuronales y funciones de activación. **Las funciones de activación como ReLU, $\\max (0,x)$, son continuas; la función escalón no lo es. El entrenamiento por gradiente necesita funciones continuas (y casi siempre derivables): un salto impide que pequeños cambios en los pesos produzcan cambios pequeños en la salida."
+ },
+ {
+  "t": "p",
+  "x": "**Estabilidad numérica en software gráfico. **Al normalizar un vector, $\\frac{v}{\\parallel v\\parallel }$, el programa falla cuando $v\\to 0$: es una indeterminación del tipo $0/0$ sin límite. En cambio, funciones como $\\frac{{x}^{2}y}{{x}^{2}+{y}^{2}}$ tienen discontinuidad removible y se programan definiendo el valor $0$ en el origen para evitar resultados NaN."
+ },
+ {
+  "t": "p",
+  "x": "**Sistemas de control. **Un controlador digital modela la planta con funciones continuas; si la respuesta tuviera discontinuidades, una perturbación mínima en los sensores provocaría saltos bruscos en los actuadores."
+ },
+ {
+  "t": "h2",
+  "x": "G. Resumen del tema"
+ },
+ {
+  "t": "h4",
+  "x": "Fórmulas esenciales"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Fórmula o resultado**",
+    "**Significado**"
+   ],
+   [
+    "$0<\\sqrt{{(x-a)}^{2}+{(y-b)}^{2}}<\\delta \\Rightarrow L-\\varepsilon <f<L+\\varepsilon$",
+    "Definición $\\varepsilon$–$\\delta$"
+   ],
+   [
+    "${L}_{1}\\ne {L}_{2}$ por dos trayectorias",
+    "El límite no existe"
+   ],
+   [
+    "$-g(r)\\le f-L\\le g(r)$ con $g(r)\\to 0$",
+    "El límite existe (emparedado en polares)"
+   ],
+   [
+    "$\\lim f=f(a,b)$",
+    "Continuidad en $(a,b)$"
+   ]
+  ]
+ },
+ {
+  "t": "h4",
+  "x": "Conceptos clave y errores frecuentes"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Conceptos clave**",
+    "**Errores frecuentes**"
+   ],
+   [
+    "El punto debe ser de acumulación del dominio.",
+    "Concluir que un límite existe porque coincide en varias rectas."
+   ],
+   [
+    "Las trayectorias solo sirven para demostrar que un límite **no **existe.",
+    "Olvidar que la cota en polares no debe depender de $\\theta$."
+   ],
+   [
+    "Comparar los grados de numerador y denominador anticipa el resultado.",
+    "Declarar continua una función sin verificar que $f(a,b)$ esté definida."
+   ]
+  ]
+ },
+ {
+  "t": "h2",
+  "x": "H. Referencias bibliográficas"
+ },
+ {
+  "t": "li",
+  "x": "Apostol, T. M. (2001). Calculus, Vol. 2 (2.ª ed.). Reverté.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Stewart, J. (2018). Cálculo de varias variables: Trascendentes tempranas (8.ª ed.). Cengage Learning.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Marsden, J. E., & Tromba, A. J. (2004). Cálculo vectorial (5.ª ed.). Pearson Educación.",
+  "ordered": false
+ },
+ {
+  "t": "h1",
+  "x": "09 — Derivadas Parciales, Diferencial Total y Exacta"
+ },
+ {
+  "t": "h2",
+  "x": "A. Presentación del tema"
+ },
+ {
+  "t": "p",
+  "x": "**Título: **Tasas de Cambio en Varias Dimensiones: Derivadas Parciales y Diferenciales"
+ },
+ {
+  "t": "p",
+  "x": "**Unidad de aprendizaje: **Cálculo Diferencial Multivariable"
+ },
+ {
+  "t": "p",
+  "x": "**Tema principal: **Derivadas parciales, diferencial total y diferenciales exactas"
+ },
+ {
+  "t": "h4",
+  "x": "Objetivos de aprendizaje"
+ },
+ {
+  "t": "p",
+  "x": "Al finalizar el capítulo, el estudiante será capaz de:"
+ },
+ {
+  "t": "li",
+  "x": "Calcular derivadas parciales de primer y segundo orden e interpretarlas geométricamente.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Construir el plano tangente y la aproximación lineal de una función de dos variables.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Usar el diferencial total para estimar errores absolutos y relativos.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Reconocer y resolver ecuaciones diferenciales exactas.",
+  "ordered": false
+ },
+ {
+  "t": "h4",
+  "x": "Competencias que desarrollará"
+ },
+ {
+  "t": "li",
+  "x": "Derivación ordenada respecto a varias variables.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Estimación cuantitativa y análisis de sensibilidad.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Conexión entre derivadas cruzadas, exactitud y funciones potenciales.",
+  "ordered": false
+ },
+ {
+  "t": "h4",
+  "x": "Contextualización"
+ },
+ {
+  "t": "p",
+  "x": "En el análisis de rendimiento de sistemas, las derivadas parciales miden la tasa de cambio respecto a un solo parámetro mientras los demás permanecen fijos (ceteris paribus). El diferencial total combina todas esas tasas para estimar el cambio global, lo que es la base de la propagación de errores en mediciones de ingeniería. Las diferenciales exactas, por su parte, conectan este tema con las ecuaciones diferenciales y los campos conservativos."
+ },
+ {
+  "t": "h2",
+  "x": "B. Desarrollo teórico"
+ },
+ {
+  "t": "p",
+  "x": "**Derivada parcial. **La derivada parcial de $z=f(x,y)$ respecto a $x$ se calcula tratando a $y$ como constante:"
+ },
+ {
+  "t": "formula",
+  "x": "$\\frac{\\partial f}{\\partial x}=\\lim_{h\\to 0} \\frac{f(x+h,y)-f(x,y)}{h}, \\frac{\\partial f}{\\partial y}=\\lim_{h\\to 0} \\frac{f(x,y+h)-f(x,y)}{h}$"
+ },
+ {
+  "t": "p",
+  "x": "Geométricamente, ${f}_{x}(a,b)$ es la pendiente de la curva que resulta al cortar la superficie con el plano $y=b$."
+ },
+ {
+  "t": "p",
+  "x": "**Teorema de Clairaut. **Si ${f}_{xy}$ y ${f}_{yx}$ son continuas en un disco que contiene a $(a,b)$, entonces ${f}_{xy}(a,b)={f}_{yx}(a,b)$."
+ },
+ {
+  "t": "p",
+  "x": "**Diferencial total. **Aproxima linealmente el cambio $\\Delta z$ ante incrementos $dx$ y $dy$:"
+ },
+ {
+  "t": "formula",
+  "x": "$dz=\\frac{\\partial f}{\\partial x}\\,dx+\\frac{\\partial f}{\\partial y}\\,dy, \\Delta z\\approx dz$"
+ },
+ {
+  "t": "p",
+  "x": "**Diferencial exacta. **La expresión $M(x,y)\\,dx+N(x,y)\\,dy$ es exacta si existe $f$ con ${f}_{x}=M$ y ${f}_{y}=N$. Si $M$, $N$ y sus derivadas parciales son continuas en una región rectangular (o simplemente conexa), la expresión es exacta si y solo si:"
+ },
+ {
+  "t": "formula",
+  "x": "$\\frac{\\partial M}{\\partial y}=\\frac{\\partial N}{\\partial x}$"
+ },
+ {
+  "t": "p",
+  "x": "En ese caso, la ecuación $M\\,dx+N\\,dy=0$ tiene solución implícita $f(x,y)=C$. La condición es necesaria por el Teorema de Clairaut: ${M}_{y}={f}_{xy}={f}_{yx}={N}_{x}$."
+ },
+ {
+  "t": "h4",
+  "x": "Derivadas de segundo orden"
+ },
+ {
+  "t": "p",
+  "x": "Al derivar nuevamente se obtienen cuatro derivadas de segundo orden:"
+ },
+ {
+  "t": "formula",
+  "x": "${f}_{xx}=\\frac{{\\partial }^{2}f}{\\partial {x}^{2}}, {f}_{yy}=\\frac{{\\partial }^{2}f}{\\partial {y}^{2}}, {f}_{xy}=\\frac{\\partial }{\\partial y}\\left( \\frac{\\partial f}{\\partial x} \\right), {f}_{yx}=\\frac{\\partial }{\\partial x}\\left( \\frac{\\partial f}{\\partial y} \\right)$"
+ },
+ {
+  "t": "p",
+  "x": "Ilustración: para $f={x}^{3}{y}^{2}$: ${f}_{x}=3{x}^{2}{y}^{2}$, ${f}_{y}=2{x}^{3}y$, ${f}_{xx}=6x{y}^{2}$, ${f}_{yy}=2{x}^{3}$ y ${f}_{xy}={f}_{yx}=6{x}^{2}y$, como asegura el Teorema de Clairaut."
+ },
+ {
+  "t": "h4",
+  "x": "Aproximación lineal y plano tangente"
+ },
+ {
+  "t": "p",
+  "x": "Si $f$ es diferenciable en $(a,b)$, el plano tangente a $z=f(x,y)$ en ese punto y la aproximación lineal son:"
+ },
+ {
+  "t": "formula",
+  "x": "$L(x,y)=f(a,b)+{f}_{x}(a,b)(x-a)+{f}_{y}(a,b)(y-b)\\approx f(x,y)$"
+ },
+ {
+  "t": "p",
+  "x": "El diferencial total es el incremento de esta aproximación: $dz=L(x,y)-f(a,b)$. La aproximación es buena cerca de $(a,b)$ y empeora al alejarse."
+ },
+ {
+  "t": "h2",
+  "x": "C. Representaciones gráficas"
+ },
+ {
+  "t": "fig",
+  "src": "img/rId290.webp"
+ },
+ {
+  "t": "cap",
+  "x": "Figura 9.1. Izquierda: la derivada parcial ${f}_{x}(3,4)=0.6$ es la pendiente de la traza $y=4$ de $f=\\sqrt{{x}^{2}+{y}^{2}}$. Derecha: plano tangente en $(3,4,5)$, base de la aproximación lineal del Ejemplo 9.3."
+ },
+ {
+  "t": "p",
+  "x": "**Interpretación. **La recta roja (izquierda) es tangente a la curva morada que resulta de cortar la superficie con el plano $y=4$; su pendiente es ${f}_{x}$. El plano dorado (derecha) contiene las rectas tangentes en todas las direcciones y casi coincide con la superficie cerca del punto rojo: por eso puede reemplazarla para hacer estimaciones rápidas."
+ },
+ {
+  "t": "h2",
+  "x": "D. Ejemplos resueltos (Método de Pólya)"
+ },
+ {
+  "t": "h3",
+  "x": "Ejemplo 9.1: Estimación de errores mediante el diferencial total"
+ },
+ {
+  "t": "enun",
+  "x": "El radio de un cilindro mide $r=10$ cm y su altura $h=25$ cm, con un error máximo de $\\pm 0.1$ cm en cada medición. Estime el error máximo en el volumen $V=\\pi {r}^{2}h$."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 1 · Comprender el problema"
+ },
+ {
+  "t": "p",
+  "x": "Buscamos $dV\\approx \\Delta V$ con $r=10$, $h=25$, $\\left| dr \\right|\\le 0.1$ y $\\left| dh \\right|\\le 0.1$."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 2 · Concebir un plan"
+ },
+ {
+  "t": "li",
+  "x": "Calcular ${V}_{r}$ y ${V}_{h}$.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Formar $dV={V}_{r}\\,dr+{V}_{h}\\,dh$ y tomar los errores con el mismo signo (caso más desfavorable).",
+  "ordered": true
+ },
+ {
+  "t": "h4",
+  "x": "Fase 3 · Ejecutar el plan"
+ },
+ {
+  "t": "math",
+  "x": "${V}_{r}=2\\pi rh, {V}_{h}=\\pi {r}^{2}$"
+ },
+ {
+  "t": "math",
+  "x": "$dV=(2\\pi \\cdot 10\\cdot 25)(0.1)+(\\pi \\cdot 100)(0.1)=50\\pi +10\\pi =60\\pi \\approx 188.5 {\\text{cm}}^{3}$"
+ },
+ {
+  "t": "h4",
+  "x": "Fase 4 · Visión retrospectiva"
+ },
+ {
+  "t": "p",
+  "x": "El volumen es $V=2500\\pi \\approx 7854$ cm³, de modo que el error relativo es $\\frac{60\\pi }{2500\\pi }=2.4\\,\\%$. También se obtiene con la regla de errores relativos: $\\frac{dV}{V}=2\\frac{dr}{r}+\\frac{dh}{h}=2(1\\,\\%)+0.4\\,\\%=2.4\\,\\%$. ✓ El radio aporta 5 veces más error que la altura, por lo que conviene medirlo con mayor precisión."
+ },
+ {
+  "t": "h3",
+  "x": "Ejemplo 9.2: Resolución de una ecuación diferencial exacta"
+ },
+ {
+  "t": "enun",
+  "x": "Verifique que la ecuación $(2xy+3)\\,dx+({x}^{2}+4y)\\,dy=0$ es exacta y encuentre la solución que pasa por el punto $(1,0)$."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 1 · Comprender el problema"
+ },
+ {
+  "t": "p",
+  "x": "$M=2xy+3$ y $N={x}^{2}+4y$ son polinomios (continuos en todo el plano). Buscamos $f$ con ${f}_{x}=M$, ${f}_{y}=N$, y la constante $C$ tal que $(1,0)$ cumpla $f(x,y)=C$."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 2 · Concebir un plan"
+ },
+ {
+  "t": "li",
+  "x": "Verificar ${M}_{y}={N}_{x}$.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Integrar $M$ respecto a $x$, agregando una función $g(y)$.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Derivar respecto a $y$, igualar a $N$ y despejar $g(y)$.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Aplicar la condición inicial.",
+  "ordered": true
+ },
+ {
+  "t": "h4",
+  "x": "Fase 3 · Ejecutar el plan"
+ },
+ {
+  "t": "math",
+  "x": "${M}_{y}=2x, {N}_{x}=2x \\Rightarrow \\text{la ecuación es exacta}$"
+ },
+ {
+  "t": "math",
+  "x": "$f(x,y)=\\int (2xy+3)\\,dx={x}^{2}y+3x+g(y)$"
+ },
+ {
+  "t": "math",
+  "x": "${f}_{y}={x}^{2}+g'(y)={x}^{2}+4y \\Rightarrow g'(y)=4y \\Rightarrow g(y)=2{y}^{2}$"
+ },
+ {
+  "t": "math",
+  "x": "$f(x,y)={x}^{2}y+3x+2{y}^{2}=C$"
+ },
+ {
+  "t": "p",
+  "x": "En $(1,0)$: $0+3+0=C$, por lo tanto la solución es:"
+ },
+ {
+  "t": "math",
+  "x": "${x}^{2}y+3x+2{y}^{2}=3$"
+ },
+ {
+  "t": "h4",
+  "x": "Fase 4 · Visión retrospectiva"
+ },
+ {
+  "t": "p",
+  "x": "Comprobación: $df=(2xy+3)\\,dx+({x}^{2}+2\\cdot 2y)\\,dy$, que coincide con la ecuación original. ✓ El punto $(1,0)$ satisface $3=3$. ✓ Error común evitado: al integrar $N$ respecto a $y$ se obtiene ${x}^{2}y+2{y}^{2}+h(x)$, y el término ${x}^{2}y$ no debe sumarse dos veces."
+ },
+ {
+  "t": "h3",
+  "x": "Ejemplo 9.3: Aproximación lineal de una distancia"
+ },
+ {
+  "t": "enun",
+  "x": "Un robot calcula su distancia a la base con $f(x,y)=\\sqrt{{x}^{2}+{y}^{2}}$. Use la aproximación lineal en $(3,4)$ para estimar la distancia cuando el robot está en $(3.02, 3.97)$ y compare con el valor exacto."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 1 · Comprender el problema"
+ },
+ {
+  "t": "p",
+  "x": "Se pide aproximar $f(3.02,3.97)$ usando el plano tangente en $(a,b)=(3,4)$, donde $f(3,4)=5$. Los incrementos son $dx=0.02$ y $dy=-0.03$."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 2 · Concebir un plan"
+ },
+ {
+  "t": "li",
+  "x": "Calcular ${f}_{x}$ y ${f}_{y}$ y evaluarlas en $(3,4)$.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Construir $L(x,y)$ y evaluarla.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Comparar con una calculadora.",
+  "ordered": true
+ },
+ {
+  "t": "h4",
+  "x": "Fase 3 · Ejecutar el plan"
+ },
+ {
+  "t": "math",
+  "x": "${f}_{x}=\\frac{x}{\\sqrt{{x}^{2}+{y}^{2}}}, {f}_{y}=\\frac{y}{\\sqrt{{x}^{2}+{y}^{2}}} \\Rightarrow {f}_{x}(3,4)=0.6, {f}_{y}(3,4)=0.8$"
+ },
+ {
+  "t": "math",
+  "x": "$L(3.02, 3.97)=5+0.6(0.02)+0.8(-0.03)=5+0.012-0.024=4.988$"
+ },
+ {
+  "t": "p",
+  "x": "Valor exacto: $\\sqrt{{3.02}^{2}+{3.97}^{2}}=\\sqrt{24.8813}\\approx 4.98812$."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 4 · Visión retrospectiva"
+ },
+ {
+  "t": "p",
+  "x": "El error es de aproximadamente $0.00012$, menor que $0.003\\,\\%$. La distancia disminuye porque el robot se movió más en $y$ (hacia la base) que en $x$, y ${f}_{y}>{f}_{x}$. Observe que $({f}_{x},{f}_{y})=(0.6,0.8)$ es el vector unitario que apunta desde la base hacia el robot: la distancia crece más rápido en esa dirección."
+ },
+ {
+  "t": "h2",
+  "x": "E. Banco de ejercicios por niveles de competencia PISA"
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 1: **Calcule ${f}_{x}$ y ${f}_{y}$ para $f(x,y)=4{x}^{3}{y}^{2}-3x+8y$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 2: **Escriba el diferencial total $dz$ de $z=x\\ln y$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 3: **Determine si $(2xy)\\,dx+({x}^{2}+3)\\,dy=0$ es exacta y, en caso afirmativo, encuentre su solución general.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 4: **Calcule ${f}_{xx}$, ${f}_{yy}$, ${f}_{xy}$ y ${f}_{yx}$ para $f(x,y)={e}^{xy}+\\sin x$ y compruebe el Teorema de Clairaut.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 5: **La resistencia equivalente de dos resistores en paralelo cumple $\\frac{1}{R}=\\frac{1}{{R}_{1}}+\\frac{1}{{R}_{2}}$. Si ${R}_{1}=50 \\Omega$ y ${R}_{2}=100 \\Omega$, con errores de $1\\,\\%$ en cada lectura, use diferenciales para estimar el error máximo en $R$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 6: **Una función $f$ es armónica si satisface la ecuación de Laplace ${f}_{xx}+{f}_{yy}=0$. Demuestre que $f(x,y)=\\ln ({x}^{2}+{y}^{2})$ es armónica en todo el plano excepto el origen e interprete por qué el origen debe excluirse.",
+  "ordered": false
+ },
+ {
+  "t": "h2",
+  "x": "F. Aplicaciones a Ingeniería en Sistemas"
+ },
+ {
+  "t": "p",
+  "x": "**Retropropagación en redes neuronales. **El entrenamiento calcula la derivada parcial de la función de pérdida respecto a cada peso, $\\frac{\\partial L}{\\partial {w}_{i}}$, manteniendo fijos los demás. Las bibliotecas de diferenciación automática obtienen millones de derivadas parciales por iteración."
+ },
+ {
+  "t": "p",
+  "x": "**Análisis de sensibilidad. **Si el tiempo de respuesta de un servicio es $T(n,c)$, con $n$ usuarios y $c$ núcleos, las derivadas parciales ${T}_{n}$ y ${T}_{c}$ indican qué recurso conviene aumentar. El diferencial $dT={T}_{n}\\,dn+{T}_{c}\\,dc$ estima el efecto de cambios simultáneos."
+ },
+ {
+  "t": "p",
+  "x": "**Propagación de errores en sensores. **En sistemas embebidos, los valores calculados a partir de mediciones heredan sus errores. El diferencial total permite fijar la precisión mínima de cada sensor para que el error final sea aceptable, como en el Ejemplo 9.1."
+ },
+ {
+  "t": "h2",
+  "x": "G. Resumen del tema"
+ },
+ {
+  "t": "h4",
+  "x": "Fórmulas esenciales"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Fórmula o resultado**",
+    "**Significado**"
+   ],
+   [
+    "${f}_{x}=\\lim_{h\\to 0} \\frac{f(x+h,y)-f(x,y)}{h}$",
+    "Derivada parcial respecto a $x$"
+   ],
+   [
+    "$dz={f}_{x}\\,dx+{f}_{y}\\,dy$",
+    "Diferencial total"
+   ],
+   [
+    "$L=f(a,b)+{f}_{x}(x-a)+{f}_{y}(y-b)$",
+    "Aproximación lineal"
+   ],
+   [
+    "${M}_{y}={N}_{x}$",
+    "Criterio de exactitud de $M\\,dx+N\\,dy$"
+   ]
+  ]
+ },
+ {
+  "t": "h4",
+  "x": "Conceptos clave y errores frecuentes"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Conceptos clave**",
+    "**Errores frecuentes**"
+   ],
+   [
+    "Para derivar respecto a una variable, las demás son constantes.",
+    "Derivar todas las variables a la vez, como en una variable."
+   ],
+   [
+    "El diferencial total aproxima el cambio real $\\Delta z$.",
+    "Sumar errores con signos opuestos cuando se busca el error máximo."
+   ],
+   [
+    "En una ecuación exacta, la solución es $f(x,y)=C$.",
+    "Contar dos veces los términos comunes al construir la función potencial."
+   ]
+  ]
+ },
+ {
+  "t": "h2",
+  "x": "H. Referencias bibliográficas"
+ },
+ {
+  "t": "li",
+  "x": "Stewart, J. (2018). Cálculo de varias variables: Trascendentes tempranas (8.ª ed.). Cengage Learning.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Thomas, G. B., Weir, M. D., & Hass, J. (2015). Cálculo: Varias variables (13.ª ed.). Pearson Educación.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Zill, D. G., & Wright, W. S. (2015). Ecuaciones diferenciales con aplicaciones de modelado (10.ª ed.). Cengage Learning.",
+  "ordered": false
+ },
+ {
+  "t": "h1",
+  "x": "10 — Regla de la Cadena, Diferenciales y Extremos de Funciones de Dos Variables"
+ },
+ {
+  "t": "h2",
+  "x": "A. Presentación del tema"
+ },
+ {
+  "t": "p",
+  "x": "**Título: **Optimización Multivariable: Regla de la Cadena, Puntos Críticos y Criterio del Hessiano"
+ },
+ {
+  "t": "p",
+  "x": "**Unidad de aprendizaje: **Optimización Multivariable y Gradientes"
+ },
+ {
+  "t": "p",
+  "x": "**Tema principal: **Regla de la cadena, puntos críticos y criterio de la segunda derivada"
+ },
+ {
+  "t": "h4",
+  "x": "Objetivos de aprendizaje"
+ },
+ {
+  "t": "p",
+  "x": "Al finalizar el capítulo, el estudiante será capaz de:"
+ },
+ {
+  "t": "li",
+  "x": "Aplicar la regla de la cadena en sus casos de una y dos variables independientes.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Calcular el gradiente e interpretar su dirección y magnitud.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Encontrar y clasificar puntos críticos con el determinante Hessiano.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Resolver problemas de optimización en ingeniería.",
+  "ordered": false
+ },
+ {
+  "t": "h4",
+  "x": "Competencias que desarrollará"
+ },
+ {
+  "t": "li",
+  "x": "Composición de funciones en varias variables (diagramas de árbol).",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Razonamiento sobre la forma local de una superficie.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Modelación y optimización de recursos.",
+  "ordered": false
+ },
+ {
+  "t": "h4",
+  "x": "Contextualización"
+ },
+ {
+  "t": "p",
+  "x": "Los algoritmos de aprendizaje automático, como el descenso del gradiente y la retropropagación (backpropagation), son aplicaciones directas de la regla de la cadena multivariable y de la búsqueda de puntos críticos. Clasificar un punto como máximo local, mínimo local o punto de silla es la base de la optimización en ingeniería, economía y ciencia de datos. Este tema integra todo lo anterior: derivadas parciales, diferenciales y análisis de superficies."
+ },
+ {
+  "t": "h2",
+  "x": "B. Desarrollo teórico"
+ },
+ {
+  "t": "p",
+  "x": "**Regla de la cadena (caso 1). **Si $z=f(x,y)$ es diferenciable y $x=g(t)$, $y=h(t)$ son diferenciables:"
+ },
+ {
+  "t": "formula",
+  "x": "$\\frac{dz}{dt}=\\frac{\\partial f}{\\partial x}\\frac{dx}{dt}+\\frac{\\partial f}{\\partial y}\\frac{dy}{dt}$"
+ },
+ {
+  "t": "p",
+  "x": "**Regla de la cadena (caso 2). **Si $x=g(s,t)$, $y=h(s,t)$:"
+ },
+ {
+  "t": "formula",
+  "x": "$\\frac{\\partial z}{\\partial s}=\\frac{\\partial z}{\\partial x}\\frac{\\partial x}{\\partial s}+\\frac{\\partial z}{\\partial y}\\frac{\\partial y}{\\partial s}, \\frac{\\partial z}{\\partial t}=\\frac{\\partial z}{\\partial x}\\frac{\\partial x}{\\partial t}+\\frac{\\partial z}{\\partial y}\\frac{\\partial y}{\\partial t}$"
+ },
+ {
+  "t": "p",
+  "x": "**Gradiente y puntos críticos. **El gradiente es $\\nabla f=\\langle {f}_{x},{f}_{y}\\rangle$. Un punto $(a,b)$ es crítico si $\\nabla f(a,b)=0$ o si alguna derivada parcial no existe. Todo extremo local de una función diferenciable ocurre en un punto crítico."
+ },
+ {
+  "t": "p",
+  "x": "**Criterio de la segunda derivada (Hessiano). **En un punto crítico $(a,b)$ se calcula:"
+ },
+ {
+  "t": "formula",
+  "x": "$D={f}_{xx}(a,b)\\,{f}_{yy}(a,b)-{[{f}_{xy}(a,b)]}^{2}$"
+ },
+ {
+  "t": "li",
+  "x": "Si $D>0$ y ${f}_{xx}(a,b)>0$: **mínimo local**.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Si $D>0$ y ${f}_{xx}(a,b)<0$: **máximo local**.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Si $D<0$: **punto de silla**.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Si $D=0$: el criterio no es concluyente.",
+  "ordered": true
+ },
+ {
+  "t": "h4",
+  "x": "Derivación de funciones compuestas (diagrama de árbol)"
+ },
+ {
+  "t": "p",
+  "x": "Para no olvidar términos, se dibuja un árbol: $z$ en la raíz, las variables intermedias ($x$, $y$) en el segundo nivel y las independientes ($s$, $t$) al final. Cada camino de $z$ a la variable independiente aporta un producto de derivadas, y los caminos se suman."
+ },
+ {
+  "t": "p",
+  "x": "Ilustración: si $z={e}^{x}\\sin y$, con $x=s{t}^{2}$ y $y={s}^{2}t$:"
+ },
+ {
+  "t": "math",
+  "x": "$\\frac{\\partial z}{\\partial s}={e}^{x}\\sin y\\cdot {t}^{2}+{e}^{x}\\cos y\\cdot 2st, \\frac{\\partial z}{\\partial t}={e}^{x}\\sin y\\cdot 2st+{e}^{x}\\cos y\\cdot {s}^{2}$"
+ },
+ {
+  "t": "h4",
+  "x": "Gradiente"
+ },
+ {
+  "t": "def",
+  "x": "El **gradiente **de $f(x,y)$ es el vector $\\nabla f=\\langle {f}_{x},{f}_{y}\\rangle$. En cada punto:"
+ },
+ {
+  "t": "li",
+  "x": "Apunta en la dirección de **máximo crecimiento **de $f$, y su magnitud $\\parallel \\nabla f\\parallel$ es la tasa máxima de crecimiento.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "$-\\nabla f$ apunta en la dirección de máximo decrecimiento (base del descenso del gradiente).",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Es **perpendicular **a la curva de nivel que pasa por el punto.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "En un máximo o mínimo local de una función diferenciable, $\\nabla f=0$.",
+  "ordered": true
+ },
+ {
+  "t": "h2",
+  "x": "C. Representaciones gráficas"
+ },
+ {
+  "t": "fig",
+  "src": "img/rId324.webp"
+ },
+ {
+  "t": "cap",
+  "x": "Figura 10.1. Superficie $f={x}^{3}-3x+3x{y}^{2}$ del Ejemplo 10.1 (izquierda) y su mapa de contorno con el campo de gradientes y los cuatro puntos críticos clasificados (derecha)."
+ },
+ {
+  "t": "p",
+  "x": "**Interpretación. **Las flechas del gradiente se alejan del mínimo $(1,0)$ y convergen hacia el máximo $(-1,0)$. En los puntos de silla $(0,\\pm 1)$ las flechas llegan por un eje y se van por el otro: la función crece en unas direcciones y decrece en otras, por eso $D<0$. Los cuatro puntos críticos están sobre la circunferencia dorada ${x}^{2}+{y}^{2}=1$, donde ${f}_{x}=0$."
+ },
+ {
+  "t": "h2",
+  "x": "D. Ejemplos resueltos (Método de Pólya)"
+ },
+ {
+  "t": "h3",
+  "x": "Ejemplo 10.1: Determinación y clasificación de puntos críticos"
+ },
+ {
+  "t": "enun",
+  "x": "Encuentre y clasifique todos los puntos críticos de $f(x,y)={x}^{3}-3x+3x{y}^{2}$."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 1 · Comprender el problema"
+ },
+ {
+  "t": "p",
+  "x": "$f$ es un polinomio, así que sus derivadas existen en todo punto. Los puntos críticos son las soluciones de ${f}_{x}=0$ y ${f}_{y}=0$; después se clasifican con $D$."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 2 · Concebir un plan"
+ },
+ {
+  "t": "li",
+  "x": "Resolver el sistema ${f}_{x}=0$, ${f}_{y}=0$.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Calcular ${f}_{xx}$, ${f}_{yy}$, ${f}_{xy}$ y construir $D(x,y)$.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Evaluar $D$ en cada punto.",
+  "ordered": true
+ },
+ {
+  "t": "h4",
+  "x": "Fase 3 · Ejecutar el plan"
+ },
+ {
+  "t": "math",
+  "x": "${f}_{x}=3{x}^{2}-3+3{y}^{2}=0 \\Rightarrow {x}^{2}+{y}^{2}=1, {f}_{y}=6xy=0 \\Rightarrow x=0\\text{ o }y=0$"
+ },
+ {
+  "t": "p",
+  "x": "- Si $x=0$: $y=\\pm 1$, puntos $(0,1)$ y $(0,-1)$. - Si $y=0$: $x=\\pm 1$, puntos $(1,0)$ y $(-1,0)$."
+ },
+ {
+  "t": "math",
+  "x": "${f}_{xx}=6x, {f}_{yy}=6x, {f}_{xy}=6y \\Rightarrow D(x,y)=36({x}^{2}-{y}^{2})$"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Punto**",
+    "$D$",
+    "${f}_{xx}$",
+    "**Clasificación**"
+   ],
+   [
+    "$(1,0)$",
+    "$36>0$",
+    "$6>0$",
+    "Mínimo local, $f=-2$"
+   ],
+   [
+    "$(-1,0)$",
+    "$36>0$",
+    "$-6<0$",
+    "Máximo local, $f=2$"
+   ],
+   [
+    "$(0,1)$",
+    "$-36<0$",
+    "—",
+    "Punto de silla"
+   ],
+   [
+    "$(0,-1)$",
+    "$-36<0$",
+    "—",
+    "Punto de silla"
+   ]
+  ]
+ },
+ {
+  "t": "h4",
+  "x": "Fase 4 · Visión retrospectiva"
+ },
+ {
+  "t": "p",
+  "x": "Comprobación del máximo: cerca de $(-1,0)$, por ejemplo en $(-0.9,0)$, $f=-0.729+2.7=1.971<2$. ✓ Los extremos son solo **locales**: a lo largo del eje $x$, $f={x}^{3}-3x$ tiende a $\\pm \\infty$, por lo que la función no tiene extremos absolutos en ${R}^{2}$."
+ },
+ {
+  "t": "h3",
+  "x": "Ejemplo 10.2: Regla de la cadena en una razón de cambio relacionada"
+ },
+ {
+  "t": "enun",
+  "x": "En un proceso de fabricación, el radio de un cilindro metálico aumenta a razón de $0.1$ cm/s mientras su altura disminuye a $0.2$ cm/s. ¿A qué razón cambia el volumen cuando $r=5$ cm y $h=10$ cm?"
+ },
+ {
+  "t": "h4",
+  "x": "Fase 1 · Comprender el problema"
+ },
+ {
+  "t": "p",
+  "x": "$V=\\pi {r}^{2}h$, con $r$ y $h$ funciones del tiempo. Datos: $\\frac{dr}{dt}=0.1$ y $\\frac{dh}{dt}=-0.2$ (negativo porque disminuye). Incógnita: $\\frac{dV}{dt}$ en $r=5$, $h=10$."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 2 · Concebir un plan"
+ },
+ {
+  "t": "p",
+  "x": "Aplicar la regla de la cadena (caso 1): $\\frac{dV}{dt}={V}_{r}\\frac{dr}{dt}+{V}_{h}\\frac{dh}{dt}$, y evaluar."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 3 · Ejecutar el plan"
+ },
+ {
+  "t": "math",
+  "x": "$\\frac{dV}{dt}=(2\\pi rh)\\frac{dr}{dt}+(\\pi {r}^{2})\\frac{dh}{dt}=(2\\pi \\cdot 5\\cdot 10)(0.1)+(\\pi \\cdot 25)(-0.2)$"
+ },
+ {
+  "t": "math",
+  "x": "$\\frac{dV}{dt}=10\\pi -5\\pi =5\\pi \\approx 15.71 {\\text{cm}}^{3}/\\text{s}$"
+ },
+ {
+  "t": "h4",
+  "x": "Fase 4 · Visión retrospectiva"
+ },
+ {
+  "t": "p",
+  "x": "El volumen aumenta: el efecto del radio ($+10\\pi$) supera al de la altura ($-5\\pi$), porque $V$ depende de ${r}^{2}$. Las unidades son coherentes (cm·cm·cm/s). La estructura es la misma que la del diferencial total del Ejemplo 9.1, ahora dividida entre $dt$."
+ },
+ {
+  "t": "h3",
+  "x": "Ejemplo 10.3: Optimización aplicada (distancia mínima a un plano)"
+ },
+ {
+  "t": "enun",
+  "x": "Un brazo robótico ubicado en el origen debe alcanzar la placa plana $x+2y+z=4$ por el camino más corto. Determine el punto de la placa más cercano al origen y la distancia mínima."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 1 · Comprender el problema"
+ },
+ {
+  "t": "p",
+  "x": "Queremos minimizar $d=\\sqrt{{x}^{2}+{y}^{2}+{z}^{2}}$ sujeto a $z=4-x-2y$. Minimizar $d$ equivale a minimizar ${d}^{2}$, lo que evita trabajar con la raíz."
+ },
+ {
+  "t": "h4",
+  "x": "Fase 2 · Concebir un plan"
+ },
+ {
+  "t": "li",
+  "x": "Sustituir la restricción: $f(x,y)={x}^{2}+{y}^{2}+{(4-x-2y)}^{2}$.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Hallar el punto crítico y clasificarlo con el Hessiano.",
+  "ordered": true
+ },
+ {
+  "t": "li",
+  "x": "Verificar con la fórmula de distancia de un punto a un plano.",
+  "ordered": true
+ },
+ {
+  "t": "h4",
+  "x": "Fase 3 · Ejecutar el plan"
+ },
+ {
+  "t": "math",
+  "x": "${f}_{x}=2x-2(4-x-2y)=0 \\Rightarrow x+y=2$"
+ },
+ {
+  "t": "math",
+  "x": "${f}_{y}=2y-4(4-x-2y)=0 \\Rightarrow 2x+5y=8$"
+ },
+ {
+  "t": "p",
+  "x": "Resolviendo: $y=\\frac{4}{3}$, $x=\\frac{2}{3}$ y $z=4-\\frac{2}{3}-\\frac{8}{3}=\\frac{2}{3}$."
+ },
+ {
+  "t": "math",
+  "x": "${f}_{xx}=4, {f}_{yy}=10, {f}_{xy}=4 \\Rightarrow D=40-16=24>0, {f}_{xx}>0 \\Rightarrow \\text{mínimo}$"
+ },
+ {
+  "t": "math",
+  "x": "${d}_{\\min }=\\sqrt{\\frac{4}{9}+\\frac{16}{9}+\\frac{4}{9}}=\\sqrt{\\frac{24}{9}}=\\frac{2\\sqrt{6}}{3}\\approx 1.633$"
+ },
+ {
+  "t": "h4",
+  "x": "Fase 4 · Visión retrospectiva"
+ },
+ {
+  "t": "p",
+  "x": "Fórmula de la geometría analítica: $d=\\frac{\\left| 0+0+0-4 \\right|}{\\sqrt{1+4+1}}=\\frac{4}{\\sqrt{6}}\\approx 1.633$. ✓ Además, el punto $\\left( \\frac{2}{3},\\frac{4}{3},\\frac{2}{3} \\right)=\\frac{2}{3}(1,2,1)$ es paralelo al vector normal del plano, como exige la geometría: el camino más corto es perpendicular a la placa. Como $f$ es un paraboloide que crece sin límite, el mínimo local es también absoluto."
+ },
+ {
+  "t": "h2",
+  "x": "E. Banco de ejercicios por niveles de competencia PISA"
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 1: **Use la regla de la cadena para calcular $dz/dt$ si $z={x}^{2}y$, $x=3t$, $y={t}^{2}$, y compruebe sustituyendo directamente.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 2: **Encuentre el punto crítico de $f(x,y)={x}^{2}+{y}^{2}-4x+6y+5$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 3: **Calcule el Hessiano $D$ en el punto crítico $\\left( \\frac{1}{3},\\frac{1}{3} \\right)$ de $f(x,y)=xy-{x}^{3}-{y}^{3}$ y clasifíquelo; repita para el punto crítico $(0,0)$.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 4: **Diseñe una caja rectangular sin tapa con volumen fijo de $32 {\\text{m}}^{3}$. Use optimización multivariable para hallar las dimensiones que minimizan el material.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 5: **Un gas ideal cumple $PV=8.31T$. Si el volumen aumenta a $0.2$ L/s y la presión disminuye a $0.05$ atm/s, determine $dT/dt$ cuando $P=2$ atm y $V=10$ L.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "**Nivel 6: **La función de utilidad de un modelo económico es $U(x,y)=-{x}^{2}-2{y}^{2}+4x+4y-2xy$. Formule $\\nabla U$, encuentre el óptimo y demuestre que es un máximo absoluto en todo ${R}^{2}$ (sugerencia: complete cuadrados o analice el signo de la forma cuadrática).",
+  "ordered": false
+ },
+ {
+  "t": "h2",
+  "x": "F. Aplicaciones a Ingeniería en Sistemas"
+ },
+ {
+  "t": "p",
+  "x": "**Descenso del gradiente. **Para entrenar un modelo se minimiza su pérdida actualizando los parámetros con $w\\leftarrow w-\\eta \\,\\nabla L(w)$, donde $\\eta$ es la tasa de aprendizaje. Con $L({w}_{1},{w}_{2})={({w}_{1}-3)}^{2}+2{({w}_{2}+1)}^{2}$, $\\eta =0.1$ y ${w}_{0}=(0,0)$:"
+ },
+ {
+  "t": "code",
+  "x": "import numpy as np\nw = np.array([0, 0])\nfor k in range(3):\n    grad = np.array([2*(w[0]-3), 4*(w[1]+1)])\n    w = w - 0.1*grad\n    print(k+1, w, (w[0]-3)**2 + 2*(w[1]+1)**2)\n# 1 [0.6 -0.4] 6.48 | 2 [1.08 -0.64] 3.9456 | 3 [1.464 -0.784] 2.4526"
+ },
+ {
+  "t": "p",
+  "x": "La pérdida baja de $11$ a $2.45$ en tres pasos y converge al mínimo $(3,-1)$, que el criterio del Hessiano confirma ($D=2\\cdot 4-0=8>0$, ${L}_{{w}_{1}{w}_{1}}=2>0$)."
+ },
+ {
+  "t": "p",
+  "x": "**Retropropagación. **El cálculo de $\\nabla L$ en una red neuronal es una aplicación repetida de la regla de la cadena: la pérdida depende de las salidas, que dependen de las capas ocultas, que dependen de los pesos."
+ },
+ {
+  "t": "p",
+  "x": "**Optimización de recursos. **Minimizar el costo de un clúster, la latencia de una red o el material de un contenedor (como en el Ejemplo 10.3) se reduce a encontrar y clasificar puntos críticos."
+ },
+ {
+  "t": "h2",
+  "x": "G. Resumen del tema"
+ },
+ {
+  "t": "h4",
+  "x": "Fórmulas esenciales"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Fórmula o resultado**",
+    "**Significado**"
+   ],
+   [
+    "$\\frac{dz}{dt}={f}_{x}\\frac{dx}{dt}+{f}_{y}\\frac{dy}{dt}$",
+    "Regla de la cadena (una variable independiente)"
+   ],
+   [
+    "$\\nabla f=\\langle {f}_{x},{f}_{y}\\rangle$",
+    "Gradiente"
+   ],
+   [
+    "$D={f}_{xx}{f}_{yy}-{f}_{xy}^{2}$",
+    "Determinante Hessiano"
+   ],
+   [
+    "$D>0, {f}_{xx}>0$ / ${f}_{xx}<0$ / $D<0$",
+    "Mínimo / máximo / silla"
+   ]
+  ]
+ },
+ {
+  "t": "h4",
+  "x": "Conceptos clave y errores frecuentes"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Conceptos clave**",
+    "**Errores frecuentes**"
+   ],
+   [
+    "Los extremos de funciones diferenciables están en puntos donde $\\nabla f=0$.",
+    "Olvidar un camino en el diagrama de árbol."
+   ],
+   [
+    "El signo de $D$ decide si hay extremo; el de ${f}_{xx}$, de qué tipo.",
+    "Perder soluciones al resolver ${f}_{x}={f}_{y}=0$ (dividir entre una variable que puede ser cero)."
+   ],
+   [
+    "Un extremo local no siempre es absoluto.",
+    "Clasificar con $D=0$: en ese caso el criterio no decide."
+   ]
+  ]
+ },
+ {
+  "t": "h2",
+  "x": "H. Referencias bibliográficas"
+ },
+ {
+  "t": "li",
+  "x": "Stewart, J. (2018). Cálculo de varias variables: Trascendentes tempranas (8.ª ed.). Cengage Learning.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Pólya, G. (1945). How to solve it: A new aspect of mathematical method. Princeton University Press.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "OECD. (2019). PISA 2018 assessment and analytical framework. OECD Publishing. https://doi.org/10.1787/b25efab8-en",
+  "ordered": false
+ },
+ {
+  "t": "h1",
+  "x": "Conclusiones"
+ },
+ {
+  "t": "p",
+  "x": "El recorrido de este folleto muestra que el Cálculo II tiene una idea unificadora: **dividir, aproximar y sumar**. El área de una superficie de revolución se obtiene sumando bandas cónicas; el valor promedio, sumando infinitas muestras; el centro de masa, sumando momentos de pequeños trozos de masa. Las integrales dobles y triples llevan esa misma idea a regiones del plano y del espacio, y el cálculo diferencial en varias variables la invierte, estudiando cómo cambia una cantidad cuando se modifican varias entradas a la vez."
+ },
+ {
+  "t": "p",
+  "x": "En el plano metodológico, el Método de Pólya demostró ser útil en todos los temas. La fase de **comprender el problema **obligó a identificar dominios, simetrías y unidades antes de calcular. La **visión retrospectiva **permitió detectar y corregir errores reales, como la falta del dominio de validez en el modelo de costos del Ejemplo 5.1 o las medias parábolas de nivel del Ejemplo 4.1. Comprobar un resultado por un segundo camino (Pappus, simetría, fórmulas geométricas, código) es la práctica que más confianza da antes de un examen."
+ },
+ {
+  "t": "p",
+  "x": "La escala de niveles PISA ofrece una ruta de estudio graduada. Los niveles 1 a 3 consolidan procedimientos; los niveles 4 a 6 exigen construir modelos, reconocer restricciones y generalizar, que son exactamente las capacidades que requiere un ingeniero."
+ },
+ {
+  "t": "p",
+  "x": "Por último, las aplicaciones a la Ingeniería en Sistemas evidencian que estos temas no son un fin en sí mismos. El gradiente y la regla de la cadena sostienen el entrenamiento de las redes neuronales; los centroides aparecen en el agrupamiento de datos y en la visión por computadora; los promedios continuos, en el monitoreo de servidores y redes; y las superficies cuádricas, en los motores gráficos. Dominar el Cálculo II es, en buena medida, comprender el lenguaje matemático de la computación moderna."
+ },
+ {
+  "t": "h1",
+  "x": "Glosario"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "**Término**",
+    "**Definición**"
+   ],
+   [
+    "Aproximación lineal",
+    "Estimación de $f$ cerca de $(a,b)$ mediante su plano tangente."
+   ],
+   [
+    "Banda cónica",
+    "Superficie generada al girar un segmento; elemento básico del área de revolución."
+   ],
+   [
+    "Centro de masa",
+    "Punto donde puede concentrarse la masa de un cuerpo sin alterar sus momentos."
+   ],
+   [
+    "Centroide",
+    "Centro de masa de una región con densidad constante; depende solo de la forma."
+   ],
+   [
+    "Conjunto abierto",
+    "Conjunto cuyos puntos son todos interiores."
+   ],
+   [
+    "Conjunto cerrado",
+    "Conjunto que contiene a todos sus puntos frontera."
+   ],
+   [
+    "Continuidad",
+    "Propiedad de $f$ en $(a,b)$: el límite existe y es igual a $f(a,b)$."
+   ],
+   [
+    "Coordenadas esféricas",
+    "Sistema $(\\rho ,\\phi ,\\theta )$ útil para esferas y conos; $dV={\\rho }^{2}\\sin \\phi \\,d\\rho \\,d\\phi \\,d\\theta$."
+   ],
+   [
+    "Coordenadas polares",
+    "Sistema $(r,\\theta )$ del plano; $dA=r\\,dr\\,d\\theta$."
+   ],
+   [
+    "Cuádrica",
+    "Superficie definida por una ecuación de segundo grado en $x$, $y$, $z$."
+   ],
+   [
+    "Curva de nivel",
+    "Conjunto de puntos del plano donde $f(x,y)$ toma un valor constante."
+   ],
+   [
+    "Densidad superficial",
+    "Masa por unidad de área de una lámina, $\\rho (x,y)$."
+   ],
+   [
+    "Derivada parcial",
+    "Razón de cambio de $f$ respecto a una variable, manteniendo fijas las demás."
+   ],
+   [
+    "Determinante Hessiano",
+    "$D={f}_{xx}{f}_{yy}-{f}_{xy}^{2}$; clasifica puntos críticos."
+   ],
+   [
+    "Diferencial exacta",
+    "Expresión $M\\,dx+N\\,dy$ que es el diferencial total de alguna función."
+   ],
+   [
+    "Diferencial total",
+    "$dz={f}_{x}\\,dx+{f}_{y}\\,dy$; aproximación lineal del cambio de $f$."
+   ],
+   [
+    "Discontinuidad removible",
+    "Punto donde el límite existe pero no coincide con el valor de la función."
+   ],
+   [
+    "Dominio",
+    "Conjunto de entradas para las que una función está definida."
+   ],
+   [
+    "Entorno",
+    "Disco abierto ${B}_{\\delta }(a,b)$ alrededor de un punto."
+   ],
+   [
+    "Gradiente",
+    "Vector $\\nabla f=\\langle {f}_{x},{f}_{y}\\rangle$; indica la dirección de máximo crecimiento."
+   ],
+   [
+    "Integral iterada",
+    "Integral múltiple calculada como integrales simples sucesivas (Teorema de Fubini)."
+   ],
+   [
+    "Lámina",
+    "Placa delgada modelada como una región plana con densidad."
+   ],
+   [
+    "Límite multivariable",
+    "Valor al que tiende $f(x,y)$ cuando $(x,y)$ se acerca a un punto por cualquier camino."
+   ],
+   [
+    "Momento estático",
+    "Producto de la masa por su distancia a un eje; mide la tendencia a girar."
+   ],
+   [
+    "Momento de inercia",
+    "Integral de la masa por el cuadrado de la distancia a un eje."
+   ],
+   [
+    "Punto crítico",
+    "Punto donde $\\nabla f=0$ o alguna derivada parcial no existe."
+   ],
+   [
+    "Punto de acumulación",
+    "Punto al que se acercan puntos del dominio tan próximos como se quiera."
+   ],
+   [
+    "Punto de silla",
+    "Punto crítico que no es máximo ni mínimo; $D<0$."
+   ],
+   [
+    "Rango",
+    "Conjunto de valores que toma una función."
+   ],
+   [
+    "Superficie de nivel",
+    "Conjunto de puntos del espacio donde $f(x,y,z)$ es constante."
+   ],
+   [
+    "Superficie de revolución",
+    "Superficie generada al girar una curva plana alrededor de un eje."
+   ],
+   [
+    "Teorema de Clairaut",
+    "Si las derivadas cruzadas son continuas, ${f}_{xy}={f}_{yx}$."
+   ],
+   [
+    "Teorema de Pappus",
+    "El volumen de revolución es $V=2\\pi \\hat{r}A$."
+   ],
+   [
+    "Teorema del Valor Medio para integrales",
+    "Una función continua alcanza su valor promedio en algún punto del intervalo."
+   ],
+   [
+    "Traza",
+    "Curva de intersección de una superficie con un plano coordenado o paralelo a él."
+   ],
+   [
+    "Valor promedio",
+    "Integral de la función dividida entre la longitud, área o volumen del dominio."
+   ],
+   [
+    "Valor eficaz (RMS)",
+    "Raíz cuadrada del promedio del cuadrado de una función."
+   ]
+  ]
+ },
+ {
+  "t": "h1",
+  "x": "Bibliografía General"
+ },
+ {
+  "t": "li",
+  "x": "Apostol, T. M. (2001). Calculus, Vol. 2: Cálculo con funciones de varias variables y álgebra lineal (2.ª ed.). Reverté.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep learning. MIT Press.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Hibbeler, R. C. (2016). Ingeniería mecánica: Estática (14.ª ed.). Pearson Educación.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Larson, R., & Edwards, B. H. (2014). Cálculo 1 de una variable (10.ª ed.). Cengage Learning.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Larson, R., & Edwards, B. H. (2014). Cálculo 2 de varias variables (10.ª ed.). Cengage Learning.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Marsden, J. E., & Tromba, A. J. (2004). Cálculo vectorial (5.ª ed.). Pearson Educación.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "OECD. (2019). PISA 2018 assessment and analytical framework. OECD Publishing. https://doi.org/10.1787/b25efab8-en",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Pólya, G. (1945). How to solve it: A new aspect of mathematical method. Princeton University Press.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Purcell, E. J., Varberg, D., & Rigdon, S. E. (2007). Cálculo (9.ª ed.). Pearson Educación.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Stewart, J. (2018). Cálculo de una variable: Trascendentes tempranas (8.ª ed.). Cengage Learning.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Stewart, J. (2018). Cálculo de varias variables: Trascendentes tempranas (8.ª ed.). Cengage Learning.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Szeliski, R. (2022). Computer vision: Algorithms and applications (2nd ed.). Springer.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Thomas, G. B., Weir, M. D., & Hass, J. (2015). Cálculo: Una variable (13.ª ed.). Pearson Educación.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Thomas, G. B., Weir, M. D., & Hass, J. (2015). Cálculo: Varias variables (13.ª ed.). Pearson Educación.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Zill, D. G., & Wright, W. S. (2011). Cálculo: Trascendentes tempranas (4.ª ed.). McGraw-Hill.",
+  "ordered": false
+ },
+ {
+  "t": "li",
+  "x": "Zill, D. G., & Wright, W. S. (2015). Ecuaciones diferenciales con aplicaciones de modelado (10.ª ed.). Cengage Learning.",
+  "ordered": false
+ },
+ {
+  "t": "fig",
+  "src": "img/image1.webp"
+ }
+]
